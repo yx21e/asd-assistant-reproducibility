@@ -1,0 +1,27 @@
+\begin{table}
+\centering
+\scriptsize
+\caption{Observed query counts below evidence-synthesis cutoffs.}
+\label{tab:threshold-sweep}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.05}
+\fittable[\linewidth]{%
+\begin{tabular}{l c c c c}
+\toprule
+\textbf{Set} & \textbf{Metric} & \textbf{Cutoff} & \textbf{$n$} & \textbf{Below cutoff} \\
+\midrule
+Task~2 curated & Faith. & 0.85 & 20 & 6/20 \\
+Task~2 curated & Faith. & 0.90 & 20 & 19/20 \\
+Task~2 curated & Faith. & 0.95 & 20 & 20/20 \\
+Task~2 large & Faith. & 0.85 & 100 & 20/100 \\
+Task~2 large & Faith. & 0.90 & 100 & 99/100 \\
+Task~2 large & Faith. & 0.95 & 100 & 100/100 \\
+Task~2 large & AR & 0.95 & 100 & 3/100 \\
+Task~3 curated & Faith. & 0.95 & 28 & 17/28 \\
+Task~3 curated & AR & 0.95 & 28 & 6/28 \\
+Task~3 large & Faith. & 0.95 & 98 & 80/98 \\
+Task~3 large & AR & 0.95 & 98 & 8/98 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

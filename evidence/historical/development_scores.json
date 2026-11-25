@@ -1,0 +1,3018 @@
+[
+  {
+    "group": "main",
+    "task": "task2",
+    "configuration": "Shared evidence source",
+    "n": 20,
+    "source_sha256": "334fb90c60f10731f4df81ec9db1c7ce93288f848438503f553dd08ad1d49ecf",
+    "scores": [
+      {
+        "example_id": "task2_RPS6KA3_0",
+        "faithfulness": 0.7571710175498814,
+        "ar": 0.8355145454406738
+      },
+      {
+        "example_id": "task2_GABBR2_1",
+        "faithfulness": 0.7984260089267855,
+        "ar": 0.8023327589035034
+      },
+      {
+        "example_id": "task2_TCF20_2",
+        "faithfulness": 0.769508402630068,
+        "ar": 0.8428223133087158
+      },
+      {
+        "example_id": "task2_DHX9_1",
+        "faithfulness": 0.7632222073804449,
+        "ar": 0.8045156002044678
+      },
+      {
+        "example_id": "task2_RIMS2_0",
+        "faithfulness": 0.7793143170183165,
+        "ar": 0.8428372144699097
+      },
+      {
+        "example_id": "task2_NAA10_1",
+        "faithfulness": 0.742386693461188,
+        "ar": 0.8000211119651794
+      },
+      {
+        "example_id": "task2_ZMIZ1_2",
+        "faithfulness": 0.7629681072022376,
+        "ar": 0.870988667011261
+      },
+      {
+        "example_id": "task2_IRF2BPL_2",
+        "faithfulness": 0.7320787378411362,
+        "ar": 0.8269410133361816
+      },
+      {
+        "example_id": "task2_CNTNAP2_0",
+        "faithfulness": 0.7931921180415467,
+        "ar": 0.8427153825759888
+      },
+      {
+        "example_id": "task2_SETD1A_0",
+        "faithfulness": 0.7624717710209343,
+        "ar": 0.8581299781799316
+      },
+      {
+        "example_id": "task2_MBD5_1",
+        "faithfulness": 0.7815727719906215,
+        "ar": 0.8032592535018921
+      },
+      {
+        "example_id": "task2_BRAF_1",
+        "faithfulness": 0.7726664861527885,
+        "ar": 0.8444421887397766
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.816589541674829,
+        "ar": 0.8727353811264038
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.8090782666619007,
+        "ar": 0.8171260356903076
+      },
+      {
+        "example_id": "task2_ATP1A1_0",
+        "faithfulness": 0.7603718396399047,
+        "ar": 0.8528294563293457
+      },
+      {
+        "example_id": "task2_SATB2_2",
+        "faithfulness": 0.7561889879669704,
+        "ar": 0.8553241491317749
+      },
+      {
+        "example_id": "task2_SMARCC2_1",
+        "faithfulness": 0.7666122442830441,
+        "ar": 0.8099302053451538
+      },
+      {
+        "example_id": "task2_EBF3_1",
+        "faithfulness": 0.7784749783741104,
+        "ar": 0.8088849186897278
+      },
+      {
+        "example_id": "task2_KANSL1_1",
+        "faithfulness": 0.8368443403963136,
+        "ar": 0.8069766759872437
+      },
+      {
+        "example_id": "task2_MECP2_0",
+        "faithfulness": 0.7459822232811539,
+        "ar": 0.8583387136459351
+      }
+    ]
+  },
+  {
+    "group": "main",
+    "task": "task2",
+    "configuration": "Gene-prioritized evidence",
+    "n": 20,
+    "source_sha256": "060b7c8494ef21db9a26496fb99ef7be7421c2515f663dce96000a3da972ea9b",
+    "scores": [
+      {
+        "example_id": "task2_RPS6KA3_0",
+        "faithfulness": 0.7571710175498814,
+        "ar": 0.8355145454406738
+      },
+      {
+        "example_id": "task2_GABBR2_1",
+        "faithfulness": 0.8039259955157405,
+        "ar": 0.8023327589035034
+      },
+      {
+        "example_id": "task2_TCF20_2",
+        "faithfulness": 0.769508402630068,
+        "ar": 0.8428223133087158
+      },
+      {
+        "example_id": "task2_DHX9_1",
+        "faithfulness": 0.7701343303572301,
+        "ar": 0.7947238683700562
+      },
+      {
+        "example_id": "task2_RIMS2_0",
+        "faithfulness": 0.7793143170183165,
+        "ar": 0.8428372144699097
+      },
+      {
+        "example_id": "task2_NAA10_1",
+        "faithfulness": 0.7668930104998655,
+        "ar": 0.8135451078414917
+      },
+      {
+        "example_id": "task2_ZMIZ1_2",
+        "faithfulness": 0.7629681072022376,
+        "ar": 0.870988667011261
+      },
+      {
+        "example_id": "task2_IRF2BPL_2",
+        "faithfulness": 0.7320787378411362,
+        "ar": 0.8269410133361816
+      },
+      {
+        "example_id": "task2_CNTNAP2_0",
+        "faithfulness": 0.7951314416486335,
+        "ar": 0.8463181257247925
+      },
+      {
+        "example_id": "task2_SETD1A_0",
+        "faithfulness": 0.7627090133153476,
+        "ar": 0.8584622740745544
+      },
+      {
+        "example_id": "task2_MBD5_1",
+        "faithfulness": 0.7815727719906215,
+        "ar": 0.8032592535018921
+      },
+      {
+        "example_id": "task2_BRAF_1",
+        "faithfulness": 0.7718584385235554,
+        "ar": 0.841281533241272
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.816589541674829,
+        "ar": 0.8727353811264038
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.8143667282003624,
+        "ar": 0.8171260356903076
+      },
+      {
+        "example_id": "task2_ATP1A1_0",
+        "faithfulness": 0.7656603011783663,
+        "ar": 0.8528294563293457
+      },
+      {
+        "example_id": "task2_SATB2_2",
+        "faithfulness": 0.7863775729143255,
+        "ar": 0.8404383659362793
+      },
+      {
+        "example_id": "task2_SMARCC2_1",
+        "faithfulness": 0.7666122442830441,
+        "ar": 0.8099302053451538
+      },
+      {
+        "example_id": "task2_EBF3_1",
+        "faithfulness": 0.7845860894852215,
+        "ar": 0.8088849186897278
+      },
+      {
+        "example_id": "task2_KANSL1_1",
+        "faithfulness": 0.8378604416374253,
+        "ar": 0.8097567558288574
+      },
+      {
+        "example_id": "task2_MECP2_0",
+        "faithfulness": 0.7459822232811539,
+        "ar": 0.8583387136459351
+      }
+    ]
+  },
+  {
+    "group": "main",
+    "task": "task2",
+    "configuration": "Supporting excerpt lead",
+    "n": 20,
+    "source_sha256": "c6f82f3bb00a83736c175377f6a463be0c3b85eab7bfdb4175defc7766fec4cd",
+    "scores": [
+      {
+        "example_id": "task2_RPS6KA3_0",
+        "faithfulness": 0.7984148854226397,
+        "ar": 0.8127394914627075
+      },
+      {
+        "example_id": "task2_GABBR2_1",
+        "faithfulness": 0.8252279936286234,
+        "ar": 0.7814252376556396
+      },
+      {
+        "example_id": "task2_TCF20_2",
+        "faithfulness": 0.8317420489920511,
+        "ar": 0.8291196823120117
+      },
+      {
+        "example_id": "task2_DHX9_1",
+        "faithfulness": 0.8255870639314042,
+        "ar": 0.7933140993118286
+      },
+      {
+        "example_id": "task2_RIMS2_0",
+        "faithfulness": 0.8348052140659556,
+        "ar": 0.8583788871765137
+      },
+      {
+        "example_id": "task2_NAA10_1",
+        "faithfulness": 0.8255855883586974,
+        "ar": 0.7611637711524963
+      },
+      {
+        "example_id": "task2_ZMIZ1_2",
+        "faithfulness": 0.8643718747780325,
+        "ar": 0.8650339841842651
+      },
+      {
+        "example_id": "task2_IRF2BPL_2",
+        "faithfulness": 0.8079944783251913,
+        "ar": 0.7946380376815796
+      },
+      {
+        "example_id": "task2_CNTNAP2_0",
+        "faithfulness": 0.8211682017213144,
+        "ar": 0.8533916473388672
+      },
+      {
+        "example_id": "task2_SETD1A_0",
+        "faithfulness": 0.833068523255948,
+        "ar": 0.8436511754989624
+      },
+      {
+        "example_id": "task2_MBD5_1",
+        "faithfulness": 0.8585042320845421,
+        "ar": 0.7706193923950195
+      },
+      {
+        "example_id": "task2_BRAF_1",
+        "faithfulness": 0.8258096547539417,
+        "ar": 0.780939519405365
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.8383031441620057,
+        "ar": 0.832194447517395
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.8500127192873221,
+        "ar": 0.820003867149353
+      },
+      {
+        "example_id": "task2_ATP1A1_0",
+        "faithfulness": 0.838285676805908,
+        "ar": 0.8688858151435852
+      },
+      {
+        "example_id": "task2_SATB2_2",
+        "faithfulness": 0.8296521765391032,
+        "ar": 0.8570772409439087
+      },
+      {
+        "example_id": "task2_SMARCC2_1",
+        "faithfulness": 0.8251246109604836,
+        "ar": 0.8082432150840759
+      },
+      {
+        "example_id": "task2_EBF3_1",
+        "faithfulness": 0.8374053278896545,
+        "ar": 0.779934823513031
+      },
+      {
+        "example_id": "task2_KANSL1_1",
+        "faithfulness": 0.8861000588265606,
+        "ar": 0.8028315305709839
+      },
+      {
+        "example_id": "task2_MECP2_0",
+        "faithfulness": 0.8295417225828359,
+        "ar": 0.8719390034675598
+      }
+    ]
+  },
+  {
+    "group": "main",
+    "task": "task2",
+    "configuration": "Answer lead with excerpt",
+    "n": 20,
+    "source_sha256": "f814b9c799c6f87ef6b49e5c96ed5de1c70660d7663889124ba031fbe90a1194",
+    "scores": [
+      {
+        "example_id": "task2_RPS6KA3_0",
+        "faithfulness": 0.7933299157354567,
+        "ar": 0.8217765688896179
+      },
+      {
+        "example_id": "task2_GABBR2_1",
+        "faithfulness": 0.7984260089267855,
+        "ar": 0.8023327589035034
+      },
+      {
+        "example_id": "task2_TCF20_2",
+        "faithfulness": 0.8053885909914971,
+        "ar": 0.8519205451011658
+      },
+      {
+        "example_id": "task2_DHX9_1",
+        "faithfulness": 0.8376434524213114,
+        "ar": 0.7928125858306885
+      },
+      {
+        "example_id": "task2_RIMS2_0",
+        "faithfulness": 0.8246830527086131,
+        "ar": 0.8605942130088806
+      },
+      {
+        "example_id": "task2_NAA10_1",
+        "faithfulness": 0.8055202768246333,
+        "ar": 0.7817970514297485
+      },
+      {
+        "example_id": "task2_ZMIZ1_2",
+        "faithfulness": 0.8462943031228064,
+        "ar": 0.8856832981109619
+      },
+      {
+        "example_id": "task2_IRF2BPL_2",
+        "faithfulness": 0.786647751965133,
+        "ar": 0.8106323480606079
+      },
+      {
+        "example_id": "task2_CNTNAP2_0",
+        "faithfulness": 0.8383488738123104,
+        "ar": 0.8666263222694397
+      },
+      {
+        "example_id": "task2_SETD1A_0",
+        "faithfulness": 0.8411116094236194,
+        "ar": 0.8576844930648804
+      },
+      {
+        "example_id": "task2_MBD5_1",
+        "faithfulness": 0.8515520239385164,
+        "ar": 0.7901051044464111
+      },
+      {
+        "example_id": "task2_BRAF_1",
+        "faithfulness": 0.8479535404178832,
+        "ar": 0.8654376268386841
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.8534700101613999,
+        "ar": 0.8587170839309692
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.8330583944883976,
+        "ar": 0.8286393284797668
+      },
+      {
+        "example_id": "task2_ATP1A1_0",
+        "faithfulness": 0.8253714543613759,
+        "ar": 0.8824046850204468
+      },
+      {
+        "example_id": "task2_SATB2_2",
+        "faithfulness": 0.867084501270194,
+        "ar": 0.8818268775939941
+      },
+      {
+        "example_id": "task2_SMARCC2_1",
+        "faithfulness": 0.8010333513220151,
+        "ar": 0.820557713508606
+      },
+      {
+        "example_id": "task2_EBF3_1",
+        "faithfulness": 0.8520257428913997,
+        "ar": 0.7899359464645386
+      },
+      {
+        "example_id": "task2_KANSL1_1",
+        "faithfulness": 0.8853479545915404,
+        "ar": 0.8165602087974548
+      },
+      {
+        "example_id": "task2_MECP2_0",
+        "faithfulness": 0.7783569785862862,
+        "ar": 0.8436142802238464
+      }
+    ]
+  },
+  {
+    "group": "main",
+    "task": "task2",
+    "configuration": "Reference consistency check",
+    "n": 20,
+    "source_sha256": "52dab1f1334763b4c33cf03648e4d081b2964ae1a037dcd9aeaf96bcb0be309f",
+    "scores": [
+      {
+        "example_id": "task2_RPS6KA3_0",
+        "faithfulness": 0.7933299157354567,
+        "ar": 0.8217765688896179
+      },
+      {
+        "example_id": "task2_GABBR2_1",
+        "faithfulness": 0.8039259955157405,
+        "ar": 0.8023327589035034
+      },
+      {
+        "example_id": "task2_TCF20_2",
+        "faithfulness": 0.8053885909914971,
+        "ar": 0.8519205451011658
+      },
+      {
+        "example_id": "task2_DHX9_1",
+        "faithfulness": 0.8376434524213114,
+        "ar": 0.7928125858306885
+      },
+      {
+        "example_id": "task2_RIMS2_0",
+        "faithfulness": 0.8246830527086131,
+        "ar": 0.8605942130088806
+      },
+      {
+        "example_id": "task2_NAA10_1",
+        "faithfulness": 0.837097885393757,
+        "ar": 0.796610951423645
+      },
+      {
+        "example_id": "task2_ZMIZ1_2",
+        "faithfulness": 0.8462943031228064,
+        "ar": 0.8856832981109619
+      },
+      {
+        "example_id": "task2_IRF2BPL_2",
+        "faithfulness": 0.43009729446549166,
+        "ar": 0.7232716083526611
+      },
+      {
+        "example_id": "task2_CNTNAP2_0",
+        "faithfulness": 0.8150481344415592,
+        "ar": 0.8608331680297852
+      },
+      {
+        "example_id": "task2_SETD1A_0",
+        "faithfulness": 0.8058984923212698,
+        "ar": 0.8607100248336792
+      },
+      {
+        "example_id": "task2_MBD5_1",
+        "faithfulness": 0.8515520239385164,
+        "ar": 0.7901051044464111
+      },
+      {
+        "example_id": "task2_BRAF_1",
+        "faithfulness": 0.835132049358366,
+        "ar": 0.8407669067382812
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.8534700101613999,
+        "ar": 0.8587170839309692
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.836986965916969,
+        "ar": 0.8286393284797668
+      },
+      {
+        "example_id": "task2_ATP1A1_0",
+        "faithfulness": 0.8253714543613759,
+        "ar": 0.8824046850204468
+      },
+      {
+        "example_id": "task2_SATB2_2",
+        "faithfulness": 0.8358565655511778,
+        "ar": 0.8620447516441345
+      },
+      {
+        "example_id": "task2_SMARCC2_1",
+        "faithfulness": 0.8010333513220151,
+        "ar": 0.820557713508606
+      },
+      {
+        "example_id": "task2_EBF3_1",
+        "faithfulness": 0.8480402356450228,
+        "ar": 0.7899359464645386
+      },
+      {
+        "example_id": "task2_KANSL1_1",
+        "faithfulness": 0.872786182408121,
+        "ar": 0.8024206757545471
+      },
+      {
+        "example_id": "task2_MECP2_0",
+        "faithfulness": 0.7783569785862862,
+        "ar": 0.8436142802238464
+      }
+    ]
+  },
+  {
+    "group": "main",
+    "task": "task2",
+    "configuration": "Concise biomedical prompt",
+    "n": 20,
+    "source_sha256": "6442fd7d63c55da5416874caf86d0a1d14b124dc3d69cf7eff6edc156a6fc69b",
+    "scores": [
+      {
+        "example_id": "task2_RPS6KA3_0",
+        "faithfulness": 0.8138120860523649,
+        "ar": 0.742408037185669
+      },
+      {
+        "example_id": "task2_GABBR2_1",
+        "faithfulness": 0.8039259955157405,
+        "ar": 0.7314611077308655
+      },
+      {
+        "example_id": "task2_TCF20_2",
+        "faithfulness": 0.8077387015024822,
+        "ar": 0.7342368960380554
+      },
+      {
+        "example_id": "task2_DHX9_1",
+        "faithfulness": 0.8399612913318832,
+        "ar": 0.7692872285842896
+      },
+      {
+        "example_id": "task2_RIMS2_0",
+        "faithfulness": 0.8514670645737671,
+        "ar": 0.781634509563446
+      },
+      {
+        "example_id": "task2_NAA10_1",
+        "faithfulness": 0.8303902505770807,
+        "ar": 0.7395804524421692
+      },
+      {
+        "example_id": "task2_ZMIZ1_2",
+        "faithfulness": 0.8462943031228064,
+        "ar": 0.7827291488647461
+      },
+      {
+        "example_id": "task2_IRF2BPL_2",
+        "faithfulness": 0.7996956580877305,
+        "ar": 0.7480926513671875
+      },
+      {
+        "example_id": "task2_CNTNAP2_0",
+        "faithfulness": 0.8521248616327297,
+        "ar": 0.7858158946037292
+      },
+      {
+        "example_id": "task2_SETD1A_0",
+        "faithfulness": 0.822491704910703,
+        "ar": 0.7516821026802063
+      },
+      {
+        "example_id": "task2_MBD5_1",
+        "faithfulness": 0.8776157979226534,
+        "ar": 0.7729011178016663
+      },
+      {
+        "example_id": "task2_BRAF_1",
+        "faithfulness": 0.835132049358366,
+        "ar": 0.7815693020820618
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.831138737496439,
+        "ar": 0.774088978767395
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.8607305875420571,
+        "ar": 0.774760901927948
+      },
+      {
+        "example_id": "task2_ATP1A1_0",
+        "faithfulness": 0.8410234991848902,
+        "ar": 0.7602761387825012
+      },
+      {
+        "example_id": "task2_SATB2_2",
+        "faithfulness": 0.8358565655511778,
+        "ar": 0.7766222357749939
+      },
+      {
+        "example_id": "task2_SMARCC2_1",
+        "faithfulness": 0.8010333513220151,
+        "ar": 0.7841808199882507
+      },
+      {
+        "example_id": "task2_EBF3_1",
+        "faithfulness": 0.8259721893364923,
+        "ar": 0.7547876834869385
+      },
+      {
+        "example_id": "task2_KANSL1_1",
+        "faithfulness": 0.908476256797575,
+        "ar": 0.7308874130249023
+      },
+      {
+        "example_id": "task2_MECP2_0",
+        "faithfulness": 0.8058657773370328,
+        "ar": 0.7537890672683716
+      }
+    ]
+  },
+  {
+    "group": "main",
+    "task": "task2",
+    "configuration": "Primary outcome scoring",
+    "n": 20,
+    "source_sha256": "a308e1e9ca8ba1672221a25a3a46d3faed9db4cd06e9d81bc7bf7c9d6af2c548",
+    "scores": [
+      {
+        "example_id": "task2_RPS6KA3_0",
+        "faithfulness": 0.8255349680133488,
+        "ar": 0.9592882394790649
+      },
+      {
+        "example_id": "task2_GABBR2_1",
+        "faithfulness": 0.848482286433379,
+        "ar": 0.9763714075088501
+      },
+      {
+        "example_id": "task2_TCF20_2",
+        "faithfulness": 0.8529312353298583,
+        "ar": 0.9603543877601624
+      },
+      {
+        "example_id": "task2_DHX9_1",
+        "faithfulness": 0.8722323265748146,
+        "ar": 0.9779840111732483
+      },
+      {
+        "example_id": "task2_RIMS2_0",
+        "faithfulness": 0.8602386774463826,
+        "ar": 0.9634177684783936
+      },
+      {
+        "example_id": "task2_NAA10_1",
+        "faithfulness": 0.8358348391016459,
+        "ar": 0.9751614928245544
+      },
+      {
+        "example_id": "task2_ZMIZ1_2",
+        "faithfulness": 0.8867357240362661,
+        "ar": 0.9582854509353638
+      },
+      {
+        "example_id": "task2_IRF2BPL_2",
+        "faithfulness": 0.8218029724388589,
+        "ar": 0.9611443877220154
+      },
+      {
+        "example_id": "task2_CNTNAP2_0",
+        "faithfulness": 0.8691501121360005,
+        "ar": 0.9587175250053406
+      },
+      {
+        "example_id": "task2_SETD1A_0",
+        "faithfulness": 0.874858080635861,
+        "ar": 0.9634417295455933
+      },
+      {
+        "example_id": "task2_MBD5_1",
+        "faithfulness": 0.8803806049304624,
+        "ar": 0.977690577507019
+      },
+      {
+        "example_id": "task2_BRAF_1",
+        "faithfulness": 0.877410431759698,
+        "ar": 0.9837725162506104
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.8825345498592518,
+        "ar": 0.9629178047180176
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.8743435430596856,
+        "ar": 0.9776427745819092
+      },
+      {
+        "example_id": "task2_ATP1A1_0",
+        "faithfulness": 0.8603782469034196,
+        "ar": 0.95427405834198
+      },
+      {
+        "example_id": "task2_SATB2_2",
+        "faithfulness": 0.8888735045047933,
+        "ar": 0.960360586643219
+      },
+      {
+        "example_id": "task2_SMARCC2_1",
+        "faithfulness": 0.8463152217042857,
+        "ar": 0.9767030477523804
+      },
+      {
+        "example_id": "task2_EBF3_1",
+        "faithfulness": 0.8827387387240739,
+        "ar": 0.976262629032135
+      },
+      {
+        "example_id": "task2_KANSL1_1",
+        "faithfulness": 0.9084441274685019,
+        "ar": 0.9762518405914307
+      },
+      {
+        "example_id": "task2_MECP2_0",
+        "faithfulness": 0.8171861728555279,
+        "ar": 0.9609407782554626
+      }
+    ]
+  },
+  {
+    "group": "main",
+    "task": "task3",
+    "configuration": "Initial synthesis",
+    "n": 28,
+    "source_sha256": "4d044b6474084b3a9ab2494c53c1c58870061149310b62e1dec3baa80ff7f4bf",
+    "scores": [
+      {
+        "example_id": "task3_realistic_0",
+        "faithfulness": 0.7710079524062929,
+        "ar": 0.7089163064956665
+      },
+      {
+        "example_id": "task3_realistic_1",
+        "faithfulness": 0.7996715779105823,
+        "ar": 0.8055545687675476
+      },
+      {
+        "example_id": "task3_realistic_2",
+        "faithfulness": 0.8304633753682487,
+        "ar": 0.7484803199768066
+      },
+      {
+        "example_id": "task3_realistic_3",
+        "faithfulness": 0.8082092065704886,
+        "ar": 0.7755700349807739
+      },
+      {
+        "example_id": "task3_realistic_4",
+        "faithfulness": 0.8401456760503109,
+        "ar": 0.7344287633895874
+      },
+      {
+        "example_id": "task3_realistic_5",
+        "faithfulness": 0.7602168250977352,
+        "ar": 0.7617373466491699
+      },
+      {
+        "example_id": "task3_realistic_6",
+        "faithfulness": 0.8506061234947514,
+        "ar": 0.8198400735855103
+      },
+      {
+        "example_id": "task3_realistic_7",
+        "faithfulness": 0.7996661046361184,
+        "ar": 0.6698105335235596
+      },
+      {
+        "example_id": "task3_realistic_8",
+        "faithfulness": 0.8594055368857725,
+        "ar": 0.7702480554580688
+      },
+      {
+        "example_id": "task3_realistic_9",
+        "faithfulness": 0.8117684741871698,
+        "ar": 0.8275233507156372
+      },
+      {
+        "example_id": "task3_realistic_10",
+        "faithfulness": 0.83181312923248,
+        "ar": 0.788233757019043
+      },
+      {
+        "example_id": "task3_realistic_11",
+        "faithfulness": 0.8596226704972131,
+        "ar": 0.7723596096038818
+      },
+      {
+        "example_id": "task3_realistic_12",
+        "faithfulness": 0.8315293046240885,
+        "ar": 0.7782269716262817
+      },
+      {
+        "example_id": "task3_realistic_13",
+        "faithfulness": 0.8107488554838064,
+        "ar": 0.7587672472000122
+      },
+      {
+        "example_id": "task3_realistic_14",
+        "faithfulness": 0.8218975513529214,
+        "ar": 0.7796307802200317
+      },
+      {
+        "example_id": "task3_realistic_15",
+        "faithfulness": 0.8123884456886186,
+        "ar": 0.782285213470459
+      },
+      {
+        "example_id": "task3_realistic_16",
+        "faithfulness": 0.8075021761199581,
+        "ar": 0.7001529335975647
+      },
+      {
+        "example_id": "task3_realistic_17",
+        "faithfulness": 0.7944259819623671,
+        "ar": 0.6948125958442688
+      },
+      {
+        "example_id": "task3_realistic_18",
+        "faithfulness": 0.8019011398679332,
+        "ar": 0.7250539064407349
+      },
+      {
+        "example_id": "task3_realistic_19",
+        "faithfulness": 0.826969870676597,
+        "ar": 0.7136468887329102
+      },
+      {
+        "example_id": "task3_realistic_20",
+        "faithfulness": 0.8363458315374086,
+        "ar": 0.7663216590881348
+      },
+      {
+        "example_id": "task3_realistic_21",
+        "faithfulness": 0.8213710686144157,
+        "ar": 0.8267791271209717
+      },
+      {
+        "example_id": "task3_realistic_22",
+        "faithfulness": 0.8256569287900267,
+        "ar": 0.8173221945762634
+      },
+      {
+        "example_id": "task3_realistic_23",
+        "faithfulness": 0.7506690072223225,
+        "ar": 0.7005679607391357
+      },
+      {
+        "example_id": "task3_realistic_24",
+        "faithfulness": 0.8028812091754642,
+        "ar": 0.7509984970092773
+      },
+      {
+        "example_id": "task3_realistic_25",
+        "faithfulness": 0.8081854114267562,
+        "ar": 0.7624856233596802
+      },
+      {
+        "example_id": "task3_realistic_26",
+        "faithfulness": 0.8061639897407048,
+        "ar": 0.7559052109718323
+      },
+      {
+        "example_id": "task3_realistic_27",
+        "faithfulness": 0.8371516040149128,
+        "ar": 0.7976542711257935
+      }
+    ]
+  },
+  {
+    "group": "main",
+    "task": "task3",
+    "configuration": "Topic-filtered evidence",
+    "n": 28,
+    "source_sha256": "9ccac5de9a8639add95d0617bc725ab7e6ae94f49f0cf86b18d119dfc482613c",
+    "scores": [
+      {
+        "example_id": "task3_realistic_0",
+        "faithfulness": 0.8212221832021519,
+        "ar": 0.7915666103363037
+      },
+      {
+        "example_id": "task3_realistic_1",
+        "faithfulness": 0.8445675446391107,
+        "ar": 0.8695635795593262
+      },
+      {
+        "example_id": "task3_realistic_2",
+        "faithfulness": 0.8293797161877557,
+        "ar": 0.8301433324813843
+      },
+      {
+        "example_id": "task3_realistic_3",
+        "faithfulness": 0.8202471888002536,
+        "ar": 0.7820167541503906
+      },
+      {
+        "example_id": "task3_realistic_4",
+        "faithfulness": 0.8343029660142326,
+        "ar": 0.8140970468521118
+      },
+      {
+        "example_id": "task3_realistic_5",
+        "faithfulness": 0.7973594653574039,
+        "ar": 0.8159112334251404
+      },
+      {
+        "example_id": "task3_realistic_6",
+        "faithfulness": 0.7953314418555669,
+        "ar": 0.7773271799087524
+      },
+      {
+        "example_id": "task3_realistic_7",
+        "faithfulness": 0.7743278302357478,
+        "ar": 0.8528550863265991
+      },
+      {
+        "example_id": "task3_realistic_8",
+        "faithfulness": 0.8118441871721466,
+        "ar": 0.8016888499259949
+      },
+      {
+        "example_id": "task3_realistic_9",
+        "faithfulness": 0.8272172272134395,
+        "ar": 0.8619076609611511
+      },
+      {
+        "example_id": "task3_realistic_10",
+        "faithfulness": 0.847620361929023,
+        "ar": 0.7784194946289062
+      },
+      {
+        "example_id": "task3_realistic_11",
+        "faithfulness": 0.8660971765078826,
+        "ar": 0.7962983846664429
+      },
+      {
+        "example_id": "task3_realistic_12",
+        "faithfulness": 0.8588598786002378,
+        "ar": 0.8561739921569824
+      },
+      {
+        "example_id": "task3_realistic_13",
+        "faithfulness": 0.8650362817887907,
+        "ar": 0.8297555446624756
+      },
+      {
+        "example_id": "task3_realistic_14",
+        "faithfulness": 0.8489874332247217,
+        "ar": 0.8564373254776001
+      },
+      {
+        "example_id": "task3_realistic_15",
+        "faithfulness": 0.8244063906137851,
+        "ar": 0.7988935708999634
+      },
+      {
+        "example_id": "task3_realistic_16",
+        "faithfulness": 0.8157273486176486,
+        "ar": 0.7820748090744019
+      },
+      {
+        "example_id": "task3_realistic_17",
+        "faithfulness": 0.8124395428517814,
+        "ar": 0.8051797151565552
+      },
+      {
+        "example_id": "task3_realistic_18",
+        "faithfulness": 0.813647551983595,
+        "ar": 0.7720046043395996
+      },
+      {
+        "example_id": "task3_realistic_19",
+        "faithfulness": 0.8270517683327199,
+        "ar": 0.8474637866020203
+      },
+      {
+        "example_id": "task3_realistic_20",
+        "faithfulness": 0.8342353593691803,
+        "ar": 0.8624061942100525
+      },
+      {
+        "example_id": "task3_realistic_21",
+        "faithfulness": 0.850859760258879,
+        "ar": 0.834592878818512
+      },
+      {
+        "example_id": "task3_realistic_22",
+        "faithfulness": 0.8289680743706705,
+        "ar": 0.7737625241279602
+      },
+      {
+        "example_id": "task3_realistic_23",
+        "faithfulness": 0.8237952842121208,
+        "ar": 0.875374436378479
+      },
+      {
+        "example_id": "task3_realistic_24",
+        "faithfulness": 0.8065044381386705,
+        "ar": 0.7508111000061035
+      },
+      {
+        "example_id": "task3_realistic_25",
+        "faithfulness": 0.7997455266186076,
+        "ar": 0.7949095368385315
+      },
+      {
+        "example_id": "task3_realistic_26",
+        "faithfulness": 0.8160975755916702,
+        "ar": 0.7486767768859863
+      },
+      {
+        "example_id": "task3_realistic_27",
+        "faithfulness": 0.8048433568775655,
+        "ar": 0.8249300718307495
+      }
+    ]
+  },
+  {
+    "group": "main",
+    "task": "task3",
+    "configuration": "Selected topic sentences",
+    "n": 28,
+    "source_sha256": "76b9b16ac7550852a07131fe320d6a91a0cb0c814e95fd3308dae8c0d76b6505",
+    "scores": [
+      {
+        "example_id": "task3_realistic_0",
+        "faithfulness": 0.8323069963217213,
+        "ar": 0.8103890419006348
+      },
+      {
+        "example_id": "task3_realistic_1",
+        "faithfulness": 0.8361447252074165,
+        "ar": 0.8558029532432556
+      },
+      {
+        "example_id": "task3_realistic_2",
+        "faithfulness": 0.8308573044920868,
+        "ar": 0.8284709453582764
+      },
+      {
+        "example_id": "task3_realistic_3",
+        "faithfulness": 0.8331047464635608,
+        "ar": 0.7618324756622314
+      },
+      {
+        "example_id": "task3_realistic_4",
+        "faithfulness": 0.8472045039708518,
+        "ar": 0.8447772264480591
+      },
+      {
+        "example_id": "task3_realistic_5",
+        "faithfulness": 0.8025881070528502,
+        "ar": 0.8134665489196777
+      },
+      {
+        "example_id": "task3_realistic_6",
+        "faithfulness": 0.8328862246910322,
+        "ar": 0.7680468559265137
+      },
+      {
+        "example_id": "task3_realistic_7",
+        "faithfulness": 0.814768097854218,
+        "ar": 0.8568102717399597
+      },
+      {
+        "example_id": "task3_realistic_8",
+        "faithfulness": 0.8271910177449473,
+        "ar": 0.8187072277069092
+      },
+      {
+        "example_id": "task3_realistic_9",
+        "faithfulness": 0.8401589151493594,
+        "ar": 0.8727589845657349
+      },
+      {
+        "example_id": "task3_realistic_10",
+        "faithfulness": 0.8437170368087465,
+        "ar": 0.7812941074371338
+      },
+      {
+        "example_id": "task3_realistic_11",
+        "faithfulness": 0.8649600754938429,
+        "ar": 0.8148137331008911
+      },
+      {
+        "example_id": "task3_realistic_12",
+        "faithfulness": 0.8726432798672141,
+        "ar": 0.8710092902183533
+      },
+      {
+        "example_id": "task3_realistic_13",
+        "faithfulness": 0.8621820055705565,
+        "ar": 0.8335006237030029
+      },
+      {
+        "example_id": "task3_realistic_14",
+        "faithfulness": 0.8553435095198269,
+        "ar": 0.8738002181053162
+      },
+      {
+        "example_id": "task3_realistic_15",
+        "faithfulness": 0.8540493136644802,
+        "ar": 0.7800872921943665
+      },
+      {
+        "example_id": "task3_realistic_16",
+        "faithfulness": 0.8251537748508984,
+        "ar": 0.7961302995681763
+      },
+      {
+        "example_id": "task3_realistic_17",
+        "faithfulness": 0.832809575337674,
+        "ar": 0.8221104145050049
+      },
+      {
+        "example_id": "task3_realistic_18",
+        "faithfulness": 0.8189302253050303,
+        "ar": 0.8228546977043152
+      },
+      {
+        "example_id": "task3_realistic_19",
+        "faithfulness": 0.8484919336934885,
+        "ar": 0.8821908831596375
+      },
+      {
+        "example_id": "task3_realistic_20",
+        "faithfulness": 0.8509278070997686,
+        "ar": 0.8451595306396484
+      },
+      {
+        "example_id": "task3_realistic_21",
+        "faithfulness": 0.8662771392958004,
+        "ar": 0.8386614918708801
+      },
+      {
+        "example_id": "task3_realistic_22",
+        "faithfulness": 0.8770069912075997,
+        "ar": 0.7797403335571289
+      },
+      {
+        "example_id": "task3_realistic_23",
+        "faithfulness": 0.843456801555439,
+        "ar": 0.8737853765487671
+      },
+      {
+        "example_id": "task3_realistic_24",
+        "faithfulness": 0.7813931492467722,
+        "ar": 0.7715393900871277
+      },
+      {
+        "example_id": "task3_realistic_25",
+        "faithfulness": 0.8113422113766682,
+        "ar": 0.797142744064331
+      },
+      {
+        "example_id": "task3_realistic_26",
+        "faithfulness": 0.8321887792646885,
+        "ar": 0.6758050322532654
+      },
+      {
+        "example_id": "task3_realistic_27",
+        "faithfulness": 0.8095303978257825,
+        "ar": 0.7932357788085938
+      }
+    ]
+  },
+  {
+    "group": "main",
+    "task": "task3",
+    "configuration": "Reference consistency check",
+    "n": 28,
+    "source_sha256": "27797c5d48608c8060700d7636cc0deff94a1b94ff98d11cca874a7da5393131",
+    "scores": [
+      {
+        "example_id": "task3_realistic_0",
+        "faithfulness": 0.8323069963217213,
+        "ar": 0.8103890419006348
+      },
+      {
+        "example_id": "task3_realistic_1",
+        "faithfulness": 0.8361447252074165,
+        "ar": 0.8558029532432556
+      },
+      {
+        "example_id": "task3_realistic_2",
+        "faithfulness": 0.8308573044920868,
+        "ar": 0.8284709453582764
+      },
+      {
+        "example_id": "task3_realistic_3",
+        "faithfulness": 0.8331047464635608,
+        "ar": 0.7618324756622314
+      },
+      {
+        "example_id": "task3_realistic_4",
+        "faithfulness": 0.8472045039708518,
+        "ar": 0.8447772264480591
+      },
+      {
+        "example_id": "task3_realistic_5",
+        "faithfulness": 0.8025881070528502,
+        "ar": 0.8134665489196777
+      },
+      {
+        "example_id": "task3_realistic_6",
+        "faithfulness": 0.8328862246910322,
+        "ar": 0.7680468559265137
+      },
+      {
+        "example_id": "task3_realistic_7",
+        "faithfulness": 0.8287515523265655,
+        "ar": 0.82811439037323
+      },
+      {
+        "example_id": "task3_realistic_8",
+        "faithfulness": 0.8271910177449473,
+        "ar": 0.8187072277069092
+      },
+      {
+        "example_id": "task3_realistic_9",
+        "faithfulness": 0.8401589151493594,
+        "ar": 0.8727589845657349
+      },
+      {
+        "example_id": "task3_realistic_10",
+        "faithfulness": 0.8495306579423124,
+        "ar": 0.7738881707191467
+      },
+      {
+        "example_id": "task3_realistic_11",
+        "faithfulness": 0.8649600754938429,
+        "ar": 0.8148137331008911
+      },
+      {
+        "example_id": "task3_realistic_12",
+        "faithfulness": 0.8726432798672141,
+        "ar": 0.8710092902183533
+      },
+      {
+        "example_id": "task3_realistic_13",
+        "faithfulness": 0.8621820055705565,
+        "ar": 0.8335006237030029
+      },
+      {
+        "example_id": "task3_realistic_14",
+        "faithfulness": 0.8553435095198269,
+        "ar": 0.8738002181053162
+      },
+      {
+        "example_id": "task3_realistic_15",
+        "faithfulness": 0.8540493136644802,
+        "ar": 0.7800872921943665
+      },
+      {
+        "example_id": "task3_realistic_16",
+        "faithfulness": 0.829758963672491,
+        "ar": 0.7949191927909851
+      },
+      {
+        "example_id": "task3_realistic_17",
+        "faithfulness": 0.8634658112294145,
+        "ar": 0.7489727735519409
+      },
+      {
+        "example_id": "task3_realistic_18",
+        "faithfulness": 0.8166994116196395,
+        "ar": 0.8108952641487122
+      },
+      {
+        "example_id": "task3_realistic_19",
+        "faithfulness": 0.8484919336934885,
+        "ar": 0.8821908831596375
+      },
+      {
+        "example_id": "task3_realistic_20",
+        "faithfulness": 0.8509278070997686,
+        "ar": 0.8451595306396484
+      },
+      {
+        "example_id": "task3_realistic_21",
+        "faithfulness": 0.8662771392958004,
+        "ar": 0.8386614918708801
+      },
+      {
+        "example_id": "task3_realistic_22",
+        "faithfulness": 0.8678342061899641,
+        "ar": 0.7682702541351318
+      },
+      {
+        "example_id": "task3_realistic_23",
+        "faithfulness": 0.843456801555439,
+        "ar": 0.8737853765487671
+      },
+      {
+        "example_id": "task3_realistic_24",
+        "faithfulness": 0.7813931492467722,
+        "ar": 0.7715393900871277
+      },
+      {
+        "example_id": "task3_realistic_25",
+        "faithfulness": 0.8040162474217254,
+        "ar": 0.8023295998573303
+      },
+      {
+        "example_id": "task3_realistic_26",
+        "faithfulness": 0.7986948887761842,
+        "ar": 0.7060564160346985
+      },
+      {
+        "example_id": "task3_realistic_27",
+        "faithfulness": 0.8148527575368154,
+        "ar": 0.8051091432571411
+      }
+    ]
+  },
+  {
+    "group": "main",
+    "task": "task3",
+    "configuration": "Concise evidence summary A",
+    "n": 28,
+    "source_sha256": "3a0f2ebe1b0507c6c5724bb98d5f2c0a92bc2b4ce1416aeb6b2d6d1b75a661b5",
+    "scores": [
+      {
+        "example_id": "task3_realistic_0",
+        "faithfulness": 0.8816012946894731,
+        "ar": 0.8364650011062622
+      },
+      {
+        "example_id": "task3_realistic_1",
+        "faithfulness": 0.8468571304924348,
+        "ar": 0.8427577018737793
+      },
+      {
+        "example_id": "task3_realistic_2",
+        "faithfulness": 0.886515435791678,
+        "ar": 0.8417718410491943
+      },
+      {
+        "example_id": "task3_realistic_3",
+        "faithfulness": 0.8640574305411259,
+        "ar": 0.7709334492683411
+      },
+      {
+        "example_id": "task3_realistic_4",
+        "faithfulness": 0.8789329569207298,
+        "ar": 0.8404116630554199
+      },
+      {
+        "example_id": "task3_realistic_5",
+        "faithfulness": 0.8586480649485437,
+        "ar": 0.818844199180603
+      },
+      {
+        "example_id": "task3_realistic_6",
+        "faithfulness": 0.8328862246910322,
+        "ar": 0.7680468559265137
+      },
+      {
+        "example_id": "task3_realistic_7",
+        "faithfulness": 0.8583987554576662,
+        "ar": 0.8177841901779175
+      },
+      {
+        "example_id": "task3_realistic_8",
+        "faithfulness": 0.8656771081637165,
+        "ar": 0.8264015913009644
+      },
+      {
+        "example_id": "task3_realistic_9",
+        "faithfulness": 0.8570167247515459,
+        "ar": 0.8712409734725952
+      },
+      {
+        "example_id": "task3_realistic_10",
+        "faithfulness": 0.861548928236184,
+        "ar": 0.7965477705001831
+      },
+      {
+        "example_id": "task3_realistic_11",
+        "faithfulness": 0.8698022073933057,
+        "ar": 0.8034778833389282
+      },
+      {
+        "example_id": "task3_realistic_12",
+        "faithfulness": 0.8969995791401971,
+        "ar": 0.8563790321350098
+      },
+      {
+        "example_id": "task3_realistic_13",
+        "faithfulness": 0.9063995392791669,
+        "ar": 0.8303872346878052
+      },
+      {
+        "example_id": "task3_realistic_14",
+        "faithfulness": 0.8845921596206563,
+        "ar": 0.8557286262512207
+      },
+      {
+        "example_id": "task3_realistic_15",
+        "faithfulness": 0.8974177741609328,
+        "ar": 0.7877240180969238
+      },
+      {
+        "example_id": "task3_realistic_16",
+        "faithfulness": 0.8391471849713061,
+        "ar": 0.8356112241744995
+      },
+      {
+        "example_id": "task3_realistic_17",
+        "faithfulness": 0.8260139434701866,
+        "ar": 0.8127611875534058
+      },
+      {
+        "example_id": "task3_realistic_18",
+        "faithfulness": 0.8527203473934891,
+        "ar": 0.7978882789611816
+      },
+      {
+        "example_id": "task3_realistic_19",
+        "faithfulness": 0.8921382948578354,
+        "ar": 0.8798952698707581
+      },
+      {
+        "example_id": "task3_realistic_20",
+        "faithfulness": 0.8710016220582015,
+        "ar": 0.8506771326065063
+      },
+      {
+        "example_id": "task3_realistic_21",
+        "faithfulness": 0.9096120905095623,
+        "ar": 0.8417583703994751
+      },
+      {
+        "example_id": "task3_realistic_22",
+        "faithfulness": 0.8805259818701368,
+        "ar": 0.7730237245559692
+      },
+      {
+        "example_id": "task3_realistic_23",
+        "faithfulness": 0.8350540013963856,
+        "ar": 0.8761255145072937
+      },
+      {
+        "example_id": "task3_realistic_24",
+        "faithfulness": 0.8318370993167927,
+        "ar": 0.7957821488380432
+      },
+      {
+        "example_id": "task3_realistic_25",
+        "faithfulness": 0.8467395466982678,
+        "ar": 0.7831910252571106
+      },
+      {
+        "example_id": "task3_realistic_26",
+        "faithfulness": 0.8685232668618361,
+        "ar": 0.7210847735404968
+      },
+      {
+        "example_id": "task3_realistic_27",
+        "faithfulness": 0.8383162516477047,
+        "ar": 0.8170614838600159
+      }
+    ]
+  },
+  {
+    "group": "main",
+    "task": "task3",
+    "configuration": "Primary outcome scoring",
+    "n": 28,
+    "source_sha256": "d274a2f95ce35c3b61329543600cb5cb474ea633bb503a8acbb3d37b389fd38c",
+    "scores": [
+      {
+        "example_id": "task3_realistic_0",
+        "faithfulness": 0.9429700494471402,
+        "ar": 0.9760281443595886
+      },
+      {
+        "example_id": "task3_realistic_1",
+        "faithfulness": 0.9497758219016783,
+        "ar": 0.9820515513420105
+      },
+      {
+        "example_id": "task3_realistic_2",
+        "faithfulness": 0.9425750112790796,
+        "ar": 0.9829065799713135
+      },
+      {
+        "example_id": "task3_realistic_3",
+        "faithfulness": 0.9469864377743442,
+        "ar": 0.949590265750885
+      },
+      {
+        "example_id": "task3_realistic_4",
+        "faithfulness": 0.9531980128779004,
+        "ar": 0.9783046245574951
+      },
+      {
+        "example_id": "task3_realistic_5",
+        "faithfulness": 0.9333802644736452,
+        "ar": 0.9876497387886047
+      },
+      {
+        "example_id": "task3_realistic_6",
+        "faithfulness": 0.9108489889469611,
+        "ar": 0.9268796443939209
+      },
+      {
+        "example_id": "task3_realistic_7",
+        "faithfulness": 0.9534589361514768,
+        "ar": 0.9845307469367981
+      },
+      {
+        "example_id": "task3_realistic_8",
+        "faithfulness": 0.9450951092980364,
+        "ar": 0.9836573600769043
+      },
+      {
+        "example_id": "task3_realistic_9",
+        "faithfulness": 0.9501534610415469,
+        "ar": 0.9801054000854492
+      },
+      {
+        "example_id": "task3_realistic_10",
+        "faithfulness": 0.9318181136465039,
+        "ar": 0.9496657848358154
+      },
+      {
+        "example_id": "task3_realistic_11",
+        "faithfulness": 0.9515798181853753,
+        "ar": 0.97858065366745
+      },
+      {
+        "example_id": "task3_realistic_12",
+        "faithfulness": 0.9526058479553475,
+        "ar": 0.9815144538879395
+      },
+      {
+        "example_id": "task3_realistic_13",
+        "faithfulness": 0.9503082164824048,
+        "ar": 0.9791369438171387
+      },
+      {
+        "example_id": "task3_realistic_14",
+        "faithfulness": 0.9420438236151026,
+        "ar": 0.9823349118232727
+      },
+      {
+        "example_id": "task3_realistic_15",
+        "faithfulness": 0.9539274639402839,
+        "ar": 0.9568837881088257
+      },
+      {
+        "example_id": "task3_realistic_16",
+        "faithfulness": 0.9488617174846211,
+        "ar": 0.9838049411773682
+      },
+      {
+        "example_id": "task3_realistic_17",
+        "faithfulness": 0.9453969300381804,
+        "ar": 0.9862087965011597
+      },
+      {
+        "example_id": "task3_realistic_18",
+        "faithfulness": 0.950430020639722,
+        "ar": 0.9443895816802979
+      },
+      {
+        "example_id": "task3_realistic_19",
+        "faithfulness": 0.9594964001465607,
+        "ar": 0.9840235710144043
+      },
+      {
+        "example_id": "task3_realistic_20",
+        "faithfulness": 0.9521582354968346,
+        "ar": 0.9823241233825684
+      },
+      {
+        "example_id": "task3_realistic_21",
+        "faithfulness": 0.9551315573023039,
+        "ar": 0.9747912287712097
+      },
+      {
+        "example_id": "task3_realistic_22",
+        "faithfulness": 0.9484669635489237,
+        "ar": 0.93349289894104
+      },
+      {
+        "example_id": "task3_realistic_23",
+        "faithfulness": 0.9375893666776643,
+        "ar": 0.9840564131736755
+      },
+      {
+        "example_id": "task3_realistic_24",
+        "faithfulness": 0.9421188117376444,
+        "ar": 0.9859785437583923
+      },
+      {
+        "example_id": "task3_realistic_25",
+        "faithfulness": 0.938302554232893,
+        "ar": 0.9531670808792114
+      },
+      {
+        "example_id": "task3_realistic_26",
+        "faithfulness": 0.9428370560453239,
+        "ar": 0.9154971241950989
+      },
+      {
+        "example_id": "task3_realistic_27",
+        "faithfulness": 0.9327562230147435,
+        "ar": 0.9818013906478882
+      }
+    ]
+  },
+  {
+    "group": "supplement",
+    "task": "task2",
+    "configuration": "Shared source, soft route",
+    "n": 20,
+    "source_sha256": "d641d656cddabfa6fff91e3ec8c1f532b88d0b1e20a146579921da45f5bafa85",
+    "scores": [
+      {
+        "example_id": "task2_RPS6KA3_0",
+        "faithfulness": 0.7571710175498814,
+        "ar": 0.8355145454406738
+      },
+      {
+        "example_id": "task2_GABBR2_1",
+        "faithfulness": 0.7984260089267855,
+        "ar": 0.8023327589035034
+      },
+      {
+        "example_id": "task2_TCF20_2",
+        "faithfulness": 0.769508402630068,
+        "ar": 0.8428223133087158
+      },
+      {
+        "example_id": "task2_DHX9_1",
+        "faithfulness": 0.7632222073804449,
+        "ar": 0.8045156002044678
+      },
+      {
+        "example_id": "task2_RIMS2_0",
+        "faithfulness": 0.7793143170183165,
+        "ar": 0.8428372144699097
+      },
+      {
+        "example_id": "task2_NAA10_1",
+        "faithfulness": 0.742386693461188,
+        "ar": 0.8000211119651794
+      },
+      {
+        "example_id": "task2_ZMIZ1_2",
+        "faithfulness": 0.7629681072022376,
+        "ar": 0.870988667011261
+      },
+      {
+        "example_id": "task2_IRF2BPL_2",
+        "faithfulness": 0.7320787378411362,
+        "ar": 0.8269410133361816
+      },
+      {
+        "example_id": "task2_CNTNAP2_0",
+        "faithfulness": 0.7931921180415467,
+        "ar": 0.8427153825759888
+      },
+      {
+        "example_id": "task2_SETD1A_0",
+        "faithfulness": 0.7724715974926949,
+        "ar": 0.8544581532478333
+      },
+      {
+        "example_id": "task2_MBD5_1",
+        "faithfulness": 0.7815727719906215,
+        "ar": 0.8032592535018921
+      },
+      {
+        "example_id": "task2_BRAF_1",
+        "faithfulness": 0.7726664861527885,
+        "ar": 0.8444421887397766
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.816589541674829,
+        "ar": 0.8727353811264038
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.8090782666619007,
+        "ar": 0.8171260356903076
+      },
+      {
+        "example_id": "task2_ATP1A1_0",
+        "faithfulness": 0.7603718396399047,
+        "ar": 0.8528294563293457
+      },
+      {
+        "example_id": "task2_SATB2_2",
+        "faithfulness": 0.7561889879669704,
+        "ar": 0.8553241491317749
+      },
+      {
+        "example_id": "task2_SMARCC2_1",
+        "faithfulness": 0.7666122442830441,
+        "ar": 0.8099302053451538
+      },
+      {
+        "example_id": "task2_EBF3_1",
+        "faithfulness": 0.7784749783741104,
+        "ar": 0.8088849186897278
+      },
+      {
+        "example_id": "task2_KANSL1_1",
+        "faithfulness": 0.8368443403963136,
+        "ar": 0.8069766759872437
+      },
+      {
+        "example_id": "task2_MECP2_0",
+        "faithfulness": 0.7459822232811539,
+        "ar": 0.8583387136459351
+      }
+    ]
+  },
+  {
+    "group": "supplement",
+    "task": "task2",
+    "configuration": "Sparse evidence subset",
+    "n": 20,
+    "source_sha256": "8fbad9afb1aeee7353f0829535de76c448d50bfccfce7033749a5af8a63f4492",
+    "scores": [
+      {
+        "example_id": "task2_CNOT3_1",
+        "faithfulness": 0.8086179470635475,
+        "ar": 0.7897734642028809
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.816589541674829,
+        "ar": 0.8727353811264038
+      },
+      {
+        "example_id": "task2_CEP290_1",
+        "faithfulness": 0.7670523608670867,
+        "ar": 0.798040509223938
+      },
+      {
+        "example_id": "task2_TCEAL1_1",
+        "faithfulness": 0.727189834780839,
+        "ar": 0.8200516104698181
+      },
+      {
+        "example_id": "task2_CHD3_0",
+        "faithfulness": 0.7893967205407256,
+        "ar": 0.8587304353713989
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.8090782666619007,
+        "ar": 0.8171260356903076
+      },
+      {
+        "example_id": "task2_SIN3B_0",
+        "faithfulness": 0.7854626716306354,
+        "ar": 0.8510351181030273
+      },
+      {
+        "example_id": "task2_ELP2_1",
+        "faithfulness": 0.7954338814814886,
+        "ar": 0.8165450096130371
+      },
+      {
+        "example_id": "task2_POLR2A_2",
+        "faithfulness": 0.7645309842549838,
+        "ar": 0.8397216796875
+      },
+      {
+        "example_id": "task2_PABPC1_2",
+        "faithfulness": 0.7487029803783278,
+        "ar": 0.8540225028991699
+      },
+      {
+        "example_id": "task2_NACC1_1",
+        "faithfulness": 0.7591976357567601,
+        "ar": 0.8049022555351257
+      },
+      {
+        "example_id": "task2_FBXO11_0",
+        "faithfulness": 0.7897340854762562,
+        "ar": 0.8397157192230225
+      },
+      {
+        "example_id": "task2_CHAMP1_1",
+        "faithfulness": 0.7428695821960767,
+        "ar": 0.8230475187301636
+      },
+      {
+        "example_id": "task2_MSX2_1",
+        "faithfulness": 0.7351388652702895,
+        "ar": 0.8023722171783447
+      },
+      {
+        "example_id": "task2_CTR9_1",
+        "faithfulness": 0.7451601504050237,
+        "ar": 0.815585732460022
+      },
+      {
+        "example_id": "task2_BCL11A_2",
+        "faithfulness": 0.7506123298062444,
+        "ar": 0.8634973168373108
+      },
+      {
+        "example_id": "task2_CHAMP1_0",
+        "faithfulness": 0.7310512389663992,
+        "ar": 0.8590790033340454
+      },
+      {
+        "example_id": "task2_CACNA1C_0",
+        "faithfulness": 0.754524054744018,
+        "ar": 0.8441100120544434
+      },
+      {
+        "example_id": "task2_PPFIA3_0",
+        "faithfulness": 0.7472546013039456,
+        "ar": 0.8549586534500122
+      },
+      {
+        "example_id": "task2_TTN_2",
+        "faithfulness": 0.7719714882969857,
+        "ar": 0.8362505435943604
+      }
+    ]
+  },
+  {
+    "group": "supplement",
+    "task": "task2",
+    "configuration": "Gene-aware evidence",
+    "n": 20,
+    "source_sha256": "387baf767bbef61dea04c8b00e34e9fccc37d9b56bb5293721573137547fb9fd",
+    "scores": [
+      {
+        "example_id": "task2_RPS6KA3_0",
+        "faithfulness": 0.7362630599833304,
+        "ar": 0.8453779220581055
+      },
+      {
+        "example_id": "task2_GABBR2_1",
+        "faithfulness": 0.7868383344406064,
+        "ar": 0.7800183296203613
+      },
+      {
+        "example_id": "task2_TCF20_2",
+        "faithfulness": 0.7589719295463045,
+        "ar": 0.8374592065811157
+      },
+      {
+        "example_id": "task2_DHX9_1",
+        "faithfulness": 0.7598795689219081,
+        "ar": 0.7722629308700562
+      },
+      {
+        "example_id": "task2_RIMS2_0",
+        "faithfulness": 0.7670070960047961,
+        "ar": 0.8374248743057251
+      },
+      {
+        "example_id": "task2_NAA10_1",
+        "faithfulness": 0.73192502200335,
+        "ar": 0.7856249809265137
+      },
+      {
+        "example_id": "task2_ZMIZ1_2",
+        "faithfulness": 0.7595181848858731,
+        "ar": 0.8660596013069153
+      },
+      {
+        "example_id": "task2_IRF2BPL_2",
+        "faithfulness": 0.7290712589908418,
+        "ar": 0.8381021618843079
+      },
+      {
+        "example_id": "task2_CNTNAP2_0",
+        "faithfulness": 0.7829172232541546,
+        "ar": 0.838798999786377
+      },
+      {
+        "example_id": "task2_SETD1A_0",
+        "faithfulness": 0.7504172259363635,
+        "ar": 0.8413387537002563
+      },
+      {
+        "example_id": "task2_MBD5_1",
+        "faithfulness": 0.7775044328291366,
+        "ar": 0.8029848337173462
+      },
+      {
+        "example_id": "task2_BRAF_1",
+        "faithfulness": 0.7643170628620655,
+        "ar": 0.8270610570907593
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.8054059666908124,
+        "ar": 0.8590816259384155
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.7929480817819738,
+        "ar": 0.8018425703048706
+      },
+      {
+        "example_id": "task2_ATP1A1_0",
+        "faithfulness": 0.7522460746332111,
+        "ar": 0.842814028263092
+      },
+      {
+        "example_id": "task2_SATB2_2",
+        "faithfulness": 0.75778801569468,
+        "ar": 0.8385997414588928
+      },
+      {
+        "example_id": "task2_SMARCC2_1",
+        "faithfulness": 0.7582875333996135,
+        "ar": 0.7897527813911438
+      },
+      {
+        "example_id": "task2_EBF3_1",
+        "faithfulness": 0.77602330651753,
+        "ar": 0.792412281036377
+      },
+      {
+        "example_id": "task2_KANSL1_1",
+        "faithfulness": 0.8209817779522677,
+        "ar": 0.8069766759872437
+      },
+      {
+        "example_id": "task2_MECP2_0",
+        "faithfulness": 0.7467952718811903,
+        "ar": 0.854576587677002
+      }
+    ]
+  },
+  {
+    "group": "supplement",
+    "task": "task2",
+    "configuration": "Shorter answer text",
+    "n": 20,
+    "source_sha256": "0a791bc294c08fa5a6497d4c1df39f79944610be3ae028fee259835b7629cf27",
+    "scores": [
+      {
+        "example_id": "task2_RPS6KA3_0",
+        "faithfulness": 0.7411095535740915,
+        "ar": 0.8380887508392334
+      },
+      {
+        "example_id": "task2_GABBR2_1",
+        "faithfulness": 0.7984260089267855,
+        "ar": 0.8023327589035034
+      },
+      {
+        "example_id": "task2_TCF20_2",
+        "faithfulness": 0.769508402630068,
+        "ar": 0.8428223133087158
+      },
+      {
+        "example_id": "task2_DHX9_1",
+        "faithfulness": 0.7701343303572301,
+        "ar": 0.7947238683700562
+      },
+      {
+        "example_id": "task2_RIMS2_0",
+        "faithfulness": 0.7795137395640584,
+        "ar": 0.8420449495315552
+      },
+      {
+        "example_id": "task2_NAA10_1",
+        "faithfulness": 0.7383845711884828,
+        "ar": 0.7948447465896606
+      },
+      {
+        "example_id": "task2_ZMIZ1_2",
+        "faithfulness": 0.7626680484797415,
+        "ar": 0.8704057931900024
+      },
+      {
+        "example_id": "task2_IRF2BPL_2",
+        "faithfulness": 0.7320787244300911,
+        "ar": 0.8269410133361816
+      },
+      {
+        "example_id": "task2_CNTNAP2_0",
+        "faithfulness": 0.7970634531097658,
+        "ar": 0.8449973464012146
+      },
+      {
+        "example_id": "task2_SETD1A_0",
+        "faithfulness": 0.7585586886032154,
+        "ar": 0.854377031326294
+      },
+      {
+        "example_id": "task2_MBD5_1",
+        "faithfulness": 0.7815727719906215,
+        "ar": 0.8032592535018921
+      },
+      {
+        "example_id": "task2_BRAF_1",
+        "faithfulness": 0.7726664861527885,
+        "ar": 0.8444421887397766
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.816589541674829,
+        "ar": 0.8727353811264038
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.8090782666619007,
+        "ar": 0.8171260356903076
+      },
+      {
+        "example_id": "task2_ATP1A1_0",
+        "faithfulness": 0.7603718396399047,
+        "ar": 0.8528294563293457
+      },
+      {
+        "example_id": "task2_SATB2_2",
+        "faithfulness": 0.7625096261289949,
+        "ar": 0.850471019744873
+      },
+      {
+        "example_id": "task2_SMARCC2_1",
+        "faithfulness": 0.7666122442830441,
+        "ar": 0.8099302053451538
+      },
+      {
+        "example_id": "task2_EBF3_1",
+        "faithfulness": 0.7784749783741104,
+        "ar": 0.8088849186897278
+      },
+      {
+        "example_id": "task2_KANSL1_1",
+        "faithfulness": 0.8368443403963136,
+        "ar": 0.8069766759872437
+      },
+      {
+        "example_id": "task2_MECP2_0",
+        "faithfulness": 0.7519038263051598,
+        "ar": 0.8597561120986938
+      }
+    ]
+  },
+  {
+    "group": "supplement",
+    "task": "task2",
+    "configuration": "Evidence-strength filter",
+    "n": 20,
+    "source_sha256": "069e4461708e5e8b00d04f3945f317834d3845f2690c71b9c31165c5a961e16c",
+    "scores": [
+      {
+        "example_id": "task2_RPS6KA3_0",
+        "faithfulness": 0.7571710175498814,
+        "ar": 0.8355145454406738
+      },
+      {
+        "example_id": "task2_GABBR2_1",
+        "faithfulness": 0.7984260089267855,
+        "ar": 0.8023327589035034
+      },
+      {
+        "example_id": "task2_TCF20_2",
+        "faithfulness": 0.769508402630068,
+        "ar": 0.8428223133087158
+      },
+      {
+        "example_id": "task2_DHX9_1",
+        "faithfulness": 0.7701343303572301,
+        "ar": 0.7947238683700562
+      },
+      {
+        "example_id": "task2_RIMS2_0",
+        "faithfulness": 0.7793143170183165,
+        "ar": 0.8428372144699097
+      },
+      {
+        "example_id": "task2_NAA10_1",
+        "faithfulness": 0.742386693461188,
+        "ar": 0.8000211119651794
+      },
+      {
+        "example_id": "task2_ZMIZ1_2",
+        "faithfulness": 0.7629681072022376,
+        "ar": 0.870988667011261
+      },
+      {
+        "example_id": "task2_IRF2BPL_2",
+        "faithfulness": 0.7320787378411362,
+        "ar": 0.8269410133361816
+      },
+      {
+        "example_id": "task2_CNTNAP2_0",
+        "faithfulness": 0.7931921180415467,
+        "ar": 0.8427153825759888
+      },
+      {
+        "example_id": "task2_SETD1A_0",
+        "faithfulness": 0.7601801778300334,
+        "ar": 0.85383141040802
+      },
+      {
+        "example_id": "task2_MBD5_1",
+        "faithfulness": 0.7815727719906215,
+        "ar": 0.8032592535018921
+      },
+      {
+        "example_id": "task2_BRAF_1",
+        "faithfulness": 0.7726664861527885,
+        "ar": 0.8444421887397766
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.816589541674829,
+        "ar": 0.8727353811264038
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.8090782666619007,
+        "ar": 0.8171260356903076
+      },
+      {
+        "example_id": "task2_ATP1A1_0",
+        "faithfulness": 0.7603718396399047,
+        "ar": 0.8528294563293457
+      },
+      {
+        "example_id": "task2_SATB2_2",
+        "faithfulness": 0.7561889879669704,
+        "ar": 0.8553241491317749
+      },
+      {
+        "example_id": "task2_SMARCC2_1",
+        "faithfulness": 0.7666122442830441,
+        "ar": 0.8099302053451538
+      },
+      {
+        "example_id": "task2_EBF3_1",
+        "faithfulness": 0.7784749783741104,
+        "ar": 0.8088849186897278
+      },
+      {
+        "example_id": "task2_KANSL1_1",
+        "faithfulness": 0.8368443403963136,
+        "ar": 0.8069766759872437
+      },
+      {
+        "example_id": "task2_MECP2_0",
+        "faithfulness": 0.7459822232811539,
+        "ar": 0.8583387136459351
+      }
+    ]
+  },
+  {
+    "group": "supplement",
+    "task": "task2",
+    "configuration": "Evidence-first answer",
+    "n": 20,
+    "source_sha256": "5184730fac02037ff66c0f7464d83a6b2797443b2ae63ee1634d37c81ed8a1b8",
+    "scores": [
+      {
+        "example_id": "task2_RPS6KA3_0",
+        "faithfulness": 0.8255349680133488,
+        "ar": 0.8230273127555847
+      },
+      {
+        "example_id": "task2_GABBR2_1",
+        "faithfulness": 0.848482286433379,
+        "ar": 0.7918626666069031
+      },
+      {
+        "example_id": "task2_TCF20_2",
+        "faithfulness": 0.8529312353298583,
+        "ar": 0.8583146333694458
+      },
+      {
+        "example_id": "task2_DHX9_1",
+        "faithfulness": 0.8722323265748146,
+        "ar": 0.7863727807998657
+      },
+      {
+        "example_id": "task2_RIMS2_0",
+        "faithfulness": 0.8602386774463826,
+        "ar": 0.8658175468444824
+      },
+      {
+        "example_id": "task2_NAA10_1",
+        "faithfulness": 0.8358348391016459,
+        "ar": 0.7642756700515747
+      },
+      {
+        "example_id": "task2_ZMIZ1_2",
+        "faithfulness": 0.8867357240362661,
+        "ar": 0.8926889300346375
+      },
+      {
+        "example_id": "task2_IRF2BPL_2",
+        "faithfulness": 0.8218029724388589,
+        "ar": 0.8167473077774048
+      },
+      {
+        "example_id": "task2_CNTNAP2_0",
+        "faithfulness": 0.8691501121360005,
+        "ar": 0.8713286519050598
+      },
+      {
+        "example_id": "task2_SETD1A_0",
+        "faithfulness": 0.874858080635861,
+        "ar": 0.8584527969360352
+      },
+      {
+        "example_id": "task2_MBD5_1",
+        "faithfulness": 0.8803806049304624,
+        "ar": 0.7876403331756592
+      },
+      {
+        "example_id": "task2_BRAF_1",
+        "faithfulness": 0.877410431759698,
+        "ar": 0.8598538041114807
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.8825345498592518,
+        "ar": 0.8660572171211243
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.8743435430596856,
+        "ar": 0.8205568194389343
+      },
+      {
+        "example_id": "task2_ATP1A1_0",
+        "faithfulness": 0.8603782469034196,
+        "ar": 0.8809520602226257
+      },
+      {
+        "example_id": "task2_SATB2_2",
+        "faithfulness": 0.8888735045047933,
+        "ar": 0.8823726177215576
+      },
+      {
+        "example_id": "task2_SMARCC2_1",
+        "faithfulness": 0.8463152217042857,
+        "ar": 0.8163806200027466
+      },
+      {
+        "example_id": "task2_EBF3_1",
+        "faithfulness": 0.8827387387240739,
+        "ar": 0.7839825749397278
+      },
+      {
+        "example_id": "task2_KANSL1_1",
+        "faithfulness": 0.9084441274685019,
+        "ar": 0.80838942527771
+      },
+      {
+        "example_id": "task2_MECP2_0",
+        "faithfulness": 0.8171861728555279,
+        "ar": 0.8363233208656311
+      }
+    ]
+  },
+  {
+    "group": "supplement",
+    "task": "task2",
+    "configuration": "Example-guided prompt",
+    "n": 20,
+    "source_sha256": "21e69d3e1ad661a6c0cadb48a1bb9b5238f54d19b9d2cce179d2cb2dfd0dab06",
+    "scores": [
+      {
+        "example_id": "task2_RPS6KA3_0",
+        "faithfulness": 0.821193127139755,
+        "ar": 0.7642645239830017
+      },
+      {
+        "example_id": "task2_GABBR2_1",
+        "faithfulness": 0.8039259955157405,
+        "ar": 0.7421829700469971
+      },
+      {
+        "example_id": "task2_TCF20_2",
+        "faithfulness": 0.8242343351796821,
+        "ar": 0.7656188011169434
+      },
+      {
+        "example_id": "task2_DHX9_1",
+        "faithfulness": 0.8376434524213114,
+        "ar": 0.7765567302703857
+      },
+      {
+        "example_id": "task2_RIMS2_0",
+        "faithfulness": 0.8514670645737671,
+        "ar": 0.8038272857666016
+      },
+      {
+        "example_id": "task2_NAA10_1",
+        "faithfulness": 0.837097885393757,
+        "ar": 0.7657455205917358
+      },
+      {
+        "example_id": "task2_ZMIZ1_2",
+        "faithfulness": 0.8456432286882142,
+        "ar": 0.8064613342285156
+      },
+      {
+        "example_id": "task2_IRF2BPL_2",
+        "faithfulness": 0.7996956580877305,
+        "ar": 0.758033037185669
+      },
+      {
+        "example_id": "task2_CNTNAP2_0",
+        "faithfulness": 0.8591374101927023,
+        "ar": 0.8110551834106445
+      },
+      {
+        "example_id": "task2_SETD1A_0",
+        "faithfulness": 0.8472175759387388,
+        "ar": 0.7583579421043396
+      },
+      {
+        "example_id": "task2_MBD5_1",
+        "faithfulness": 0.8515520239385164,
+        "ar": 0.7891896963119507
+      },
+      {
+        "example_id": "task2_BRAF_1",
+        "faithfulness": 0.8226923539608467,
+        "ar": 0.7875038385391235
+      },
+      {
+        "example_id": "task2_ZNF462_2",
+        "faithfulness": 0.8601806557178497,
+        "ar": 0.8042601346969604
+      },
+      {
+        "example_id": "task2_CHD3_1",
+        "faithfulness": 0.8607305875420571,
+        "ar": 0.7904009222984314
+      },
+      {
+        "example_id": "task2_ATP1A1_0",
+        "faithfulness": 0.8440396805287718,
+        "ar": 0.7916398048400879
+      },
+      {
+        "example_id": "task2_SATB2_2",
+        "faithfulness": 0.8358565655511778,
+        "ar": 0.7919785976409912
+      },
+      {
+        "example_id": "task2_SMARCC2_1",
+        "faithfulness": 0.8437825868653561,
+        "ar": 0.7939444780349731
+      },
+      {
+        "example_id": "task2_EBF3_1",
+        "faithfulness": 0.8480402356450228,
+        "ar": 0.7589552998542786
+      },
+      {
+        "example_id": "task2_KANSL1_1",
+        "faithfulness": 0.872786182408121,
+        "ar": 0.7596548795700073
+      },
+      {
+        "example_id": "task2_MECP2_0",
+        "faithfulness": 0.8313702483745568,
+        "ar": 0.7478825449943542
+      }
+    ]
+  },
+  {
+    "group": "supplement",
+    "task": "task3",
+    "configuration": "Topic-ranked evidence",
+    "n": 28,
+    "source_sha256": "9ff0d2ef74cbe75d01ca12e8aa2f8f02024d0528d9209930ff8f3b03d22ebb92",
+    "scores": [
+      {
+        "example_id": "task3_realistic_0",
+        "faithfulness": 0.8209485724759408,
+        "ar": 0.8063493967056274
+      },
+      {
+        "example_id": "task3_realistic_1",
+        "faithfulness": 0.8445675446391107,
+        "ar": 0.8695635795593262
+      },
+      {
+        "example_id": "task3_realistic_2",
+        "faithfulness": 0.8293797161877557,
+        "ar": 0.8301433324813843
+      },
+      {
+        "example_id": "task3_realistic_3",
+        "faithfulness": 0.7840221117846945,
+        "ar": 0.8088833093643188
+      },
+      {
+        "example_id": "task3_realistic_4",
+        "faithfulness": 0.8343029660142326,
+        "ar": 0.8140970468521118
+      },
+      {
+        "example_id": "task3_realistic_5",
+        "faithfulness": 0.7936606254268717,
+        "ar": 0.8070807456970215
+      },
+      {
+        "example_id": "task3_realistic_6",
+        "faithfulness": 0.7953314418555669,
+        "ar": 0.7773271799087524
+      },
+      {
+        "example_id": "task3_realistic_7",
+        "faithfulness": 0.7736044144167954,
+        "ar": 0.8490266799926758
+      },
+      {
+        "example_id": "task3_realistic_8",
+        "faithfulness": 0.8077452347778726,
+        "ar": 0.7982677221298218
+      },
+      {
+        "example_id": "task3_realistic_9",
+        "faithfulness": 0.8272172272134395,
+        "ar": 0.8619076609611511
+      },
+      {
+        "example_id": "task3_realistic_10",
+        "faithfulness": 0.8532973219178805,
+        "ar": 0.785072922706604
+      },
+      {
+        "example_id": "task3_realistic_11",
+        "faithfulness": 0.8583477178428854,
+        "ar": 0.7893925309181213
+      },
+      {
+        "example_id": "task3_realistic_12",
+        "faithfulness": 0.8588598786002378,
+        "ar": 0.8561739921569824
+      },
+      {
+        "example_id": "task3_realistic_13",
+        "faithfulness": 0.8650362817887907,
+        "ar": 0.8297555446624756
+      },
+      {
+        "example_id": "task3_realistic_14",
+        "faithfulness": 0.8489874332247217,
+        "ar": 0.8564373254776001
+      },
+      {
+        "example_id": "task3_realistic_15",
+        "faithfulness": 0.8244063906137851,
+        "ar": 0.7988935708999634
+      },
+      {
+        "example_id": "task3_realistic_16",
+        "faithfulness": 0.8215663976887222,
+        "ar": 0.8010119795799255
+      },
+      {
+        "example_id": "task3_realistic_17",
+        "faithfulness": 0.7936619139003531,
+        "ar": 0.7860031127929688
+      },
+      {
+        "example_id": "task3_realistic_18",
+        "faithfulness": 0.813647551983595,
+        "ar": 0.7720046043395996
+      },
+      {
+        "example_id": "task3_realistic_19",
+        "faithfulness": 0.8367187703210934,
+        "ar": 0.8686796426773071
+      },
+      {
+        "example_id": "task3_realistic_20",
+        "faithfulness": 0.8342353593691803,
+        "ar": 0.8624061942100525
+      },
+      {
+        "example_id": "task3_realistic_21",
+        "faithfulness": 0.850859760258879,
+        "ar": 0.834592878818512
+      },
+      {
+        "example_id": "task3_realistic_22",
+        "faithfulness": 0.8289680743706705,
+        "ar": 0.7737625241279602
+      },
+      {
+        "example_id": "task3_realistic_23",
+        "faithfulness": 0.8237952842121208,
+        "ar": 0.8672874569892883
+      },
+      {
+        "example_id": "task3_realistic_24",
+        "faithfulness": 0.8010960295777164,
+        "ar": 0.754330575466156
+      },
+      {
+        "example_id": "task3_realistic_25",
+        "faithfulness": 0.7997455266186076,
+        "ar": 0.7949095368385315
+      },
+      {
+        "example_id": "task3_realistic_26",
+        "faithfulness": 0.8089964284546792,
+        "ar": 0.7485805749893188
+      },
+      {
+        "example_id": "task3_realistic_27",
+        "faithfulness": 0.8048433568775655,
+        "ar": 0.8249300718307495
+      }
+    ]
+  },
+  {
+    "group": "supplement",
+    "task": "task3",
+    "configuration": "Concise evidence summary B",
+    "n": 28,
+    "source_sha256": "22bb6df335e39b58ad168ac3ee4a6133c6844553af5ee5630f586e94e74d9762",
+    "scores": [
+      {
+        "example_id": "task3_realistic_0",
+        "faithfulness": 0.8824133824066022,
+        "ar": 0.8475406169891357
+      },
+      {
+        "example_id": "task3_realistic_1",
+        "faithfulness": 0.8663146368808606,
+        "ar": 0.838276743888855
+      },
+      {
+        "example_id": "task3_realistic_2",
+        "faithfulness": 0.8875654515407534,
+        "ar": 0.8434649705886841
+      },
+      {
+        "example_id": "task3_realistic_3",
+        "faithfulness": 0.8786156238489031,
+        "ar": 0.7637621760368347
+      },
+      {
+        "example_id": "task3_realistic_4",
+        "faithfulness": 0.8928214319712586,
+        "ar": 0.841874361038208
+      },
+      {
+        "example_id": "task3_realistic_5",
+        "faithfulness": 0.87508365955693,
+        "ar": 0.8211610317230225
+      },
+      {
+        "example_id": "task3_realistic_6",
+        "faithfulness": 0.8328862246910322,
+        "ar": 0.7680468559265137
+      },
+      {
+        "example_id": "task3_realistic_7",
+        "faithfulness": 0.8583987554576662,
+        "ar": 0.8177841901779175
+      },
+      {
+        "example_id": "task3_realistic_8",
+        "faithfulness": 0.8657420109163543,
+        "ar": 0.815791130065918
+      },
+      {
+        "example_id": "task3_realistic_9",
+        "faithfulness": 0.878014593676879,
+        "ar": 0.8763097524642944
+      },
+      {
+        "example_id": "task3_realistic_10",
+        "faithfulness": 0.861548928236184,
+        "ar": 0.7965477705001831
+      },
+      {
+        "example_id": "task3_realistic_11",
+        "faithfulness": 0.8698022073933057,
+        "ar": 0.8034778833389282
+      },
+      {
+        "example_id": "task3_realistic_12",
+        "faithfulness": 0.8882930542866742,
+        "ar": 0.8608460426330566
+      },
+      {
+        "example_id": "task3_realistic_13",
+        "faithfulness": 0.9063995392791669,
+        "ar": 0.8303872346878052
+      },
+      {
+        "example_id": "task3_realistic_14",
+        "faithfulness": 0.8976661282596328,
+        "ar": 0.8603763580322266
+      },
+      {
+        "example_id": "task3_realistic_15",
+        "faithfulness": 0.8974177741609328,
+        "ar": 0.7877240180969238
+      },
+      {
+        "example_id": "task3_realistic_16",
+        "faithfulness": 0.8723099745568047,
+        "ar": 0.8098031282424927
+      },
+      {
+        "example_id": "task3_realistic_17",
+        "faithfulness": 0.8525661598346387,
+        "ar": 0.7986514568328857
+      },
+      {
+        "example_id": "task3_realistic_18",
+        "faithfulness": 0.8527203473934891,
+        "ar": 0.7978882789611816
+      },
+      {
+        "example_id": "task3_realistic_19",
+        "faithfulness": 0.8921382948578354,
+        "ar": 0.8798952698707581
+      },
+      {
+        "example_id": "task3_realistic_20",
+        "faithfulness": 0.8710016220582015,
+        "ar": 0.8506771326065063
+      },
+      {
+        "example_id": "task3_realistic_21",
+        "faithfulness": 0.8978793671940055,
+        "ar": 0.8437117338180542
+      },
+      {
+        "example_id": "task3_realistic_22",
+        "faithfulness": 0.8805259818701368,
+        "ar": 0.7730237245559692
+      },
+      {
+        "example_id": "task3_realistic_23",
+        "faithfulness": 0.8484523772055782,
+        "ar": 0.8717686533927917
+      },
+      {
+        "example_id": "task3_realistic_24",
+        "faithfulness": 0.8704859164853891,
+        "ar": 0.7551310658454895
+      },
+      {
+        "example_id": "task3_realistic_25",
+        "faithfulness": 0.8625837983531189,
+        "ar": 0.7863699197769165
+      },
+      {
+        "example_id": "task3_realistic_26",
+        "faithfulness": 0.866453217715025,
+        "ar": 0.7136930227279663
+      },
+      {
+        "example_id": "task3_realistic_27",
+        "faithfulness": 0.8561367984768278,
+        "ar": 0.788494884967804
+      }
+    ]
+  },
+  {
+    "group": "supplement",
+    "task": "task3",
+    "configuration": "Concise evidence summary C",
+    "n": 28,
+    "source_sha256": "bd27a243a8b6a4d9c4a1ae558574755de930e0b820ea5e76a3208f24a0cc01ab",
+    "scores": [
+      {
+        "example_id": "task3_realistic_0",
+        "faithfulness": 0.8824133824066022,
+        "ar": 0.8475406169891357
+      },
+      {
+        "example_id": "task3_realistic_1",
+        "faithfulness": 0.8663146368808606,
+        "ar": 0.838276743888855
+      },
+      {
+        "example_id": "task3_realistic_2",
+        "faithfulness": 0.8875654515407534,
+        "ar": 0.8434649705886841
+      },
+      {
+        "example_id": "task3_realistic_3",
+        "faithfulness": 0.877844347119674,
+        "ar": 0.7643037438392639
+      },
+      {
+        "example_id": "task3_realistic_4",
+        "faithfulness": 0.8928214319712586,
+        "ar": 0.841874361038208
+      },
+      {
+        "example_id": "task3_realistic_5",
+        "faithfulness": 0.87508365955693,
+        "ar": 0.8211610317230225
+      },
+      {
+        "example_id": "task3_realistic_6",
+        "faithfulness": 0.8328862246910322,
+        "ar": 0.7680468559265137
+      },
+      {
+        "example_id": "task3_realistic_7",
+        "faithfulness": 0.8542307101852364,
+        "ar": 0.8160187005996704
+      },
+      {
+        "example_id": "task3_realistic_8",
+        "faithfulness": 0.8657420109163543,
+        "ar": 0.815791130065918
+      },
+      {
+        "example_id": "task3_realistic_9",
+        "faithfulness": 0.878014593676879,
+        "ar": 0.8763097524642944
+      },
+      {
+        "example_id": "task3_realistic_10",
+        "faithfulness": 0.861548928236184,
+        "ar": 0.7965477705001831
+      },
+      {
+        "example_id": "task3_realistic_11",
+        "faithfulness": 0.868007963789361,
+        "ar": 0.8303446769714355
+      },
+      {
+        "example_id": "task3_realistic_12",
+        "faithfulness": 0.8882930542866742,
+        "ar": 0.8608460426330566
+      },
+      {
+        "example_id": "task3_realistic_13",
+        "faithfulness": 0.9063995392791669,
+        "ar": 0.8303872346878052
+      },
+      {
+        "example_id": "task3_realistic_14",
+        "faithfulness": 0.8967051397082545,
+        "ar": 0.8620185256004333
+      },
+      {
+        "example_id": "task3_realistic_15",
+        "faithfulness": 0.8974177741609328,
+        "ar": 0.7877240180969238
+      },
+      {
+        "example_id": "task3_realistic_16",
+        "faithfulness": 0.8516541609728439,
+        "ar": 0.8161147832870483
+      },
+      {
+        "example_id": "task3_realistic_17",
+        "faithfulness": 0.8525661598346387,
+        "ar": 0.7986514568328857
+      },
+      {
+        "example_id": "task3_realistic_18",
+        "faithfulness": 0.8527203473934891,
+        "ar": 0.7978882789611816
+      },
+      {
+        "example_id": "task3_realistic_19",
+        "faithfulness": 0.8921382948578354,
+        "ar": 0.8798952698707581
+      },
+      {
+        "example_id": "task3_realistic_20",
+        "faithfulness": 0.8710016220582015,
+        "ar": 0.8506771326065063
+      },
+      {
+        "example_id": "task3_realistic_21",
+        "faithfulness": 0.8978793671940055,
+        "ar": 0.8437117338180542
+      },
+      {
+        "example_id": "task3_realistic_22",
+        "faithfulness": 0.8611639926750814,
+        "ar": 0.7801119089126587
+      },
+      {
+        "example_id": "task3_realistic_23",
+        "faithfulness": 0.855937658583609,
+        "ar": 0.8684393167495728
+      },
+      {
+        "example_id": "task3_realistic_24",
+        "faithfulness": 0.8300190114549229,
+        "ar": 0.757774829864502
+      },
+      {
+        "example_id": "task3_realistic_25",
+        "faithfulness": 0.8435718705673372,
+        "ar": 0.774981677532196
+      },
+      {
+        "example_id": "task3_realistic_26",
+        "faithfulness": 0.8345409013330937,
+        "ar": 0.6926752328872681
+      },
+      {
+        "example_id": "task3_realistic_27",
+        "faithfulness": 0.8478455368765109,
+        "ar": 0.7284534573554993
+      }
+    ]
+  },
+  {
+    "group": "supplement",
+    "task": "task3",
+    "configuration": "Plain evidence summary",
+    "n": 28,
+    "source_sha256": "2f12894229b920406a79525957012547edd26f4314cde88048fdce355527d592",
+    "scores": [
+      {
+        "example_id": "task3_realistic_0",
+        "faithfulness": 0.8534037923924964,
+        "ar": 0.8489274382591248
+      },
+      {
+        "example_id": "task3_realistic_1",
+        "faithfulness": 0.8394678518889832,
+        "ar": 0.834405779838562
+      },
+      {
+        "example_id": "task3_realistic_2",
+        "faithfulness": 0.8540105988605629,
+        "ar": 0.8379294872283936
+      },
+      {
+        "example_id": "task3_realistic_3",
+        "faithfulness": 0.877130611300811,
+        "ar": 0.7670424580574036
+      },
+      {
+        "example_id": "task3_realistic_4",
+        "faithfulness": 0.8873802272644309,
+        "ar": 0.8297384977340698
+      },
+      {
+        "example_id": "task3_realistic_5",
+        "faithfulness": 0.8528221157366284,
+        "ar": 0.8140572309494019
+      },
+      {
+        "example_id": "task3_realistic_6",
+        "faithfulness": 0.8328862246910322,
+        "ar": 0.7680468559265137
+      },
+      {
+        "example_id": "task3_realistic_7",
+        "faithfulness": 0.8522622151341703,
+        "ar": 0.8199992179870605
+      },
+      {
+        "example_id": "task3_realistic_8",
+        "faithfulness": 0.859425538858569,
+        "ar": 0.811641275882721
+      },
+      {
+        "example_id": "task3_realistic_9",
+        "faithfulness": 0.8604184499798896,
+        "ar": 0.8626338243484497
+      },
+      {
+        "example_id": "task3_realistic_10",
+        "faithfulness": 0.8500458112368303,
+        "ar": 0.7800411581993103
+      },
+      {
+        "example_id": "task3_realistic_11",
+        "faithfulness": 0.8851156533828805,
+        "ar": 0.796455442905426
+      },
+      {
+        "example_id": "task3_realistic_12",
+        "faithfulness": 0.8670479764611646,
+        "ar": 0.8471258878707886
+      },
+      {
+        "example_id": "task3_realistic_13",
+        "faithfulness": 0.9034797115336559,
+        "ar": 0.8261528611183167
+      },
+      {
+        "example_id": "task3_realistic_14",
+        "faithfulness": 0.8839146654126384,
+        "ar": 0.859526515007019
+      },
+      {
+        "example_id": "task3_realistic_15",
+        "faithfulness": 0.8745778341081667,
+        "ar": 0.7862774133682251
+      },
+      {
+        "example_id": "task3_realistic_16",
+        "faithfulness": 0.857704634784706,
+        "ar": 0.8104886412620544
+      },
+      {
+        "example_id": "task3_realistic_17",
+        "faithfulness": 0.8456395343643183,
+        "ar": 0.7982516884803772
+      },
+      {
+        "example_id": "task3_realistic_18",
+        "faithfulness": 0.8443548826862735,
+        "ar": 0.7979767918586731
+      },
+      {
+        "example_id": "task3_realistic_19",
+        "faithfulness": 0.8678293184159588,
+        "ar": 0.8719626665115356
+      },
+      {
+        "example_id": "task3_realistic_20",
+        "faithfulness": 0.8655445632964005,
+        "ar": 0.8471825122833252
+      },
+      {
+        "example_id": "task3_realistic_21",
+        "faithfulness": 0.8841251237548533,
+        "ar": 0.8456177711486816
+      },
+      {
+        "example_id": "task3_realistic_22",
+        "faithfulness": 0.8614407423362697,
+        "ar": 0.7741237878799438
+      },
+      {
+        "example_id": "task3_realistic_23",
+        "faithfulness": 0.8335371684954868,
+        "ar": 0.8550201654434204
+      },
+      {
+        "example_id": "task3_realistic_24",
+        "faithfulness": 0.8299841963819096,
+        "ar": 0.7575930953025818
+      },
+      {
+        "example_id": "task3_realistic_25",
+        "faithfulness": 0.8402278790791189,
+        "ar": 0.7834950685501099
+      },
+      {
+        "example_id": "task3_realistic_26",
+        "faithfulness": 0.83313452526927,
+        "ar": 0.7072410583496094
+      },
+      {
+        "example_id": "task3_realistic_27",
+        "faithfulness": 0.8204119851494708,
+        "ar": 0.7903369665145874
+      }
+    ]
+  }
+]

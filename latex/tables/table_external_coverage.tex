@@ -1,0 +1,23 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\caption{Completed external-answer coverage by recorded request regime. Each provider covers 60/60 Task~1, 60/60 Task~2 and 70/70 Task~3 queries. Counts are answers, not independent question families.}
+\label{tab:external-coverage}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}l l l r r r@{}}
+\toprule
+\textbf{Provider} & \textbf{Recorded model ID} & \textbf{Regime} & \textbf{Task 1} & \textbf{Task 2} & \textbf{Task 3} \\
+\midrule
+OpenAI & \texttt{gpt-5.5} & Archived & 26 & 0 & 0 \\
+ & & Supplemental & 34 & 60 & 70 \\
+Claude & \texttt{claude-sonnet-4-5} & Archived & 52 & 60 & 70 \\
+ & & Supplemental & 8 & 0 & 0 \\
+Gemini & \texttt{gemini-2.5-pro} & Supplemental & 60 & 60 & 70 \\
+DeepSeek & \texttt{deepseek-chat} & Archived & 60 & 60 & 70 \\
+\midrule
+Total external & & & 240 & 240 & 280 \\
+Local reference & Task-specific adapter & Historical & --- & 60 & 70 \\
+\bottomrule
+\end{tabular}
+\end{table}

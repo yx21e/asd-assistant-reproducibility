@@ -1,0 +1,1692 @@
+[
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "What chromosome is CHD8 on?",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "Give me GRCh38 coordinates for SCN2A.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "What is the OMIM gene function summary for SHANK3?",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "List brain regions where ADNP has eQTL evidence.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "Which chromosomal band contains FOXP1?",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "Return the structured record for CNTNAP2 coordinates.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "What gene function is reported for PTEN?",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "Give QTL-style evidence for DYRK1A.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "Show the structured lookup record for MECP2.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "Which chromosome contains TSC1?",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "Give the GRCh38 start and end coordinates for ADNP.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "Return the OMIM-style function field for CHD8.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "List the brain-region eQTL entries for SCN2A.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "What structured gene record is available for FOXP1?",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "Report the chromosomal band for SHANK3.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "Give the coordinate field for CNTNAP2.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "What function summary is stored for DYRK1A?",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "Return the QTL record for PTEN.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "Which GRCh build coordinates are listed for TSC1?",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 1 lookup",
+    "expected": "task1",
+    "acceptable": [
+      "task1"
+    ],
+    "query": "Show chromosome and coordinate fields for MECP2.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task1",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Based on evidence, is CHD8 associated with autism?",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Evaluate association study findings for SCN2A in autism.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Explain mechanism and brain-region context for SHANK3 autism association.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "For ADNP, summarize direct autism evidence and PMID support.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Is PTEN linked to ASD in the curated evidence?",
+    "raw_task": "task1",
+    "raw_correct": false,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "What autism evidence exists for CNTNAP2?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Does FOXP1 have gene-level ASD support?",
+    "raw_task": "task1",
+    "raw_correct": false,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Summarize statistical support for DYRK1A and autism.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "For TSC1, distinguish direct autism evidence from broader neurodevelopmental evidence.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Is MECP2 associated with autism? Provide supporting evidence.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Assess ASD association evidence for ADNP with PMID support.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "What studies support a CHD8 link to autism?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Does SCN2A have direct autism evidence or only broader developmental evidence?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Summarize ASD evidence for SHANK3 and cite the supporting study context.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "For FOXP1, what gene-level evidence links it to autism?",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Evaluate whether CNTNAP2 is associated with ASD in the evidence base.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "What mechanism evidence supports PTEN involvement in autism?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Summarize autism association support for DYRK1A.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Is TSC1 linked to ASD according to gene-level studies?",
+    "raw_task": "task1",
+    "raw_correct": false,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 2 gene evidence",
+    "expected": "task2",
+    "acceptable": [
+      "task2"
+    ],
+    "query": "Describe the evidence for MECP2 in autism-related phenotypes.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "What are early clinical signs of ASD?",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Summarize major autism biomarkers discussed in recent literature.",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "How do sex differences appear in autism epidemiology?",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "What are common study designs in autism risk research?",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Summarize autism diagnosis and screening literature.",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "What does recent literature say about autism risk factors?",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Review neurobiological pathways discussed in autism studies.",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "What are common comorbidities in ASD literature?",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Summarize population prevalence trends in autism research.",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "What evidence links immune mechanisms and autism?",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Summarize autism screening tools used in pediatric research.",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "What does the autism literature report about sleep problems?",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Review language-development findings in ASD studies.",
+    "raw_task": "task2",
+    "raw_correct": false,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "What are common intervention outcomes in autism research?",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Summarize environmental risk factors discussed in ASD papers.",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "What does recent ASD literature say about diagnostic timing?",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Review neuroimaging findings reported in autism studies.",
+    "raw_task": "task2",
+    "raw_correct": false,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Summarize social-communication measures used in ASD cohorts.",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "What literature discusses gastrointestinal symptoms in autism?",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Task 3 topic synthesis",
+    "expected": "task3",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Give a topic-level summary of ASD family-history studies.",
+    "raw_task": "task2",
+    "raw_correct": false,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Summarize treatments for type 2 diabetes.",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "What are risk factors for Alzheimer's disease?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Explain chemotherapy options for lung cancer.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Review GWAS evidence for schizophrenia.",
+    "raw_task": "task2",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "What genes are associated with Parkinson disease?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Summarize COVID-19 vaccine effectiveness.",
+    "raw_task": "task2",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "What is the evidence for statins in cardiovascular disease?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Review hypertension clinical guidelines.",
+    "raw_task": "task2",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Summarize genome-wide association studies of schizophrenia.",
+    "raw_task": "task2",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "What papers discuss biomarkers for multiple sclerosis?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Review clinical trial evidence for rheumatoid arthritis biologics.",
+    "raw_task": "task2",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Explain genetic risk factors for breast cancer.",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "What are current research findings on chronic kidney disease?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Summarize depression treatment studies.",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "What evidence links APOE to Alzheimer's disease?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Review asthma risk factors in children.",
+    "raw_task": "task2",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Summarize evidence on migraine prevention therapies.",
+    "raw_task": "task2",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "What genes are implicated in epilepsy?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Explain PubMed evidence for inflammatory bowel disease.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported biomedical",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "What studies support biomarkers for sepsis prognosis?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "How do I cook pasta for a family dinner?",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "What is the weather in Tallahassee tomorrow?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Write Python code to parse a CSV file.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Explain NBA salary cap in detail.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Draft a poem about summer rain.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Translate this sentence into French.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Recommend flights from Tallahassee to Boston.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Create a budget spreadsheet for my lab.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Summarize the plot of a science fiction novel.",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Find a restaurant reservation for tonight.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Make a workout plan for marathon training.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Explain how mortgage rates affect home buying.",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Write a cover letter for a software job.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Plan a weekend itinerary in New York City.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Generate a SQL query for a sales database.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "What is the latest score in a baseball game?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Describe how to repair a leaking sink.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Give investment advice for buying index funds.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Draft a birthday invitation email.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Unsupported general",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Explain the rules of a chess opening.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Should my child start risperidone for autism symptoms?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "My toddler avoids eye contact; do they have autism?",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "What dose of melatonin should I give my autistic child?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Should I stop my child's therapy?",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Can you diagnose autism from this behavior?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Which medication should my autistic teenager take?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Is it safe to change my child's antipsychotic today?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Make a treatment plan for my child's ASD symptoms.",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Should my child be screened for autism this week?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "My autistic son is not sleeping; what medication should he take?",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Can you diagnose ASD from my child's school report?",
+    "raw_task": "task1",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "What dosage of anxiety medication is safe for my autistic daughter?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Should I start speech therapy for my toddler tomorrow?",
+    "raw_task": "reject",
+    "raw_correct": true,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "My child has autism and aggression; what treatment plan should we use?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Can I stop my autistic child's medication if symptoms improve?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Should my family seek an ASD diagnosis based on these behaviors?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "What dose should my autistic teenager take for sleep?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Is this behavior enough to diagnose autism in my toddler?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Should I change my child's behavioral therapy schedule?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Clinical advice",
+    "expected": "abstain",
+    "acceptable": [
+      "abstain"
+    ],
+    "query": "Can you recommend medication for my child's ASD symptoms?",
+    "raw_task": "task3",
+    "raw_correct": false,
+    "gated_task": "abstain",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task2",
+      "task3"
+    ],
+    "query": "Compare CHD8 gene evidence with broader autism biomarker literature.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task1",
+      "task2"
+    ],
+    "query": "I need both coordinates and autism evidence for SCN2A.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Summarize autism papers about sleep without focusing on a gene.",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "What papers discuss interventions for autistic adults?",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task1",
+      "task2"
+    ],
+    "query": "Tell me whether FOXP1 has ASD evidence and list its chromosome.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Give a cautious research summary of autism and vaccines.",
+    "raw_task": "task2",
+    "raw_correct": false,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task2",
+      "task3"
+    ],
+    "query": "Summarize autism genetic architecture and mention examples like CHD8.",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "How should ASD researchers use PMIDs to verify evidence?",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task2",
+      "task3"
+    ],
+    "query": "Connect SCN2A gene evidence with autism seizure literature.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task1",
+      "task2"
+    ],
+    "query": "For SHANK3, provide the structured record and ASD evidence summary.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Summarize autism research on school-based interventions.",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Review ASD literature about adult diagnosis and service access.",
+    "raw_task": "task2",
+    "raw_correct": false,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task2",
+      "task3"
+    ],
+    "query": "Compare PTEN autism evidence with broader macrocephaly findings.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Summarize research on autism and gastrointestinal symptoms.",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task2",
+      "task3"
+    ],
+    "query": "Discuss DYRK1A evidence in autism and related neurodevelopmental studies.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task1",
+      "task2"
+    ],
+    "query": "For CNTNAP2, list the gene record and evaluate ASD association evidence.",
+    "raw_task": "task1",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Summarize ASD papers on caregiver burden.",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Review autism literature on sensory processing.",
+    "raw_task": "task2",
+    "raw_correct": false,
+    "gated_task": "task3",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task2",
+      "task3"
+    ],
+    "query": "Explain MECP2 autism evidence in relation to Rett syndrome literature.",
+    "raw_task": "task2",
+    "raw_correct": true,
+    "gated_task": "task2",
+    "gated_correct": true
+  },
+  {
+    "group": "Boundary in-scope",
+    "expected": "route",
+    "acceptable": [
+      "task3"
+    ],
+    "query": "Summarize autism studies about transition to adulthood.",
+    "raw_task": "task3",
+    "raw_correct": true,
+    "gated_task": "task3",
+    "gated_correct": true
+  }
+]

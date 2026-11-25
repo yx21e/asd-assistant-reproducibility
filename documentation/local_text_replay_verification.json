@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "scope": "Local raw-answer rescoring, not fresh answer generation or retraining.",
+  "tolerance": 1e-06,
+  "larger_banks": {
+    "task2": {
+      "rows": 100,
+      "max_abs_error": {
+        "faithfulness": 8.046627031355058e-08,
+        "ar": 2.384185791015625e-07
+      }
+    },
+    "task3": {
+      "rows": 98,
+      "max_abs_error": {
+        "faithfulness": 7.826773840147183e-08,
+        "ar": 1.7881393432617188e-07
+      }
+    }
+  },
+  "external_and_local_reference": {
+    "rows": 890,
+    "metric_counts": {
+      "exact_match": 240,
+      "token_f1": 240,
+      "critical_token_recall": 240,
+      "reference_support_proxy": 650,
+      "ar_frozen_question_lead": 650,
+      "ar_without_question_lead": 650,
+      "equal_unit_support_proxy": 650
+    },
+    "max_abs_error": {
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "critical_token_recall": 0.0,
+      "reference_support_proxy": 0.0,
+      "ar_frozen_question_lead": 0.0,
+      "ar_without_question_lead": 0.0,
+      "equal_unit_support_proxy": 0.0
+    }
+  },
+  "citation_rows": 246,
+  "citation_mismatches": 0,
+  "public_raw_text_available": false,
+  "new_paid_API_requests": 0
+}

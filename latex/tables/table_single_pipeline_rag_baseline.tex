@@ -1,0 +1,21 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\caption{Supplementary matched-retrieval diagnostics. Equal-unit Faithfulness weights all retained scoring units equally. Fallback counts identify outputs with heuristic postprocessing; truncation counts identify input prompts exceeding the token limit. CSR and CVR retain their deterministic offline definitions.}
+\label{tab:single-pipeline-rag-baseline}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}l l c c c c c@{}}
+\toprule
+\textbf{Task} & \textbf{Configuration} & \textbf{Equal-unit F} & \textbf{CSR} & \textbf{CVR} & \textbf{Fallback} & \textbf{Truncated} \\
+\midrule
+Task~2 & Task-conditioned & 0.8646 & 0.9900 & 1.0000 & 100/100 & 8/100 \\
+Task~2 & Shared, retained & 0.8610 & 0.9900 & 1.0000 & 100/100 & 8/100 \\
+Task~2 & Shared, Top-5 & 0.8516 & 0.3000 & 0.6000 & 100/100 & 59/100 \\
+\addlinespace
+Task~3 & Task-conditioned & 0.8644 & 1.0000 & 0.9889 & 95/98 & 3/98 \\
+Task~3 & Shared, retained & 0.8627 & 1.0000 & 0.9696 & 89/98 & 1/98 \\
+Task~3 & Shared, Top-5 & 0.8758 & 0.9782 & 0.9782 & 96/98 & 48/98 \\
+\bottomrule
+\end{tabular}
+\end{table}

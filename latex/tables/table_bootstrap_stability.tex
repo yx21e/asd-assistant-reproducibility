@@ -1,0 +1,18 @@
+\begin{table}
+\centering
+\small
+\caption{Bootstrap means and standard deviations over 1,000 resamples.}
+\label{tab:bootstrap-stability}
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{P{2.8cm} Q{0.7cm} Q{0.8cm} Q{2.1cm} Q{2.1cm} Q{1.6cm} Q{1.6cm}}
+\toprule
+\textbf{Set} & \textbf{$n$} & \textbf{Reps} & \textbf{Faith.} & \textbf{AR} & \textbf{CSR} & \textbf{CVR} \\
+\midrule
+Task~2 curated & 20 & 1000 & \meanstd{0.8635}{0.0053} & \meanstd{0.9681}{0.0020} & 1.0000 & 1.0000 \\
+Task~2 larger sample & 100 & 1000 & \meanstd{0.8645}{0.0017} & \meanstd{0.9628}{0.0006} & 0.9900 & 1.0000 \\
+Task~3 curated & 28 & 1000 & \meanstd{0.9452}{0.0019} & \meanstd{0.9703}{0.0039} & 1.0000 & 0.9881 \\
+Task~3 larger sample & 98 & 1000 & \meanstd{0.9423}{0.0009} & \meanstd{0.9785}{0.0015} & 1.0000 & 0.9889 \\
+\bottomrule
+\end{tabular}
+\end{table}

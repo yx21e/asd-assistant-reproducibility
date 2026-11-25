@@ -1,0 +1,27 @@
+[
+  {
+    "source_file": "build_revision_experiment_tables.py",
+    "source_sha256": "b1f8979ebfa31b561f12a08ccb789a9fdb547caf5bf77fe91efb55e9de24b641",
+    "functions": [
+      "build_memory_design_figure",
+      "build_threshold_sweep_figure"
+    ],
+    "constants": [],
+    "transformation": "Exact AST source segments; no body edits; paths supplied by wrapper."
+  },
+  {
+    "source_file": "build_candidate_figures.py",
+    "source_sha256": "06853434bbaaa4ff154462250024df146ef776cf660af0366387562a97f27983",
+    "functions": [
+      "prompt_family",
+      "read_jsonl",
+      "save",
+      "setup_style",
+      "task3_heatmap"
+    ],
+    "constants": [
+      "COLORS"
+    ],
+    "transformation": "Exact AST source segments; no body edits; paths supplied by wrapper."
+  }
+]

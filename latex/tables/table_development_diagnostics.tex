@@ -1,0 +1,41 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Historical development diagnostics on the curated banks. Generation and scoring choices vary across rows, so differences do not isolate component effects.}
+\label{tab:evidence-construction-checks}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.08}
+
+\fittable[\linewidth]{%
+\begin{tabular}{llccc}
+\toprule
+\textbf{Task} &
+\textbf{Configuration} &
+\textbf{$n$} &
+\textbf{Faithfulness} &
+\textbf{AR} \\
+\midrule
+
+\multicolumn{5}{l}{\textit{Task 2: Gene-level evidence synthesis}}\\
+\midrule
+Shared evidence source              & Baseline retrieval            & 20 & 0.7743 & 0.8328\\
+Gene-prioritized evidence           & Evidence selection            & 20 & 0.7786 & 0.8325\\
+Supporting excerpt lead             & Evidence presentation         & 20 & 0.8343 & 0.8193\\
+Answer lead with excerpt            & Response organization         & 20 & 0.8286 & 0.8355\\
+Reference consistency check         & Citation handling             & 20 & 0.8069 & 0.8288\\
+Concise biomedical prompt           & Prompt design                & 20 & 0.8345 & 0.7615\\
+Retained reporting configuration    & Generation and scoring       & 20 & 0.8633 & 0.9680\\
+
+\midrule
+\multicolumn{5}{l}{\textit{Task 3: Topic-level literature synthesis}}\\
+\midrule
+Initial synthesis                   & Baseline generation          & 28 & 0.8149 & 0.7605\\
+Topic-filtered evidence             & Evidence selection           & 28 & 0.8250 & 0.8138\\
+Selected topic sentences            & Evidence filtering           & 28 & 0.8374 & 0.8173\\
+Reference consistency check         & Citation handling            & 28 & 0.8377 & 0.8142\\
+Concise evidence summary            & Response organization        & 28 & 0.8657 & 0.8196\\
+Retained reporting configuration    & Generation and scoring       & 28 & 0.9452 & 0.9703\\
+
+\bottomrule
+\end{tabular}}
+\end{table}

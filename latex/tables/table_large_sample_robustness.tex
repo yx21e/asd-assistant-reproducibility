@@ -1,0 +1,15 @@
+\begin{table}
+  \centering
+  \scriptsize
+  \caption{Larger-sample development evaluation. Exclusions concern the curated diagnostic bank, not all prior system development. AR compares the query with its restatement when present, otherwise with response text.}
+  \label{tab:large-sample-robustness}
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabular}{l r l l c c c c}
+    \toprule
+    Task & $n$ & Diagnostic exclusions & Balance & Faith. & AR & CSR & CVR \\
+    \midrule
+    Task~2 & 100 & 20 curated genes & 30/55/15 tiers & 0.8646 & 0.9628 & 0.9900 & 1.0000 \\
+    Task~3 & 98 & Curated prompts & 14 per topic & 0.9423 & 0.9785 & 1.0000 & 0.9889 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

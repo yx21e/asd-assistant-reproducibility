@@ -1,0 +1,414 @@
+{
+  "thresholds": [
+    {
+      "evaluation_set": "Task~2 curated",
+      "threshold": 0.8,
+      "faithfulness_pass": 1.0,
+      "ar_pass": 1.0,
+      "cvr_pass": 1.0,
+      "csr_pass": 1.0,
+      "n": 20
+    },
+    {
+      "evaluation_set": "Task~2 curated",
+      "threshold": 0.85,
+      "faithfulness_pass": 0.7,
+      "ar_pass": 1.0,
+      "cvr_pass": 1.0,
+      "csr_pass": 1.0,
+      "n": 20
+    },
+    {
+      "evaluation_set": "Task~2 curated",
+      "threshold": 0.9,
+      "faithfulness_pass": 0.05,
+      "ar_pass": 1.0,
+      "cvr_pass": 1.0,
+      "csr_pass": 1.0,
+      "n": 20
+    },
+    {
+      "evaluation_set": "Task~2 curated",
+      "threshold": 0.95,
+      "faithfulness_pass": 0.0,
+      "ar_pass": 1.0,
+      "cvr_pass": 1.0,
+      "csr_pass": 1.0,
+      "n": 20
+    },
+    {
+      "evaluation_set": "Task~2 large",
+      "threshold": 0.8,
+      "faithfulness_pass": 1.0,
+      "ar_pass": 1.0,
+      "cvr_pass": 1.0,
+      "csr_pass": 0.99,
+      "n": 100
+    },
+    {
+      "evaluation_set": "Task~2 large",
+      "threshold": 0.85,
+      "faithfulness_pass": 0.8,
+      "ar_pass": 1.0,
+      "cvr_pass": 1.0,
+      "csr_pass": 0.99,
+      "n": 100
+    },
+    {
+      "evaluation_set": "Task~2 large",
+      "threshold": 0.9,
+      "faithfulness_pass": 0.01,
+      "ar_pass": 1.0,
+      "cvr_pass": 1.0,
+      "csr_pass": 0.99,
+      "n": 100
+    },
+    {
+      "evaluation_set": "Task~2 large",
+      "threshold": 0.95,
+      "faithfulness_pass": 0.0,
+      "ar_pass": 0.97,
+      "cvr_pass": 1.0,
+      "csr_pass": 0.99,
+      "n": 100
+    },
+    {
+      "evaluation_set": "Task~3 curated",
+      "threshold": 0.8,
+      "faithfulness_pass": 1.0,
+      "ar_pass": 1.0,
+      "cvr_pass": 0.9642857142857143,
+      "csr_pass": 1.0,
+      "n": 28
+    },
+    {
+      "evaluation_set": "Task~3 curated",
+      "threshold": 0.85,
+      "faithfulness_pass": 1.0,
+      "ar_pass": 1.0,
+      "cvr_pass": 0.9642857142857143,
+      "csr_pass": 1.0,
+      "n": 28
+    },
+    {
+      "evaluation_set": "Task~3 curated",
+      "threshold": 0.9,
+      "faithfulness_pass": 1.0,
+      "ar_pass": 1.0,
+      "cvr_pass": 0.9642857142857143,
+      "csr_pass": 1.0,
+      "n": 28
+    },
+    {
+      "evaluation_set": "Task~3 curated",
+      "threshold": 0.95,
+      "faithfulness_pass": 0.39285714285714285,
+      "ar_pass": 0.7857142857142857,
+      "cvr_pass": 0.9642857142857143,
+      "csr_pass": 1.0,
+      "n": 28
+    },
+    {
+      "evaluation_set": "Task~3 large",
+      "threshold": 0.8,
+      "faithfulness_pass": 1.0,
+      "ar_pass": 1.0,
+      "cvr_pass": 0.9693877551020408,
+      "csr_pass": 1.0,
+      "n": 98
+    },
+    {
+      "evaluation_set": "Task~3 large",
+      "threshold": 0.85,
+      "faithfulness_pass": 1.0,
+      "ar_pass": 1.0,
+      "cvr_pass": 0.9693877551020408,
+      "csr_pass": 1.0,
+      "n": 98
+    },
+    {
+      "evaluation_set": "Task~3 large",
+      "threshold": 0.9,
+      "faithfulness_pass": 1.0,
+      "ar_pass": 1.0,
+      "cvr_pass": 0.9693877551020408,
+      "csr_pass": 1.0,
+      "n": 98
+    },
+    {
+      "evaluation_set": "Task~3 large",
+      "threshold": 0.95,
+      "faithfulness_pass": 0.1836734693877551,
+      "ar_pass": 0.9183673469387755,
+      "cvr_pass": 0.9693877551020408,
+      "csr_pass": 1.0,
+      "n": 98
+    }
+  ],
+  "development": [
+    {
+      "samples": 20,
+      "faithfulness": 0.7742560530747088,
+      "ar": 0.8328332781791687,
+      "csr": 1.0,
+      "cvr": 1.0,
+      "avg_citation_count": 2.55,
+      "avg_verified_citation_count": 2.55,
+      "fallback_rate": 1.0,
+      "task": "Task~2",
+      "source_label": "Mixed evidence corpus",
+      "configuration": "Shared evidence source",
+      "family": "evidence"
+    },
+    {
+      "samples": 20,
+      "faithfulness": 0.7785650363373681,
+      "ar": 0.8324533253908157,
+      "csr": 1.0,
+      "cvr": 1.0,
+      "avg_citation_count": 2.55,
+      "avg_verified_citation_count": 2.55,
+      "fallback_rate": 1.0,
+      "task": "Task~2",
+      "source_label": "Evidence-priority context",
+      "configuration": "Gene-prioritized evidence",
+      "family": "evidence"
+    },
+    {
+      "samples": 20,
+      "faithfulness": 0.8343352598186108,
+      "ar": 0.8192762434482574,
+      "csr": 1.0,
+      "cvr": 1.0,
+      "avg_citation_count": 2.65,
+      "avg_verified_citation_count": 2.65,
+      "fallback_rate": 1.0,
+      "task": "Task~2",
+      "source_label": "Supporting excerpt first",
+      "configuration": "Supporting excerpt lead",
+      "family": "answer"
+    },
+    {
+      "samples": 20,
+      "faithfulness": 0.8286323893980587,
+      "ar": 0.8354829519987106,
+      "csr": 1.0,
+      "cvr": 1.0,
+      "avg_citation_count": 2.65,
+      "avg_verified_citation_count": 2.65,
+      "fallback_rate": 1.0,
+      "task": "Task~2",
+      "source_label": "Excerpt with answer lead",
+      "configuration": "Answer lead with excerpt",
+      "family": "answer"
+    },
+    {
+      "samples": 20,
+      "faithfulness": 0.8068996467183377,
+      "ar": 0.8287876099348068,
+      "csr": 0.95,
+      "cvr": 0.95,
+      "avg_citation_count": 2.45,
+      "avg_verified_citation_count": 2.45,
+      "fallback_rate": 1.0,
+      "task": "Task~2",
+      "source_label": "Evidence quality check",
+      "configuration": "Reference consistency check",
+      "family": "reference"
+    },
+    {
+      "samples": 20,
+      "faithfulness": 0.8345373364577994,
+      "ar": 0.7615395843982696,
+      "csr": 1.0,
+      "cvr": 1.0,
+      "avg_citation_count": 2.55,
+      "avg_verified_citation_count": 2.55,
+      "fallback_rate": 1.0,
+      "task": "Task~2",
+      "source_label": "Short biomedical prompt",
+      "configuration": "Concise biomedical prompt",
+      "family": "prompt"
+    },
+    {
+      "samples": 20,
+      "faithfulness": 0.8633203181958058,
+      "ar": 0.9680491507053375,
+      "csr": 1.0,
+      "cvr": 1.0,
+      "avg_citation_count": 2.65,
+      "avg_verified_citation_count": 2.65,
+      "fallback_rate": 1.0,
+      "task": "Task~2",
+      "source_label": "Final relevance scoring",
+      "configuration": "Primary outcome scoring",
+      "family": "metrics"
+    },
+    {
+      "samples": 28,
+      "faithfulness": 0.8149423224512666,
+      "ar": 0.7604754929031644,
+      "csr": 1.0,
+      "cvr": 0.9821428571428571,
+      "avg_citation_count": 3.107142857142857,
+      "avg_verified_citation_count": 3.0,
+      "fallback_rate": 0.9642857142857143,
+      "task": "Task~3",
+      "source_label": "Structured synthesis start",
+      "configuration": "Initial synthesis",
+      "family": "answer"
+    },
+    {
+      "samples": 28,
+      "faithfulness": 0.8250258164487628,
+      "ar": 0.8137586457388741,
+      "csr": 1.0,
+      "cvr": 1.0,
+      "avg_citation_count": 6.0,
+      "avg_verified_citation_count": 6.0,
+      "fallback_rate": 1.0,
+      "task": "Task~3",
+      "source_label": "Evidence hygiene",
+      "configuration": "Topic-filtered evidence",
+      "family": "evidence"
+    },
+    {
+      "samples": 28,
+      "faithfulness": 0.8374148087832972,
+      "ar": 0.8172829917498997,
+      "csr": 1.0,
+      "cvr": 0.9613095238095238,
+      "avg_citation_count": 5.785714285714286,
+      "avg_verified_citation_count": 5.607142857142857,
+      "fallback_rate": 0.8571428571428571,
+      "task": "Task~3",
+      "source_label": "Rerank plus sentence selection",
+      "configuration": "Selected topic sentences",
+      "family": "evidence"
+    },
+    {
+      "samples": 28,
+      "faithfulness": 0.8377061447434331,
+      "ar": 0.8141912605081286,
+      "csr": 1.0,
+      "cvr": 0.9880952380952381,
+      "avg_citation_count": 6.0,
+      "avg_verified_citation_count": 5.928571428571429,
+      "fallback_rate": 0.9642857142857143,
+      "task": "Task~3",
+      "source_label": "Evidence quality check",
+      "configuration": "Reference consistency check",
+      "family": "reference"
+    },
+    {
+      "samples": 28,
+      "faithfulness": 0.8656778909046462,
+      "ar": 0.8196343630552292,
+      "csr": 1.0,
+      "cvr": 0.9880952380952381,
+      "avg_citation_count": 6.0,
+      "avg_verified_citation_count": 5.928571428571429,
+      "fallback_rate": 0.9642857142857143,
+      "task": "Task~3",
+      "source_label": "Short evidence summary 1",
+      "configuration": "Concise evidence summary A",
+      "family": "answer"
+    },
+    {
+      "samples": 28,
+      "faithfulness": 0.9451525433350801,
+      "ar": 0.9703341530902045,
+      "csr": 1.0,
+      "cvr": 0.9880952380952381,
+      "avg_citation_count": 6.0,
+      "avg_verified_citation_count": 5.928571428571429,
+      "fallback_rate": 0.9642857142857143,
+      "task": "Task~3",
+      "source_label": "Final relevance scoring",
+      "configuration": "Primary outcome scoring",
+      "family": "metrics"
+    }
+  ],
+  "optional_stack": [
+    {
+      "variant": "Final evidence setting",
+      "retained_default": true,
+      "paper_faithfulness": 0.8374148087832972,
+      "paper_ar": 0.8172829917498997,
+      "real_topic_hit": 0.8928571428571429,
+      "real_grounded": 0.8709917381781216,
+      "real_anchor": 0.7952380952380953,
+      "general_autism_hit": 0.25
+    },
+    {
+      "variant": "Self-routed evidence",
+      "retained_default": false,
+      "paper_faithfulness": 0.8358434209763853,
+      "paper_ar": 0.8165650303874697,
+      "real_topic_hit": 0.8928571428571429,
+      "real_grounded": 0.8705456668680852,
+      "real_anchor": 0.8083333333333333,
+      "general_autism_hit": 0.25
+    },
+    {
+      "variant": "General-topic evidence",
+      "retained_default": false,
+      "paper_faithfulness": 0.8385093968156495,
+      "paper_ar": 0.80968148793493,
+      "real_topic_hit": 0.9642857142857143,
+      "real_grounded": 0.8770855196356839,
+      "real_anchor": 0.7964285714285715,
+      "general_autism_hit": 1.0
+    },
+    {
+      "variant": "General-topic evidence + graph expansion",
+      "retained_default": false,
+      "paper_faithfulness": 0.8411085356051703,
+      "paper_ar": 0.7829298802784511,
+      "real_topic_hit": 0.9642857142857143,
+      "real_grounded": 0.8805034209937154,
+      "real_anchor": 0.805952380952381,
+      "general_autism_hit": 1.0
+    },
+    {
+      "variant": "General-topic evidence + second pass",
+      "retained_default": false,
+      "paper_faithfulness": 0.839805185461006,
+      "paper_ar": 0.8074377349444798,
+      "real_topic_hit": 0.9642857142857143,
+      "real_grounded": 0.8779614401631624,
+      "real_anchor": 0.7988095238095239,
+      "general_autism_hit": 1.0
+    },
+    {
+      "variant": "Combined evidence setting",
+      "retained_default": false,
+      "paper_faithfulness": 0.843405517230668,
+      "paper_ar": 0.7963835022279194,
+      "real_topic_hit": 0.9642857142857143,
+      "real_grounded": 0.8884247677929039,
+      "real_anchor": 0.8154761904761905,
+      "general_autism_hit": 1.0
+    },
+    {
+      "variant": "General-topic evidence + adaptive summary",
+      "retained_default": false,
+      "paper_faithfulness": 0.8371886153585614,
+      "paper_ar": 0.8156160094908306,
+      "real_topic_hit": 0.9642857142857143,
+      "real_grounded": 0.8838432277487253,
+      "real_anchor": 0.6630952380952381,
+      "general_autism_hit": 1.0
+    },
+    {
+      "variant": "Combined evidence setting + adaptive summary",
+      "retained_default": false,
+      "paper_faithfulness": 0.8421748006975851,
+      "paper_ar": 0.802114378128733,
+      "real_topic_hit": 0.9642857142857143,
+      "real_grounded": 0.8951366763457557,
+      "real_anchor": 0.7,
+      "general_autism_hit": 1.0
+    }
+  ]
+}

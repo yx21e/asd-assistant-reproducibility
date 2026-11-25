@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-25",
+  "score_values_changed": false,
+  "source_rows_removed": false,
+  "answer_context_text_included": false,
+  "files": [
+    {
+      "file": "evidence/historical/task2_curated.jsonl",
+      "source_file": "task2_final_reporting_predictions.jsonl",
+      "source_sha256": "a308e1e9ca8ba1672221a25a3a46d3faed9db4cd06e9d81bc7bf7c9d6af2c548",
+      "public_sha256": "41d94efff7561abb4c7ec3b22013660fdd9cb7fe5d0baff6c99918832b29d016",
+      "rows": 20,
+      "transformation": "Ordered field projection; Task 2 large includes joined tier/autism-document metadata from the retained query bank."
+    },
+    {
+      "file": "evidence/historical/task3_curated.jsonl",
+      "source_file": "task3_final_predictions.jsonl",
+      "source_sha256": "d274a2f95ce35c3b61329543600cb5cb474ea633bb503a8acbb3d37b389fd38c",
+      "public_sha256": "70aa5f76befa556b633d008b970b8f69637d6047c58934605f778ded0fec0291",
+      "rows": 28,
+      "transformation": "Ordered field projection; Task 2 large includes joined tier/autism-document metadata from the retained query bank."
+    },
+    {
+      "file": "evidence/historical/task2_large.jsonl",
+      "source_file": "task2_predictions.jsonl",
+      "source_sha256": "9f577813a7db381d5093a4492637a19bf55ce980e4f5c7e91ee8ce2c19b76990",
+      "public_sha256": "78a77b499b90b9c6c877e7a1ef10af6555b0bcac2590f8278c57b04d6608a014",
+      "rows": 100,
+      "transformation": "Ordered field projection; Task 2 large includes joined tier/autism-document metadata from the retained query bank."
+    },
+    {
+      "file": "evidence/historical/task3_large.jsonl",
+      "source_file": "task3_predictions.jsonl",
+      "source_sha256": "a7db6748b2636758d91e8936f6ed2bde3a76c1eee320ab550075d7dba79a01d7",
+      "public_sha256": "04fed687dd976598f836d685ac30bf9b6e6bca69a51289e5c43800374fe2320a",
+      "rows": 98,
+      "transformation": "Ordered field projection; Task 2 large includes joined tier/autism-document metadata from the retained query bank."
+    }
+  ],
+  "task2_metadata_sha256": "6bf1b8a72f3e8fcca715258e3cf580385ad10714d85011ee28ad88d6e2f9483c",
+  "development": {
+    "file": "evidence/historical/development_scores.json",
+    "rows": 560,
+    "configurations": 24,
+    "transformation": "Ordered ID/Faithfulness/AR projection; original prediction digests are recorded per configuration."
+  },
+  "boundary": {
+    "file": "evidence/historical/boundary_routing.json",
+    "rows": 140,
+    "source_sha256": "28250d4cbfbd63820f6a7c15da6791cb5d5589e489c60cf4b35c798c9b2ee3a8"
+  },
+  "synthetic": {
+    "file": "evidence/historical/evidence_change_hashes.json",
+    "rows": 96,
+    "source_sha256": "55ec5fcebd48527468805b84158770601d59ea0ce824bf98c5d8cf6aa8359dd2",
+    "transformation": "SHA256 of exact UTF-8 raw/final answer strings, without whitespace normalization. All four conditions retained."
+  },
+  "tables": [
+    {
+      "file": "evidence/historical/task2_curated.jsonl",
+      "transformation": "field projection of retained numeric rows; no rescoring"
+    },
+    {
+      "file": "evidence/historical/task2_large.jsonl",
+      "transformation": "field projection of retained numeric rows; no rescoring"
+    },
+    {
+      "file": "evidence/historical/task3_curated.jsonl",
+      "transformation": "field projection of retained numeric rows; no rescoring"
+    },
+    {
+      "file": "evidence/historical/task3_large.jsonl",
+      "transformation": "field projection of retained numeric rows; no rescoring"
+    },
+    {
+      "file": "latex/tables/table_task2_group_robustness.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "882940874faf0cdaa0ec04eefde14a1f4158d6a289ebb2d6367df20a0a657e4a"
+    },
+    {
+      "file": "latex/tables/table_task3_topic_robustness.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "98c59433e2714b250553d5131b00b9c119bf7cd7970423dc0276585ad958ce45"
+    },
+    {
+      "file": "latex/tables/table_task3_prompt_topic_matrix.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "b059e9c8a426b39b5a80e8af81a682bb39757eded1c5bbe60d39fa25e9628254"
+    },
+    {
+      "file": "latex/tables/table_large_sample_robustness.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "49a6e859a0e489e1b3ab32662fdd0a3571c724e338c0afcc1979dbf28a0f76a2"
+    },
+    {
+      "file": "latex/tables/table_routing_diagnostics.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "993bda11934094792b9f26dc7739540c3a958f2023d7146f198cfcfd447f4547"
+    },
+    {
+      "file": "latex/tables/table_threshold_sweep.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "ff80250eb8619ba09d86377a562107024f28a9dc0f0b3202c057a8d0a88f00f7"
+    },
+    {
+      "file": "latex/tables/table_error_rate_diagnostics.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "a454ffa3ab0999fe17c40dac8addd6ea4b003056dd865cb7432f7fbc6fc63bbf"
+    },
+    {
+      "file": "latex/tables/table_percentile_diagnostics.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "d3271c99bc0af835ad7c6d17084145e09c225cc7e0b410290e8cfbc73e2b05ef"
+    },
+    {
+      "file": "latex/tables/table_bootstrap_stability.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "5af516d71d6f74e551280c250d03460643738aac9365cb28c1dbffa5301ea544"
+    },
+    {
+      "file": "latex/tables/table_numeric_ablation.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "d74d0a1a216a80e9b6cbdb53360807810b59afdc2ede746422d2528c707a72d4"
+    },
+    {
+      "file": "latex/tables/table_external_coverage.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "d1fd0f7fd24aad74e33dd20d681b9926df5afeed6c73d32476394545b4cc0ce9"
+    },
+    {
+      "file": "latex/tables/table_single_pipeline_rag_baseline.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "fb39c15f7b367e672595c5d29d387d3637a0d7fd2fd9d03ebab0efed3a4ad2ae"
+    },
+    {
+      "file": "latex/tables/table_intent_boundary_diagnostic.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "18e5da6a895679dd73085b45ed57ef157beabf78d14c3a5b8277864df77b6f9f"
+    },
+    {
+      "file": "latex/tables/table_evidence_change_response.tex",
+      "transformation": "byte-identical current table",
+      "source_sha256": "7e7486742d0456d1df792ad777c84872511482762984262b396726f5af2b7dd6"
+    }
+  ],
+  "inline_table": {
+    "file": "latex/tables/table_development_diagnostics.tex",
+    "source_sha256": "448050aacf5c3339d03e6c6f9f4531d27a595cfef59eea68244bd4c05f67e6e8",
+    "transformation": "Exact active table environment extracted from Results; not the unused standalone table."
+  },
+  "plot_functions": [
+    {
+      "source_file": "build_revision_experiment_tables.py",
+      "source_sha256": "b1f8979ebfa31b561f12a08ccb789a9fdb547caf5bf77fe91efb55e9de24b641",
+      "functions": [
+        "build_memory_design_figure",
+        "build_threshold_sweep_figure"
+      ],
+      "constants": [],
+      "transformation": "Exact AST source segments; no body edits; paths supplied by wrapper."
+    },
+    {
+      "source_file": "build_candidate_figures.py",
+      "source_sha256": "06853434bbaaa4ff154462250024df146ef776cf660af0366387562a97f27983",
+      "functions": [
+        "prompt_family",
+        "read_jsonl",
+        "save",
+        "setup_style",
+        "task3_heatmap"
+      ],
+      "constants": [
+        "COLORS"
+      ],
+      "transformation": "Exact AST source segments; no body edits; paths supplied by wrapper."
+    }
+  ]
+}

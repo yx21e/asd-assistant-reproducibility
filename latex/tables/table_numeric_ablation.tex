@@ -1,0 +1,27 @@
+\begin{table}
+\centering
+\scriptsize
+\caption{Additional historical development diagnostics. Configurations can differ in generation and scoring; rows do not isolate causal component effects.}
+\label{tab:numeric-ablation}
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.04}
+\fittable[\linewidth]{%
+\begin{tabular}{l l l c c c}
+\toprule
+\textbf{Task} & \textbf{Component setting} & \textbf{Focus} & \textbf{$n$} & \textbf{Faith.} & \textbf{AR} \\
+\midrule
+Task~2 & Shared source, soft route & evidence & 20 & 0.7748 & 0.8326 \\
+Task~2 & Sparse evidence subset & evidence & 20 & 0.7670 & 0.8331 \\
+Task~2 & Gene-aware evidence & evidence & 20 & 0.7658 & 0.8229 \\
+Task~2 & Shorter answer text & answer & 20 & 0.7742 & 0.8319 \\
+Task~2 & Evidence-strength filter & evidence & 20 & 0.7745 & 0.8321 \\
+Task~2 & Evidence-first answer & answer & 20 & 0.8633 & 0.8336 \\
+Task~2 & Example-guided prompt & prompt & 20 & 0.8399 & 0.7784 \\
+Task~3 & Topic-ranked evidence & evidence & 28 & 0.8228 & 0.8152 \\
+Task~3 & Concise evidence summary B & answer & 28 & 0.8737 & 0.8158 \\
+Task~3 & Concise evidence summary C & answer & 28 & 0.8687 & 0.8139 \\
+Task~3 & Plain evidence summary & answer & 28 & 0.8578 & 0.8118 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

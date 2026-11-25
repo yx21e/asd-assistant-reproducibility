@@ -1,0 +1,19 @@
+\begin{table}
+\centering
+\scriptsize
+\caption{Task~3 larger-sample results by prompt family.}
+\label{tab:task3-prompt-topic-matrix}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.05}
+\fittable[\linewidth]{%
+\begin{tabular}{l c c c c c}
+\toprule
+\textbf{Prompt} & \textbf{$n$} & \textbf{Faith.} & \textbf{AR} & \textbf{CSR} & \textbf{CVR} \\
+\midrule
+What & 50 & \meanstd{0.9430}{0.0097} & \meanstd{0.9829}{0.0045} & 1.0000 & 0.9900 \\
+How & 38 & \meanstd{0.9425}{0.0081} & \meanstd{0.9829}{0.0034} & 1.0000 & 0.9934 \\
+Summarize & 10 & \meanstd{0.9380}{0.0117} & \meanstd{0.9400}{0.0115} & 1.0000 & 0.9667 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
