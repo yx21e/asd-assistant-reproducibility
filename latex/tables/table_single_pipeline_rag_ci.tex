@@ -1,0 +1,22 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\caption{Paired differences: task-conditioned retrieval minus shared-pool plain Top-5. Query bootstrap intervals use 100 Task~2 or 98 Task~3 pairs. Task~3 topic-cluster intervals resample seven topic groups. A positive difference favors task-conditioned retrieval under the indicated metric.}
+\label{tab:single-pipeline-rag-ci}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}l l r c c@{}}
+\toprule
+\textbf{Task} & \textbf{Metric} & \textbf{Difference} & \textbf{Query 95\% CI} & \textbf{Topic 95\% CI} \\
+\midrule
+Task~2 & Faithfulness & +0.0130 & [0.0035, 0.0231] & --- \\
+Task~2 & AR & 0.0000 & [0.0000, 0.0000] & --- \\
+Task~2 & $\mathrm{AR}_{\mathrm{content}}$ & -0.0105 & [-0.0139, -0.0073] & --- \\
+\addlinespace
+Task~3 & Faithfulness & +0.0028 & [-0.0017, 0.0104] & [-0.0009, 0.0090] \\
+Task~3 & AR & +0.0011 & [0.0000, 0.0033] & [0.0000, 0.0033] \\
+Task~3 & $\mathrm{AR}_{\mathrm{content}}$ & -0.0125 & [-0.0163, -0.0087] & [-0.0181, -0.0079] \\
+Task~3 & Equal-unit F & -0.0114 & [-0.0162, -0.0043] & [-0.0159, -0.0052] \\
+\bottomrule
+\end{tabular}
+\end{table}

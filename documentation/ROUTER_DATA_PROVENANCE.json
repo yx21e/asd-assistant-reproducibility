@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "prepared_train_rows": 2750,
+    "prepared_eval_rows": 420,
+    "train_class_rows": {
+      "task1": 800,
+      "task3": 800,
+      "task2": 800,
+      "reject": 350
+    },
+    "train_unique_by_class": {
+      "task1": 503,
+      "task2": 439,
+      "task3": 4,
+      "reject": 3
+    },
+    "eval_rows_with_exact_normalized_train_match": 337,
+    "caveat": "Associated prepared files, not verified historical optimizer membership; normalized exact matches only."
+  },
+  "normalization": "lowercase; replace non-ASCII-alphanumeric characters with spaces; collapse whitespace",
+  "source_hashes": {
+    "router_train.jsonl": "577a827c215482b79c7bcd8492a6881a9a622d119f01d908d6803c960e592adc",
+    "router_eval.jsonl": "c95552279fc821de4112d963adaded2109983247416663e0150aa64a2619b997"
+  },
+  "scope": "Associated prepared snapshots, not verified historical optimizer membership; not an independent routing test.",
+  "historical_scores_replaced": false,
+  "new_model_promoted": false
+}

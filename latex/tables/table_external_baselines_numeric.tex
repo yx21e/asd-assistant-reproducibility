@@ -1,0 +1,26 @@
+\begin{table}
+\centering
+\scriptsize
+\caption{Same-query direct-answer diagnostics: 60 Task~2 and 70 Task~3 queries per system. Faithfulness (F) uses archived local reference contexts, which external systems did not receive. AR and $\mathrm{AR}_{\mathrm{content}}$ follow Table~\ref{tab:single-pipeline-rag-combined}; CSR/CVR were not evaluated here.}
+\label{tab:external-baselines-numeric}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.08}
+\fittable[\linewidth]{%
+\begin{tabular}{@{}l l c c c@{}}
+\toprule
+\textbf{Task} & \textbf{System} & \textbf{F} & \textbf{AR} & $\mathbf{AR}_{\mathrm{content}}$ \\
+\midrule
+Task~2 & \systemname{} & 0.8655 & 0.9625 & 0.8747 \\
+ & OpenAI & 0.5508 & 0.8612 & 0.8612 \\
+ & Claude & 0.6027 & 0.8582 & 0.8582 \\
+ & Gemini & 0.6104 & 0.8550 & 0.8550 \\
+ & DeepSeek & 0.6004 & 0.8771 & 0.8771 \\
+\midrule
+Task~3 & \systemname{} & 0.9422 & 0.9811 & 0.8129 \\
+ & OpenAI & 0.5529 & 0.7958 & 0.7958 \\
+ & Claude & 0.5358 & 0.7948 & 0.7948 \\
+ & Gemini & 0.5461 & 0.7925 & 0.7925 \\
+ & DeepSeek & 0.5486 & 0.7909 & 0.7909 \\
+\bottomrule
+\end{tabular}}
+\end{table}

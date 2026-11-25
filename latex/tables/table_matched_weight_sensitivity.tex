@@ -1,0 +1,21 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\caption{Fixed-output Faithfulness sensitivity to the lexical weight $w$ in $wG+(1-w)S$. The same retained response units are used in every column; $w=0.55$ is the reported configuration, not an expert-validated optimum.}
+\label{tab:matched-weight-sensitivity}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}l l c c c c c c@{}}
+\toprule
+\textbf{Task} & \textbf{Configuration} & $w=0$ & $0.25$ & $0.50$ & $0.55$ & $0.75$ & $1.00$ \\
+\midrule
+Task~2 & Task-conditioned & 0.9159 & 0.8926 & 0.8692 & 0.8646 & 0.8459 & 0.8226 \\
+ & Shared, retained & 0.9159 & 0.8910 & 0.8660 & 0.8610 & 0.8411 & 0.8161 \\
+ & Shared, Top-5 & 0.8970 & 0.8764 & 0.8557 & 0.8516 & 0.8351 & 0.8144 \\
+\addlinespace
+Task~3 & Task-conditioned & 0.9037 & 0.9212 & 0.9388 & 0.9423 & 0.9563 & 0.9739 \\
+ & Shared, retained & 0.9057 & 0.9217 & 0.9378 & 0.9410 & 0.9538 & 0.9699 \\
+ & Shared, Top-5 & 0.8977 & 0.9167 & 0.9357 & 0.9395 & 0.9547 & 0.9737 \\
+\bottomrule
+\end{tabular}
+\end{table}

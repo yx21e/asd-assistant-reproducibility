@@ -1,0 +1,13 @@
+﻿system,task,expected_queries,available_answers,missing_answers,archived_answers,supplemental_answers,complete
+openai,task1,60,60,0,26,34,True
+openai,task2,60,60,0,0,60,True
+openai,task3,70,70,0,0,70,True
+anthropic,task1,60,60,0,52,8,True
+anthropic,task2,60,60,0,60,0,True
+anthropic,task3,70,70,0,70,0,True
+google,task1,60,60,0,0,60,True
+google,task2,60,60,0,0,60,True
+google,task3,70,70,0,0,70,True
+deepseek,task1,60,60,0,60,0,True
+deepseek,task2,60,60,0,60,0,True
+deepseek,task3,70,70,0,70,0,True

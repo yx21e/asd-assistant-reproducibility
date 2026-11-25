@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\small
+\caption{New-question evidence-boundary diagnostic. Each row contains 16 attempted questions. $n$ is the valid-score denominator over all attempts; Source is the number with the designated-source marker in the actual generator input. Faithfulness and $\mathrm{AR}_{\mathrm{content}}$ use the retained task-specific definitions; the latter excludes the question restatement. All attempts, including routes that disagree with the intended task, are retained.}
+\label{tab:new-question-diagnostic}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.1}
+\fittable[\linewidth]{%
+\begin{tabular}{lllrrrr}
+\toprule
+Task & Source condition & Retrieval policy & $n$ & Source & Faithfulness & $\mathrm{AR}_{\mathrm{content}}$ \\
+\midrule
+2 & Available & Task-conditioned & 16/16 & 5/16 & 0.6833 & 0.6996 \\
+2 & Available & Shared Top-5 & 16/16 & 16/16 & 0.6338 & 0.7062 \\
+2 & Withheld & Task-conditioned & 16/16 & 0/16 & 0.7067 & 0.7010 \\
+2 & Withheld & Shared Top-5 & 16/16 & 0/16 & 0.6403 & 0.7047 \\
+\midrule
+3 & Available & Task-conditioned & 16/16 & 6/16 & 0.9117 & 0.7604 \\
+3 & Available & Shared Top-5 & 16/16 & 15/16 & 0.9593 & 0.8216 \\
+3 & Withheld & Task-conditioned & 16/16 & 0/16 & 0.9015 & 0.7367 \\
+3 & Withheld & Shared Top-5 & 16/16 & 0/16 & 0.9331 & 0.7728 \\
+\bottomrule
+\end{tabular}}
+\end{table}

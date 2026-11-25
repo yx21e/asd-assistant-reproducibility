@@ -1,0 +1,390 @@
+{
+  "source": "pre-output new-question study freeze",
+  "hash_scope": "Retained freeze hashes, not a new full rehash of all large weights.",
+  "assets": [
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a/1_Pooling/config.json",
+      "frozen_sha256": "c9bef85e8bbf4b2eab4941b3fb62bd33f88686748b478f2e264d256472d9643b",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 190,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a/config.json",
+      "frozen_sha256": "bc00af31a4a31b74040d73370aa83b62da34c90b75eb77bfa7db039d90abd591",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 777,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a/config_sentence_transformers.json",
+      "frozen_sha256": "940d5f50db195fa6e5e6a4f122c095f77880de259d74b14a65779ed48bdd7c56",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 124,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a/model.safetensors",
+      "frozen_sha256": "c7c1988aae201f80cf91a5dbbd5866409503b89dcaba877ca6dba7dd0a5167d7",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 437955512,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a/modules.json",
+      "frozen_sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 349,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a/README.md",
+      "frozen_sha256": "fd29e6117a8c2bc83f8eafb73f261d35341702dcd95c9cc0b34f5be75afa8231",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 94551,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a/sentence_bert_config.json",
+      "frozen_sha256": "84e39fda68ccbff05bfa723ae9c0e70e23e2ec373b76e0f8c6e71af72a693cbf",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 52,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a/special_tokens_map.json",
+      "frozen_sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 125,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a/tokenizer.json",
+      "frozen_sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 711396,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a/tokenizer_config.json",
+      "frozen_sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 366,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a/vocab.txt",
+      "frozen_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 231508,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--Qwen--Qwen2.5-3B-Instruct/refs/main",
+      "frozen_sha256": "308b1843bbd6d61960eca79cc15b920bda497e64e57cb147ef3acb13c6b91a4f",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 40,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json",
+      "frozen_sha256": "eed00b17e22553979d090fa492e587e92885e328914c8e0b0b78f0a0d3576b3b",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 661,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1/generation_config.json",
+      "frozen_sha256": "ea35dfb6fc5051b01114f9b995820d55dab01ed33ee490f6378b442af82c09f9",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 242,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1/model-00001-of-00002.safetensors",
+      "frozen_sha256": "67347b23fb4165b652eb6611f5e1f2a06dfcddba8e909df1b2b0b1857bee06c2",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 3968658944,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1/model-00002-of-00002.safetensors",
+      "frozen_sha256": "a40d941d0e7e0b966ad8b62bb6d6b7c88cce1299197b599d9d0a4ce59aabfc1d",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 2203268048,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "pretrained_model",
+      "logical_file": "models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1/model.safetensors.index.json",
+      "frozen_sha256": "bc8aaa0c87d4335177e01c765f1de0db81661c67c1a72fbfb0d521b09f5ddc56",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 35581,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task1_expert_supported_v1/adapter_config.json",
+      "frozen_sha256": "592022970e588326028e85112a4bdbf7120b8d533bd9502dff205610292d3dba",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 1117,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task1_expert_supported_v1/adapter_model.safetensors",
+      "frozen_sha256": "b3c3341b3e31436492a45f904d0c4b04a188d7583e02577d0786fa5eb854a1e5",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 73911112,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task1_expert_supported_v1/chat_template.jinja",
+      "frozen_sha256": "56a1447ad31926fdc21fb07e56e5642bd9c850c4f52d8c8af7bbe5f079a84f5f",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 2246,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task1_expert_supported_v1/README.md",
+      "frozen_sha256": "113d0e52e31d610db86a83310ab8e391dd64d88ec1d684fcbf4d1fc516afae08",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 5236,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task1_expert_supported_v1/tokenizer.json",
+      "frozen_sha256": "cd950a8884f698f7be76c22f1fec80d832f746a24eb4e09d5468df0c206444ee",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 11422010,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task1_expert_supported_v1/tokenizer_config.json",
+      "frozen_sha256": "e4d4e34c64c51b2d8c2b63ee35c5374c86b159655c8cf563c813c12f4a552ba8",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 380,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task1_expert_supported_v1/train_summary.json",
+      "frozen_sha256": "01cb5bb476bf013e2fc3a2b444d1dfc9c6af9b39002f9ddf384e801d284fa8f5",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 743,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task1_expert_supported_v1/training_args.bin",
+      "frozen_sha256": "cac59e05d4ec96288143bc1d455a3d0ee16b469459b32efc5e3e2111e0b4e7b1",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 5201,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task2_expert_qwen25_3b_pubtator_v1/adapter_config.json",
+      "frozen_sha256": "f9ee4ecf55b221b4fad4f5d2d0a81b70b7d0aabc69ebf58ff7f4482e2b430c77",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 1100,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task2_expert_qwen25_3b_pubtator_v1/adapter_model.safetensors",
+      "frozen_sha256": "377eda5c0e81e1eba9171e1a3ed579dc69bf95b1c3c3dba7f66fdd5ac51580d7",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 119801528,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task2_expert_qwen25_3b_pubtator_v1/chat_template.jinja",
+      "frozen_sha256": "8aa40ce145adb73cb3a75194dc0224702a95850ec5275cabb728496bbd749fc6",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 2561,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task2_expert_qwen25_3b_pubtator_v1/README.md",
+      "frozen_sha256": "81a7a7d98ac5e4686245157238d18ff123455e6ff473f8a1e878f7e76aba6047",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 5202,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task2_expert_qwen25_3b_pubtator_v1/tokenizer.json",
+      "frozen_sha256": "9e2b7649a086fbb9771cd78ec5b7ffa7069e16a82424a382950fedfa1e057861",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 11421991,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task2_expert_qwen25_3b_pubtator_v1/tokenizer_config.json",
+      "frozen_sha256": "f9b405ae89598577609208377d0c109f2f03362e60cc011254dca8aa84310850",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 694,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task2_expert_qwen25_3b_pubtator_v1/train_summary.json",
+      "frozen_sha256": "4e0c7946ae89e6c511e0a751cb7ad2b90489083f304fc0397d75412c3fb1ec47",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 865,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task2_expert_qwen25_3b_pubtator_v1/training_args.bin",
+      "frozen_sha256": "bbf9bb11b29c0a12a5ac0ee8185797f00206c4473b7df18ee54b13b3c83aa5cd",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 5265,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task3_expert_qwen25_3b_task2lit_v1/adapter_config.json",
+      "frozen_sha256": "ee1195e0d846e3078747de9e7b82a98ce3ef62a9860fad6d5649ddf3d786de7a",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 1100,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task3_expert_qwen25_3b_task2lit_v1/adapter_model.safetensors",
+      "frozen_sha256": "2a0d26de9d7f8ff05685d15c5c6fa3964cf0e11ef6330182d2dcfebb1c654f6d",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 119801528,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task3_expert_qwen25_3b_task2lit_v1/chat_template.jinja",
+      "frozen_sha256": "8aa40ce145adb73cb3a75194dc0224702a95850ec5275cabb728496bbd749fc6",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 2561,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task3_expert_qwen25_3b_task2lit_v1/README.md",
+      "frozen_sha256": "81a7a7d98ac5e4686245157238d18ff123455e6ff473f8a1e878f7e76aba6047",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 5202,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task3_expert_qwen25_3b_task2lit_v1/tokenizer.json",
+      "frozen_sha256": "50b7c936ead20c86d41849231695468c9b9b8d4468cef82a1c7188e1b1582dfa",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 11421991,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task3_expert_qwen25_3b_task2lit_v1/tokenizer_config.json",
+      "frozen_sha256": "f9b405ae89598577609208377d0c109f2f03362e60cc011254dca8aa84310850",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 694,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task3_expert_qwen25_3b_task2lit_v1/train_summary.json",
+      "frozen_sha256": "601be083cdbe5fe8a033b02f6a0c8d133b0d7f5f800295ef5bb0712d7900e747",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 873,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "adapter",
+      "logical_file": "task3_expert_qwen25_3b_task2lit_v1/training_args.bin",
+      "frozen_sha256": "58797a60dce312a0a416e718259ece2cd5cf2b0e128315a0858851c2b16c9933",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 5265,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "index",
+      "logical_file": "index/index_config.json",
+      "frozen_sha256": "c8475ca64e4a89e7a477045b628d9e087f82dd88e08fbd32eb84461a53d18c9f",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 351,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "index",
+      "logical_file": "index/task1.faiss",
+      "frozen_sha256": "85f9f154a3aa18261d434a2079f19d1846663f020f0ea000ca949ad0a97fbd8a",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 549933,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "index",
+      "logical_file": "index/task1_meta.jsonl",
+      "frozen_sha256": "d563238b3515a60922d10135ba108454563e624674b3b6d23ec9eb3639eb4d66",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 188642,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "index",
+      "logical_file": "index/task2.faiss",
+      "frozen_sha256": "0ad36268edf4152109a753d6d54480238eb022159ba7171bdd66eee3dfc7e41f",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 1262637,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "index",
+      "logical_file": "index/task2_meta.jsonl",
+      "frozen_sha256": "35f7fe4c17e21bf3dcccfe1505a1a59db4518fed867beb0313387f8d74cf1e1b",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 1121206,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "index",
+      "logical_file": "index/task3.faiss",
+      "frozen_sha256": "211f0f16b89a4c2c3de44534e7128d9097a75f6f064fa80f91c9111008043670",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 1342509,
+      "included_in_code_candidate": false
+    },
+    {
+      "role": "index",
+      "logical_file": "index/task3_meta.jsonl",
+      "frozen_sha256": "91dca2ca9f71ddf07732fe249b18d7773a394b5d145ae145436a87a3f2ac25a1",
+      "present_locally_at_inventory": true,
+      "bytes_at_inventory": 1941672,
+      "included_in_code_candidate": false
+    }
+  ]
+}

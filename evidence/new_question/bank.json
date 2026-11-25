@@ -1,0 +1,354 @@
+[
+  {
+    "query_id": "FC2-01",
+    "task": "task2",
+    "source_group": "10.1002/acn3.70536",
+    "query": "What functional effects were reported for KCNA1 A401T in the autism-and-tremor case?",
+    "source_pmids": [
+      "42768297"
+    ],
+    "title": "A Novel KCNA1 Variant in a Patient With Tremor and Autism Spectrum Disorder Causes Mixed LOF/GOF Defects of Kv1.1 Channels.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-02",
+    "task": "task2",
+    "source_group": "10.1016/j.jaacop.2026.06.008",
+    "query": "How did NF1 variant categories relate to autistic traits in the 408-child cohort?",
+    "source_pmids": [
+      "42846182"
+    ],
+    "title": "Relation Between Genotype and Behavioral Phenotype in Children and Adolescents With Neurofibromatosis Type 1.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-03",
+    "task": "task2",
+    "source_group": "10.1016/j.nbd.2026.107682",
+    "query": "Which synaptic connections were weakened in the conditional Arid1b mouse study?",
+    "source_pmids": [
+      "43020440"
+    ],
+    "title": "Arid1b haploinsufficiency weakens excitatory synaptic input to inhibitory interneurons beginning during early development.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-04",
+    "task": "task2",
+    "source_group": "10.1016/j.xhgg.2026.100652",
+    "query": "How did POGZ and SCN2A deletions compare in their effects on shared gene modules?",
+    "source_pmids": [
+      "42433021"
+    ],
+    "title": "CRISPR-engineered deletion of POGZ alters transcription factor binding at promoters of genes involved in synaptic signaling.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-05",
+    "task": "task2",
+    "source_group": "10.1038/s41380-026-03844-5",
+    "query": "What evidence supports lithium chloride rescue in WDFY3 haploinsufficiency?",
+    "source_pmids": [
+      "42800802"
+    ],
+    "title": "Lithium chloride in vitro treatment shows potential to rescue the neuronal phenotype caused by WDFY3 haploinsufficiency.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-06",
+    "task": "task2",
+    "source_group": "10.1038/s41598-026-72601-z",
+    "query": "What was rescued by pharmacochaperone treatment in the SLC6A1 A357T study?",
+    "source_pmids": [
+      "43019163"
+    ],
+    "title": "Functional characterization and pharmacochaperone rescue of a novel SLC6A1 variant associated with developmental epileptic encephalopathies.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-07",
+    "task": "task2",
+    "source_group": "10.2478/bjmg-2026-0009",
+    "query": "How were PTEN and the other target genes linked to miR-128-3p in the autism blood study?",
+    "source_pmids": [
+      "42877398"
+    ],
+    "title": "Identification of Peripheral Blood mIR-128-3p Molecular Signature in Children with Autism Spectrum Disorder.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-08",
+    "task": "task2",
+    "source_group": "10.3389/fnbeh.2026.1929983",
+    "query": "What did the visual-landmark water-maze tests show in Fmr1, Syngap1 and Grin2b rats?",
+    "source_pmids": [
+      "42856969"
+    ],
+    "title": "Intact spatial learning in Fmr1-/y , Syngap1+/-, and Grin2b+/- rat models of neurodevelopmental disorders.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-09",
+    "task": "task2",
+    "source_group": "10.3390/children13101297",
+    "query": "How certain was the clinical significance of the mosaic SHANK3 variant in the multimodal-treatment case report?",
+    "source_pmids": [
+      "42940617"
+    ],
+    "title": "Psychotropic Polypharmacy in a 5-Year-Old Boy with a SHANK3 Variant and Complex Mental Health Problems.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-10",
+    "task": "task2",
+    "source_group": "10.3390/genes17101174",
+    "query": "What did the PTEN copy-number study find in 121 autistic participants and 110 controls?",
+    "source_pmids": [
+      "42938290"
+    ],
+    "title": "Association of Copy Number Variations in PTEN with Autism Spectrum Disorder.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-11",
+    "task": "task2",
+    "source_group": "10.3390/ijms27198769",
+    "query": "What kind of evidence links GAD1 to the proposed chemical-exposure pathway for autism?",
+    "source_pmids": [
+      "42884012"
+    ],
+    "title": "Construction of Adverse Outcome Pathway (AOP) for Triphenyl Phosphate (TPHP)-Induced Autism Spectrum Disorder (ASD) and Risk Identification of Neurodevelopmental Toxicity of Aryl Organophosphorus Flame Retardants (OPFRs) Based on Multidimensional Bioinformatic Data.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-12",
+    "task": "task2",
+    "source_group": "10.3760/cma.j.cn511374-20260303-00093",
+    "query": "Which DEAF1 variant had experimental evidence of altered splicing in the three-case report?",
+    "source_pmids": [
+      "42711128"
+    ],
+    "title": "[Genetic and phenotypic analysis of three children with Neurodevelopmental disorders due to variants of DEAF1 gene].",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-13",
+    "task": "task2",
+    "source_group": "10.64898/2026.02.23.706592",
+    "query": "What population was used to study p70S6K and ERK1 as biomarkers in the 16p11.2 preprint?",
+    "source_pmids": [
+      "42999294"
+    ],
+    "title": "p70 ribosomal protein S6 Kinase (p70S6K) as a potential peripheral biomarker for autistic symptoms in 16p11.2 deletion and duplication syndromes.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-14",
+    "task": "task2",
+    "source_group": "10.64898/2026.09.18.752670",
+    "query": "Does the 16-gene schizophrenia rare-variant preprint establish autism association for every identified gene?",
+    "source_pmids": [
+      "42818077"
+    ],
+    "title": "Analysis of Rare Coding Variation Identifies New Genetic Contributors to Schizophrenia.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-15",
+    "task": "task2",
+    "source_group": "10.64898/2026.09.22.753612",
+    "query": "What happened to the sociability benefit after doxycycline withdrawal in the Scn2a mouse preprint?",
+    "source_pmids": [
+      "42818052"
+    ],
+    "title": "Gene therapy with doxycycline-controlled expression of human Kv1.1 reduces neuronal excitability and increases sociability of Scn2a-deficient mice.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC2-16",
+    "task": "task2",
+    "source_group": "10.7150/ijbs.134210",
+    "query": "How did excitability change over development in the KAT6A patient-derived neuron study?",
+    "source_pmids": [
+      "42909968"
+    ],
+    "title": "KAT6A-Mutant iPSC-Derived Cortical Neurons Display Precocious Maturation, Dysregulated Electrophysiology, and Altered Morphology.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-01",
+    "task": "task3",
+    "source_group": "10.1177/03010066261456095",
+    "query": "Did autistic traits change the effect of face masks on trustworthiness ratings?",
+    "source_pmids": [
+      "42262178"
+    ],
+    "title": "The effect of face masks on the perception of trustworthiness and competence in individuals with autistic traits.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-02",
+    "task": "task3",
+    "source_group": "10.1080/15376516.2026.2723920",
+    "query": "What evidence connects PFOA and PFOS to cellular senescence in the autism-related study?",
+    "source_pmids": [
+      "42634987"
+    ],
+    "title": "Unveiling the neurodevelopmental toxicity of PFOA and PFOS: evidence from integration of in silico and in vitro study.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-03",
+    "task": "task3",
+    "source_group": "10.1016/j.bbih.2026.101362",
+    "query": "Can the encephalitis case report establish that the illness caused the girl's later autism diagnosis?",
+    "source_pmids": [
+      "42825045"
+    ],
+    "title": "Neurocognitive sequelae following seronegative anti-NMDA receptor encephalitis with ovarian teratoma in a pediatric patient: A six-year follow-up case report.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-04",
+    "task": "task3",
+    "source_group": "10.1016/j.ijmedinf.2026.106742",
+    "query": "Did the pooled EHR export audit establish a patient-level autism prediction model?",
+    "source_pmids": [
+      "42832904"
+    ],
+    "title": "Auditing diagnosis-conditioned electronic health record exports for secondary use: A selection-aware study in child and adolescent psychiatry.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-05",
+    "task": "task3",
+    "source_group": "10.1177/10870547261492120",
+    "query": "How was guanfacine response evaluated in the subgroup with autism and ADHD?",
+    "source_pmids": [
+      "42892735"
+    ],
+    "title": "Extended-Release Guanfacine Hydrochloride is Safe and Effective as Mono- and Adjunctive Therapy in Children and Adolescents with ADHD: A Naturalistic, Multi-Center, Patient-Reported Outcome Measures-Based Study.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-06",
+    "task": "task3",
+    "source_group": "10.1007/s00431-026-07545-7",
+    "query": "How did autism diagnoses differ between NF1 patients with and without epilepsy in the 253-patient cohort?",
+    "source_pmids": [
+      "42907670"
+    ],
+    "title": "Epilepsy in paediatric neurofibromatosis type 1: clinical features and associated factors in a single-centere cohort.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-07",
+    "task": "task3",
+    "source_group": "10.1002/jcv2.70175",
+    "query": "What did the school-transition review conclude about mental health in neurodivergent children?",
+    "source_pmids": [
+      "42909181"
+    ],
+    "title": "Learning from neurodivergent students about their mental health and wellbeing during transition to secondary school: A systematic review.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-08",
+    "task": "task3",
+    "source_group": "10.1002/14651858.cd016400",
+    "query": "What treatment-effect results are available in the smoking-cessation review protocol for people with autism or ADHD?",
+    "source_pmids": [
+      "42910616"
+    ],
+    "title": "Smoking cessation interventions in adults with attention deficit hyperactivity disorder (ADHD) or autism spectrum disorder (ASD).",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-09",
+    "task": "task3",
+    "source_group": "10.1002/aur.70384",
+    "query": "What factors were associated with demand avoidance in the 63-child clinic sample?",
+    "source_pmids": [
+      "42919820"
+    ],
+    "title": "Psychological and Neurodevelopmental Correlates of Extreme Demand Avoidance in a Clinical Sample, an Exploratory Study.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-10",
+    "task": "task3",
+    "source_group": "10.1136/bmjpo-2026-004492",
+    "query": "What did the Ontario virtual-care survey find about autism-service compatibility?",
+    "source_pmids": [
+      "42933896"
+    ],
+    "title": "Evaluation of virtual care services offered to children across Ontario, Canada, during the COVID-19 pandemic.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-11",
+    "task": "task3",
+    "source_group": "10.3390/healthcare14203525",
+    "query": "How did caregiver quality of life compare with the autism-only group in the Saudi disability survey?",
+    "source_pmids": [
+      "42940570"
+    ],
+    "title": "Quality of Life in a Saudi Arabian Sample of Parents and Caregivers of Children with Disabilities: A Cross-Sectional Analysis.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-12",
+    "task": "task3",
+    "source_group": "10.3233/shti261050",
+    "query": "What evidence did ARISE provide for designing autism-inclusive outdoor spaces?",
+    "source_pmids": [
+      "42960785"
+    ],
+    "title": "Making Space: A Participatory Approach to Designing Inclusive Outdoor Activity Spaces.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-13",
+    "task": "task3",
+    "source_group": "10.1007/s10561-026-10260-0",
+    "query": "What did the perinatal stem-cell review report about the phase II autism trial's primary endpoint?",
+    "source_pmids": [
+      "42961672"
+    ],
+    "title": "Clinical translation of perinatal stem cell therapies: a decade-long analysis of umbilical cord blood and umbilical cord tissue-derived mesenchymal stromal cell research, 2015-2025.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-14",
+    "task": "task3",
+    "source_group": "10.1016/j.actpsy.2026.108068",
+    "query": "How did autistic traits and alexithymia relate to empathy-driven conformity in the 73-participant study?",
+    "source_pmids": [
+      "42962399"
+    ],
+    "title": "Shared pain, shared decisions: Effects of empathic engagement on social conformity and decision processes, with physiological and visual-attentional associations.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-15",
+    "task": "task3",
+    "source_group": "10.3389/fmicb.2026.1962324",
+    "query": "What limits the evidence for Faecalibacterium prausnitzii as an autism treatment in the neurological-disorders review?",
+    "source_pmids": [
+      "42996484"
+    ],
+    "title": "Faecalibacterium prausnitzii in neurological disorders: mechanistic links and therapeutic potential along the microbiota-gut-brain axis.",
+    "human_gold": false
+  },
+  {
+    "query_id": "FC3-16",
+    "task": "task3",
+    "source_group": "10.1371/journal.pone.0345827",
+    "query": "Can DAAQ scores be used as a diagnosis on the basis of the questionnaire-development study?",
+    "source_pmids": [
+      "43013504"
+    ],
+    "title": "The Demand Avoidance and Autonomy Questionnaire (DAAQ): Development of a new measure of demand avoidance.",
+    "human_gold": false
+  }
+]

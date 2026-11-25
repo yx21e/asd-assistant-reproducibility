@@ -1,0 +1,782 @@
+{
+  "frozen_utc": "2026-11-19T23:25:13.187298+00:00",
+  "task_counts": {
+    "task2": 16,
+    "task3": 16
+  },
+  "expected_records": 128,
+  "questions_only_enter_inference": true,
+  "reference_constraints_not_model_input": true,
+  "study_role": "new_question_retained_source_boundary_diagnostic_not_expert_gold",
+  "score_task": "intended_task_including_misroutes",
+  "paired_bootstrap_resamples": 2000,
+  "paired_bootstrap_seed": 20261120,
+  "no_new_evaluator": true,
+  "files": [
+    {
+      "source_id": "INPUT-001",
+      "basename": "gene_registry.py",
+      "sha256": "d1a2dc734bcf49195cfacded90e92a43d0b40143cfd5117647bd634c69b32cbc"
+    },
+    {
+      "source_id": "INPUT-002",
+      "basename": "task3_topic_rules.py",
+      "sha256": "fa5cf21429c99ab8e457daf208a10bc39f963b9a09c7a50e2b6ef638bb27b112"
+    },
+    {
+      "source_id": "INPUT-003",
+      "basename": "config.json",
+      "sha256": "c9bef85e8bbf4b2eab4941b3fb62bd33f88686748b478f2e264d256472d9643b"
+    },
+    {
+      "source_id": "INPUT-004",
+      "basename": "config.json",
+      "sha256": "bc00af31a4a31b74040d73370aa83b62da34c90b75eb77bfa7db039d90abd591"
+    },
+    {
+      "source_id": "INPUT-005",
+      "basename": "config_sentence_transformers.json",
+      "sha256": "940d5f50db195fa6e5e6a4f122c095f77880de259d74b14a65779ed48bdd7c56"
+    },
+    {
+      "source_id": "INPUT-006",
+      "basename": "model.safetensors",
+      "sha256": "c7c1988aae201f80cf91a5dbbd5866409503b89dcaba877ca6dba7dd0a5167d7"
+    },
+    {
+      "source_id": "INPUT-007",
+      "basename": "modules.json",
+      "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+    },
+    {
+      "source_id": "INPUT-008",
+      "basename": "README.md",
+      "sha256": "fd29e6117a8c2bc83f8eafb73f261d35341702dcd95c9cc0b34f5be75afa8231"
+    },
+    {
+      "source_id": "INPUT-009",
+      "basename": "sentence_bert_config.json",
+      "sha256": "84e39fda68ccbff05bfa723ae9c0e70e23e2ec373b76e0f8c6e71af72a693cbf"
+    },
+    {
+      "source_id": "INPUT-010",
+      "basename": "special_tokens_map.json",
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+    },
+    {
+      "source_id": "INPUT-011",
+      "basename": "tokenizer.json",
+      "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+    },
+    {
+      "source_id": "INPUT-012",
+      "basename": "tokenizer_config.json",
+      "sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3"
+    },
+    {
+      "source_id": "INPUT-013",
+      "basename": "vocab.txt",
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    {
+      "source_id": "INPUT-014",
+      "basename": "main",
+      "sha256": "308b1843bbd6d61960eca79cc15b920bda497e64e57cb147ef3acb13c6b91a4f"
+    },
+    {
+      "source_id": "INPUT-015",
+      "basename": "config.json",
+      "sha256": "eed00b17e22553979d090fa492e587e92885e328914c8e0b0b78f0a0d3576b3b"
+    },
+    {
+      "source_id": "INPUT-016",
+      "basename": "generation_config.json",
+      "sha256": "ea35dfb6fc5051b01114f9b995820d55dab01ed33ee490f6378b442af82c09f9"
+    },
+    {
+      "source_id": "INPUT-017",
+      "basename": "model-00001-of-00002.safetensors",
+      "sha256": "67347b23fb4165b652eb6611f5e1f2a06dfcddba8e909df1b2b0b1857bee06c2"
+    },
+    {
+      "source_id": "INPUT-018",
+      "basename": "model-00002-of-00002.safetensors",
+      "sha256": "a40d941d0e7e0b966ad8b62bb6d6b7c88cce1299197b599d9d0a4ce59aabfc1d"
+    },
+    {
+      "source_id": "INPUT-019",
+      "basename": "model.safetensors.index.json",
+      "sha256": "bc8aaa0c87d4335177e01c765f1de0db81661c67c1a72fbfb0d521b09f5ddc56"
+    },
+    {
+      "source_id": "INPUT-020",
+      "basename": "adapter_config.json",
+      "sha256": "592022970e588326028e85112a4bdbf7120b8d533bd9502dff205610292d3dba"
+    },
+    {
+      "source_id": "INPUT-021",
+      "basename": "adapter_model.safetensors",
+      "sha256": "b3c3341b3e31436492a45f904d0c4b04a188d7583e02577d0786fa5eb854a1e5"
+    },
+    {
+      "source_id": "INPUT-022",
+      "basename": "chat_template.jinja",
+      "sha256": "56a1447ad31926fdc21fb07e56e5642bd9c850c4f52d8c8af7bbe5f079a84f5f"
+    },
+    {
+      "source_id": "INPUT-023",
+      "basename": "adapter_config.json",
+      "sha256": "592022970e588326028e85112a4bdbf7120b8d533bd9502dff205610292d3dba"
+    },
+    {
+      "source_id": "INPUT-024",
+      "basename": "adapter_model.safetensors",
+      "sha256": "b3c3341b3e31436492a45f904d0c4b04a188d7583e02577d0786fa5eb854a1e5"
+    },
+    {
+      "source_id": "INPUT-025",
+      "basename": "chat_template.jinja",
+      "sha256": "56a1447ad31926fdc21fb07e56e5642bd9c850c4f52d8c8af7bbe5f079a84f5f"
+    },
+    {
+      "source_id": "INPUT-026",
+      "basename": "optimizer.pt",
+      "sha256": "c4a921c5faa48e3d428a50d2cd3de1dbbfd7a2700317e4c635b78982a56a713d"
+    },
+    {
+      "source_id": "INPUT-027",
+      "basename": "README.md",
+      "sha256": "113d0e52e31d610db86a83310ab8e391dd64d88ec1d684fcbf4d1fc516afae08"
+    },
+    {
+      "source_id": "INPUT-028",
+      "basename": "rng_state.pth",
+      "sha256": "e541447081564de152b0c66f9559c73625693aa17b036a8d686a9ba96cdd4a41"
+    },
+    {
+      "source_id": "INPUT-029",
+      "basename": "scheduler.pt",
+      "sha256": "25fd1a265bd390c203bd520f408e74e617dd364e345635e89d2b5b28ca18d64b"
+    },
+    {
+      "source_id": "INPUT-030",
+      "basename": "tokenizer.json",
+      "sha256": "cd950a8884f698f7be76c22f1fec80d832f746a24eb4e09d5468df0c206444ee"
+    },
+    {
+      "source_id": "INPUT-031",
+      "basename": "tokenizer_config.json",
+      "sha256": "e4d4e34c64c51b2d8c2b63ee35c5374c86b159655c8cf563c813c12f4a552ba8"
+    },
+    {
+      "source_id": "INPUT-032",
+      "basename": "trainer_state.json",
+      "sha256": "08ab2aab84021f080e0fd6a19b37eb3edfea7f8111d6bce2ced107879379e8ae"
+    },
+    {
+      "source_id": "INPUT-033",
+      "basename": "training_args.bin",
+      "sha256": "cac59e05d4ec96288143bc1d455a3d0ee16b469459b32efc5e3e2111e0b4e7b1"
+    },
+    {
+      "source_id": "INPUT-034",
+      "basename": "README.md",
+      "sha256": "113d0e52e31d610db86a83310ab8e391dd64d88ec1d684fcbf4d1fc516afae08"
+    },
+    {
+      "source_id": "INPUT-035",
+      "basename": "tokenizer.json",
+      "sha256": "cd950a8884f698f7be76c22f1fec80d832f746a24eb4e09d5468df0c206444ee"
+    },
+    {
+      "source_id": "INPUT-036",
+      "basename": "tokenizer_config.json",
+      "sha256": "e4d4e34c64c51b2d8c2b63ee35c5374c86b159655c8cf563c813c12f4a552ba8"
+    },
+    {
+      "source_id": "INPUT-037",
+      "basename": "train_summary.json",
+      "sha256": "01cb5bb476bf013e2fc3a2b444d1dfc9c6af9b39002f9ddf384e801d284fa8f5"
+    },
+    {
+      "source_id": "INPUT-038",
+      "basename": "training_args.bin",
+      "sha256": "cac59e05d4ec96288143bc1d455a3d0ee16b469459b32efc5e3e2111e0b4e7b1"
+    },
+    {
+      "source_id": "INPUT-039",
+      "basename": "adapter_config.json",
+      "sha256": "f9ee4ecf55b221b4fad4f5d2d0a81b70b7d0aabc69ebf58ff7f4482e2b430c77"
+    },
+    {
+      "source_id": "INPUT-040",
+      "basename": "adapter_model.safetensors",
+      "sha256": "377eda5c0e81e1eba9171e1a3ed579dc69bf95b1c3c3dba7f66fdd5ac51580d7"
+    },
+    {
+      "source_id": "INPUT-041",
+      "basename": "chat_template.jinja",
+      "sha256": "8aa40ce145adb73cb3a75194dc0224702a95850ec5275cabb728496bbd749fc6"
+    },
+    {
+      "source_id": "INPUT-042",
+      "basename": "adapter_config.json",
+      "sha256": "f9ee4ecf55b221b4fad4f5d2d0a81b70b7d0aabc69ebf58ff7f4482e2b430c77"
+    },
+    {
+      "source_id": "INPUT-043",
+      "basename": "adapter_model.safetensors",
+      "sha256": "13a0531c8660c17da8a8eefde74e7fbd943a02cefb6680c6a376ebba0a34bdda"
+    },
+    {
+      "source_id": "INPUT-044",
+      "basename": "chat_template.jinja",
+      "sha256": "8aa40ce145adb73cb3a75194dc0224702a95850ec5275cabb728496bbd749fc6"
+    },
+    {
+      "source_id": "INPUT-045",
+      "basename": "optimizer.pt",
+      "sha256": "cc262d33e6967986f91ef8b3e9ac39dfc244cc2cc389ec18eeec531b88be4a09"
+    },
+    {
+      "source_id": "INPUT-046",
+      "basename": "README.md",
+      "sha256": "81a7a7d98ac5e4686245157238d18ff123455e6ff473f8a1e878f7e76aba6047"
+    },
+    {
+      "source_id": "INPUT-047",
+      "basename": "rng_state.pth",
+      "sha256": "2c820f9baed6d749b8e3cbcda07c1538578ffb48589a4ee8146c2d399dd04e10"
+    },
+    {
+      "source_id": "INPUT-048",
+      "basename": "scheduler.pt",
+      "sha256": "d669fcaf1414bffb741d7482b3f1e063591ec731618323c569c40423853caf3a"
+    },
+    {
+      "source_id": "INPUT-049",
+      "basename": "tokenizer.json",
+      "sha256": "9e2b7649a086fbb9771cd78ec5b7ffa7069e16a82424a382950fedfa1e057861"
+    },
+    {
+      "source_id": "INPUT-050",
+      "basename": "tokenizer_config.json",
+      "sha256": "f9b405ae89598577609208377d0c109f2f03362e60cc011254dca8aa84310850"
+    },
+    {
+      "source_id": "INPUT-051",
+      "basename": "trainer_state.json",
+      "sha256": "8d89e1e43083b71f194e7339626e528f682e186d10043913cecfcf4c329f7f43"
+    },
+    {
+      "source_id": "INPUT-052",
+      "basename": "training_args.bin",
+      "sha256": "bbf9bb11b29c0a12a5ac0ee8185797f00206c4473b7df18ee54b13b3c83aa5cd"
+    },
+    {
+      "source_id": "INPUT-053",
+      "basename": "adapter_config.json",
+      "sha256": "f9ee4ecf55b221b4fad4f5d2d0a81b70b7d0aabc69ebf58ff7f4482e2b430c77"
+    },
+    {
+      "source_id": "INPUT-054",
+      "basename": "adapter_model.safetensors",
+      "sha256": "377eda5c0e81e1eba9171e1a3ed579dc69bf95b1c3c3dba7f66fdd5ac51580d7"
+    },
+    {
+      "source_id": "INPUT-055",
+      "basename": "chat_template.jinja",
+      "sha256": "8aa40ce145adb73cb3a75194dc0224702a95850ec5275cabb728496bbd749fc6"
+    },
+    {
+      "source_id": "INPUT-056",
+      "basename": "optimizer.pt",
+      "sha256": "10345713bc399383a649c5ce7149c9876b6de04a0b2991c01852211310db652f"
+    },
+    {
+      "source_id": "INPUT-057",
+      "basename": "README.md",
+      "sha256": "81a7a7d98ac5e4686245157238d18ff123455e6ff473f8a1e878f7e76aba6047"
+    },
+    {
+      "source_id": "INPUT-058",
+      "basename": "rng_state.pth",
+      "sha256": "1749528a5b3c1e2533d831cb340aa39a80c0f5c59403860cd6565f0aa0f82fb9"
+    },
+    {
+      "source_id": "INPUT-059",
+      "basename": "scheduler.pt",
+      "sha256": "06a40910ca03d6caf0a1092baedeb6a1d7f1fe47f12bb0ae21056cce7fcf2a8c"
+    },
+    {
+      "source_id": "INPUT-060",
+      "basename": "tokenizer.json",
+      "sha256": "9e2b7649a086fbb9771cd78ec5b7ffa7069e16a82424a382950fedfa1e057861"
+    },
+    {
+      "source_id": "INPUT-061",
+      "basename": "tokenizer_config.json",
+      "sha256": "f9b405ae89598577609208377d0c109f2f03362e60cc011254dca8aa84310850"
+    },
+    {
+      "source_id": "INPUT-062",
+      "basename": "trainer_state.json",
+      "sha256": "c0624de454f94b2685205c62bf969ce2224e71c839fe97cc73e7b17ee6e14c5c"
+    },
+    {
+      "source_id": "INPUT-063",
+      "basename": "training_args.bin",
+      "sha256": "bbf9bb11b29c0a12a5ac0ee8185797f00206c4473b7df18ee54b13b3c83aa5cd"
+    },
+    {
+      "source_id": "INPUT-064",
+      "basename": "README.md",
+      "sha256": "81a7a7d98ac5e4686245157238d18ff123455e6ff473f8a1e878f7e76aba6047"
+    },
+    {
+      "source_id": "INPUT-065",
+      "basename": "tokenizer.json",
+      "sha256": "9e2b7649a086fbb9771cd78ec5b7ffa7069e16a82424a382950fedfa1e057861"
+    },
+    {
+      "source_id": "INPUT-066",
+      "basename": "tokenizer_config.json",
+      "sha256": "f9b405ae89598577609208377d0c109f2f03362e60cc011254dca8aa84310850"
+    },
+    {
+      "source_id": "INPUT-067",
+      "basename": "train_summary.json",
+      "sha256": "4e0c7946ae89e6c511e0a751cb7ad2b90489083f304fc0397d75412c3fb1ec47"
+    },
+    {
+      "source_id": "INPUT-068",
+      "basename": "training_args.bin",
+      "sha256": "bbf9bb11b29c0a12a5ac0ee8185797f00206c4473b7df18ee54b13b3c83aa5cd"
+    },
+    {
+      "source_id": "INPUT-069",
+      "basename": "adapter_config.json",
+      "sha256": "ee1195e0d846e3078747de9e7b82a98ce3ef62a9860fad6d5649ddf3d786de7a"
+    },
+    {
+      "source_id": "INPUT-070",
+      "basename": "adapter_model.safetensors",
+      "sha256": "2a0d26de9d7f8ff05685d15c5c6fa3964cf0e11ef6330182d2dcfebb1c654f6d"
+    },
+    {
+      "source_id": "INPUT-071",
+      "basename": "chat_template.jinja",
+      "sha256": "8aa40ce145adb73cb3a75194dc0224702a95850ec5275cabb728496bbd749fc6"
+    },
+    {
+      "source_id": "INPUT-072",
+      "basename": "adapter_config.json",
+      "sha256": "ee1195e0d846e3078747de9e7b82a98ce3ef62a9860fad6d5649ddf3d786de7a"
+    },
+    {
+      "source_id": "INPUT-073",
+      "basename": "adapter_model.safetensors",
+      "sha256": "929016d6fd4ddccf98c94b1cf05b3c36c5d21548fbd941ae5a3ca5bf4d49875a"
+    },
+    {
+      "source_id": "INPUT-074",
+      "basename": "chat_template.jinja",
+      "sha256": "8aa40ce145adb73cb3a75194dc0224702a95850ec5275cabb728496bbd749fc6"
+    },
+    {
+      "source_id": "INPUT-075",
+      "basename": "optimizer.pt",
+      "sha256": "ff7ddded00a6bc80da2260f3ec407db427df73e22514a38c34b795321d822095"
+    },
+    {
+      "source_id": "INPUT-076",
+      "basename": "README.md",
+      "sha256": "81a7a7d98ac5e4686245157238d18ff123455e6ff473f8a1e878f7e76aba6047"
+    },
+    {
+      "source_id": "INPUT-077",
+      "basename": "rng_state.pth",
+      "sha256": "f8f7385bd4123ec85af53c6058569faa788c4cec159d80d880098a77aa78a96d"
+    },
+    {
+      "source_id": "INPUT-078",
+      "basename": "scheduler.pt",
+      "sha256": "f69d2d84addd9dfa18b08b7fccbe46deeee33b9c19c9fc7a096b0a8b6300f235"
+    },
+    {
+      "source_id": "INPUT-079",
+      "basename": "tokenizer.json",
+      "sha256": "50b7c936ead20c86d41849231695468c9b9b8d4468cef82a1c7188e1b1582dfa"
+    },
+    {
+      "source_id": "INPUT-080",
+      "basename": "tokenizer_config.json",
+      "sha256": "f9b405ae89598577609208377d0c109f2f03362e60cc011254dca8aa84310850"
+    },
+    {
+      "source_id": "INPUT-081",
+      "basename": "trainer_state.json",
+      "sha256": "03ae5d481cd3b51ecdbda5d2b97c6d354858af956a8000026a93ef6684c1c542"
+    },
+    {
+      "source_id": "INPUT-082",
+      "basename": "training_args.bin",
+      "sha256": "58797a60dce312a0a416e718259ece2cd5cf2b0e128315a0858851c2b16c9933"
+    },
+    {
+      "source_id": "INPUT-083",
+      "basename": "adapter_config.json",
+      "sha256": "ee1195e0d846e3078747de9e7b82a98ce3ef62a9860fad6d5649ddf3d786de7a"
+    },
+    {
+      "source_id": "INPUT-084",
+      "basename": "adapter_model.safetensors",
+      "sha256": "977ebe0777891e6e0d91ca7204a65d12d819fd5aa127ca7e2d4b314b58aa8454"
+    },
+    {
+      "source_id": "INPUT-085",
+      "basename": "chat_template.jinja",
+      "sha256": "8aa40ce145adb73cb3a75194dc0224702a95850ec5275cabb728496bbd749fc6"
+    },
+    {
+      "source_id": "INPUT-086",
+      "basename": "optimizer.pt",
+      "sha256": "9d67a6c530c2fff1558f79b86e093daca5cdf14a69307cbacd94e99ae86bd03c"
+    },
+    {
+      "source_id": "INPUT-087",
+      "basename": "README.md",
+      "sha256": "81a7a7d98ac5e4686245157238d18ff123455e6ff473f8a1e878f7e76aba6047"
+    },
+    {
+      "source_id": "INPUT-088",
+      "basename": "rng_state.pth",
+      "sha256": "f4ad7141bc97acc8141a9d6f55ac434b2f8427db82475e44297618326787ded2"
+    },
+    {
+      "source_id": "INPUT-089",
+      "basename": "scheduler.pt",
+      "sha256": "a28e457eef5eb26df9fd5d02f57fbaf4c1c5e3d575d105cea6c970abe4eb4096"
+    },
+    {
+      "source_id": "INPUT-090",
+      "basename": "tokenizer.json",
+      "sha256": "50b7c936ead20c86d41849231695468c9b9b8d4468cef82a1c7188e1b1582dfa"
+    },
+    {
+      "source_id": "INPUT-091",
+      "basename": "tokenizer_config.json",
+      "sha256": "f9b405ae89598577609208377d0c109f2f03362e60cc011254dca8aa84310850"
+    },
+    {
+      "source_id": "INPUT-092",
+      "basename": "trainer_state.json",
+      "sha256": "89a8541e899ab5f8c38cced3e3714b27cbad0b9322c436d57a045d59552bec25"
+    },
+    {
+      "source_id": "INPUT-093",
+      "basename": "training_args.bin",
+      "sha256": "58797a60dce312a0a416e718259ece2cd5cf2b0e128315a0858851c2b16c9933"
+    },
+    {
+      "source_id": "INPUT-094",
+      "basename": "adapter_config.json",
+      "sha256": "ee1195e0d846e3078747de9e7b82a98ce3ef62a9860fad6d5649ddf3d786de7a"
+    },
+    {
+      "source_id": "INPUT-095",
+      "basename": "adapter_model.safetensors",
+      "sha256": "2a0d26de9d7f8ff05685d15c5c6fa3964cf0e11ef6330182d2dcfebb1c654f6d"
+    },
+    {
+      "source_id": "INPUT-096",
+      "basename": "chat_template.jinja",
+      "sha256": "8aa40ce145adb73cb3a75194dc0224702a95850ec5275cabb728496bbd749fc6"
+    },
+    {
+      "source_id": "INPUT-097",
+      "basename": "optimizer.pt",
+      "sha256": "b52bc37b1111a8ba1d245d140068e986c7a3b5fed37861c10230e35a02bd58f4"
+    },
+    {
+      "source_id": "INPUT-098",
+      "basename": "README.md",
+      "sha256": "81a7a7d98ac5e4686245157238d18ff123455e6ff473f8a1e878f7e76aba6047"
+    },
+    {
+      "source_id": "INPUT-099",
+      "basename": "rng_state.pth",
+      "sha256": "876ca1e7b470068275b19b12a5176720ac4b25a80584559b85abf26ee28ef53a"
+    },
+    {
+      "source_id": "INPUT-100",
+      "basename": "scheduler.pt",
+      "sha256": "70e15be9b9fc949003150f1f5e8fb2741d9b5bb19ac0d038e18f37d695452c6c"
+    },
+    {
+      "source_id": "INPUT-101",
+      "basename": "tokenizer.json",
+      "sha256": "50b7c936ead20c86d41849231695468c9b9b8d4468cef82a1c7188e1b1582dfa"
+    },
+    {
+      "source_id": "INPUT-102",
+      "basename": "tokenizer_config.json",
+      "sha256": "f9b405ae89598577609208377d0c109f2f03362e60cc011254dca8aa84310850"
+    },
+    {
+      "source_id": "INPUT-103",
+      "basename": "trainer_state.json",
+      "sha256": "192785f164d7023fe3b621a5c23a1c4c909dcecb4b8abb009a2c28da54261be5"
+    },
+    {
+      "source_id": "INPUT-104",
+      "basename": "training_args.bin",
+      "sha256": "58797a60dce312a0a416e718259ece2cd5cf2b0e128315a0858851c2b16c9933"
+    },
+    {
+      "source_id": "INPUT-105",
+      "basename": "README.md",
+      "sha256": "81a7a7d98ac5e4686245157238d18ff123455e6ff473f8a1e878f7e76aba6047"
+    },
+    {
+      "source_id": "INPUT-106",
+      "basename": "tokenizer.json",
+      "sha256": "50b7c936ead20c86d41849231695468c9b9b8d4468cef82a1c7188e1b1582dfa"
+    },
+    {
+      "source_id": "INPUT-107",
+      "basename": "tokenizer_config.json",
+      "sha256": "f9b405ae89598577609208377d0c109f2f03362e60cc011254dca8aa84310850"
+    },
+    {
+      "source_id": "INPUT-108",
+      "basename": "train_summary.json",
+      "sha256": "601be083cdbe5fe8a033b02f6a0c8d133b0d7f5f800295ef5bb0712d7900e747"
+    },
+    {
+      "source_id": "INPUT-109",
+      "basename": "training_args.bin",
+      "sha256": "58797a60dce312a0a416e718259ece2cd5cf2b0e128315a0858851c2b16c9933"
+    },
+    {
+      "source_id": "INPUT-110",
+      "basename": "config.json",
+      "sha256": "0aade960f65a4fa0a88ab13c5e4532ceb231756ff1501948475e436020e3220f"
+    },
+    {
+      "source_id": "INPUT-111",
+      "basename": "model.safetensors",
+      "sha256": "cda37f3f8bd2d80f3306cbf7c4c077eb7515937fce7e58a2578e114ab1d24e02"
+    },
+    {
+      "source_id": "INPUT-112",
+      "basename": "tokenizer.json",
+      "sha256": "8b79639ec74b46604e730f505186eaafb1006d2fd00f2c4930d168bb7f894680"
+    },
+    {
+      "source_id": "INPUT-113",
+      "basename": "tokenizer_config.json",
+      "sha256": "c5e19a8504461b09408a8d30aa9411ea95ddd07c18dec628a79cac6b5722739d"
+    },
+    {
+      "source_id": "INPUT-114",
+      "basename": "training_args.bin",
+      "sha256": "34386fb9bc569209a47ecc31218aabc6ca4f0264a491afbae6b5cc1f65f54bde"
+    },
+    {
+      "source_id": "INPUT-115",
+      "basename": "run_extension.py",
+      "sha256": "13c327fa6131d1d4266e65e5426a9817e4a47581a8ed9cd7d963318b736ae8fa"
+    },
+    {
+      "source_id": "INPUT-116",
+      "basename": "cleanup_safe.py",
+      "sha256": "1610164e32d62c1a7ceb5f3bc3482e84e00705afc36348d88304c8e62f55a001"
+    },
+    {
+      "source_id": "INPUT-117",
+      "basename": "interface_methods.py",
+      "sha256": "618fd63f022c05aa06c74edfc01ce6b8674387df96f92c49cc57e18ba33df030"
+    },
+    {
+      "source_id": "INPUT-118",
+      "basename": "replay_adapter.py",
+      "sha256": "a328498261eb06d7e98ae1beb10b445350d6fcd83c2de89eb795bfaa56a20b8a"
+    },
+    {
+      "source_id": "INPUT-119",
+      "basename": "isolated_support.py",
+      "sha256": "c1eeb4755f432b1c9fa842ffe1b071c24a52edf640c415d98d809717e242f271"
+    },
+    {
+      "source_id": "INPUT-120",
+      "basename": "run_task2.py",
+      "sha256": "002a67ba08a0812b8f9a1f24cbe8e64fcf643480d54438fafa559ac94a0bd755"
+    },
+    {
+      "source_id": "INPUT-121",
+      "basename": "autism_gpt_mvp.py",
+      "sha256": "95547021d7989deb9f8c7ddf2476e635ee7340d65d8bba4b7445b8b58794b083"
+    },
+    {
+      "source_id": "INPUT-122",
+      "basename": "evaluate_autism_gpt.py",
+      "sha256": "a854e2a74a2516d7bbe6b599c9e36764fd05fd58af8f768ab4ceb733fb2dc800"
+    },
+    {
+      "source_id": "INPUT-123",
+      "basename": "evaluate_paper_style.py",
+      "sha256": "f3f1c0c683ba9b22489cb360c510a4d6c4a82009df3fb0dcdfcac5f7ae8c248c"
+    },
+    {
+      "source_id": "INPUT-124",
+      "basename": "assembly_repair.py",
+      "sha256": "c57823d78586b6576d8f0efe2c11e23e694bd35d171be8e70b2870c71c0cfba9"
+    },
+    {
+      "source_id": "INPUT-125",
+      "basename": "CORPUS_MANIFEST.json",
+      "sha256": "330f138fe5a89ab736c93ef2e845ca971e555c4b05c8a97da137d38e8841339b"
+    },
+    {
+      "source_id": "INPUT-126",
+      "basename": "HISTORICAL_QUERIES.json",
+      "sha256": "39f5b0c992e913140c1808baffe2ea767d1131cff0b3d7f7f839ca9b3a6d9e30"
+    },
+    {
+      "source_id": "INPUT-127",
+      "basename": "index_config.json",
+      "sha256": "c8475ca64e4a89e7a477045b628d9e087f82dd88e08fbd32eb84461a53d18c9f"
+    },
+    {
+      "source_id": "INPUT-128",
+      "basename": "task1.faiss",
+      "sha256": "85f9f154a3aa18261d434a2079f19d1846663f020f0ea000ca949ad0a97fbd8a"
+    },
+    {
+      "source_id": "INPUT-129",
+      "basename": "task1_meta.jsonl",
+      "sha256": "d563238b3515a60922d10135ba108454563e624674b3b6d23ec9eb3639eb4d66"
+    },
+    {
+      "source_id": "INPUT-130",
+      "basename": "task2.faiss",
+      "sha256": "0ad36268edf4152109a753d6d54480238eb022159ba7171bdd66eee3dfc7e41f"
+    },
+    {
+      "source_id": "INPUT-131",
+      "basename": "task2_meta.jsonl",
+      "sha256": "35f7fe4c17e21bf3dcccfe1505a1a59db4518fed867beb0313387f8d74cf1e1b"
+    },
+    {
+      "source_id": "INPUT-132",
+      "basename": "task3.faiss",
+      "sha256": "211f0f16b89a4c2c3de44534e7128d9097a75f6f064fa80f91c9111008043670"
+    },
+    {
+      "source_id": "INPUT-133",
+      "basename": "task3_meta.jsonl",
+      "sha256": "91dca2ca9f71ddf07732fe249b18d7773a394b5d145ae145436a87a3f2ac25a1"
+    },
+    {
+      "source_id": "INPUT-134",
+      "basename": "prepare_study.py",
+      "sha256": "b4e648d788fecb71c313fb193d22ad78ff43910ddb397f877c92c73923363dab"
+    },
+    {
+      "source_id": "INPUT-135",
+      "basename": "PROTOCOL.md",
+      "sha256": "a707bbf0d23c81d04cc9c4efb2589379ad900553439b7c047b53448548336abc"
+    },
+    {
+      "source_id": "INPUT-136",
+      "basename": "QUESTION_HISTORY_COVERAGE.json",
+      "sha256": "664243501158c127fe71d5125535161b32e4976e33ce44a2329794463896a916"
+    },
+    {
+      "source_id": "INPUT-137",
+      "basename": "SOURCE_RECORDS.json",
+      "sha256": "df28a7fc67efbc3effd029b1449036664d8b3e93831320aee5620c079a663d5b"
+    },
+    {
+      "source_id": "INPUT-138",
+      "basename": "SOURCE_SELECTION.json",
+      "sha256": "e4c0735071afe6f9169802f7639e49d88256ee1527ddf78dc50c2da13a4fed2f"
+    },
+    {
+      "source_id": "INPUT-139",
+      "basename": "SYSTEM_SPEC.json",
+      "sha256": "66d3743b81f71e053d0113a515a9ad410d3ee9ebd3c027c717d2771487e1bcb8"
+    },
+    {
+      "source_id": "INPUT-140",
+      "basename": "runner_contract.py",
+      "sha256": "b5b75e45b7c7c31c421b8acd76287ebb30b79cb2889ab499b28b7ea71d2aa9b5"
+    },
+    {
+      "source_id": "INPUT-141",
+      "basename": "live_bridge.py",
+      "sha256": "e983dba7cc7d6f2e4b386902801d41c93bec2ddf1029dddc93f69f0260f39f50"
+    },
+    {
+      "source_id": "INPUT-142",
+      "basename": "FILE_COVERAGE.json",
+      "sha256": "5aaae3bb3f5c7bb8614b5c601587ca0fc84befdc3e5561a91f519ea6556e7d0b"
+    },
+    {
+      "source_id": "INPUT-143",
+      "basename": "SOURCE_CARDS.json",
+      "sha256": "cfd9a992c8c4ad1ef27bed86438b74e0f0ce20b31781aec396ecfbef1dc8876b"
+    },
+    {
+      "source_id": "INPUT-144",
+      "basename": "SOURCE_PACKETS.jsonl",
+      "sha256": "6c5475aee8e30f7c5d212218da7c9d6ef01b30452383a5eb634e8549741906ad"
+    },
+    {
+      "source_id": "INPUT-145",
+      "basename": "evaluate_task3_realistic.py",
+      "sha256": "a1a6b65a0e748b3d00e1902487aa4273ce50971e3c5f5332217c98b7ffa27242"
+    },
+    {
+      "source_id": "INPUT-146",
+      "basename": "RUNTIME_FREEZE.json",
+      "sha256": "6af04a21b1106252b38ffca0c6a70be8077a06f25081b75b48c3c9b4b33e22c0"
+    },
+    {
+      "source_id": "INPUT-147",
+      "basename": "CANDIDATE_QUESTIONS.json",
+      "sha256": "0911e1f938838322b38be7a6c697c3a139205aa437ff812ae8716518a6bc712c"
+    },
+    {
+      "source_id": "INPUT-148",
+      "basename": "audit_overlap.py",
+      "sha256": "664d3c834fd413361fbdab8df1c00acdce4555ac65cf57a233cbba8bacf8b0e1"
+    },
+    {
+      "source_id": "INPUT-149",
+      "basename": "OVERLAP_AUDIT.json",
+      "sha256": "535c7dcacb89c25b885d869c92450da20d98809fc89a3edb99f7c13260543e7d"
+    },
+    {
+      "source_id": "INPUT-150",
+      "basename": "OVERLAP_REVIEW.json",
+      "sha256": "cb95f7b84a1b871edad01fb6402ef8fecad7848c6ea417dfb5d742b7d24d3fa1"
+    },
+    {
+      "source_id": "INPUT-151",
+      "basename": "FROZEN_BANK.json",
+      "sha256": "05716853a96416a6257f090393841ff09c3e5b64f7a0e0696fbb74eab581506d"
+    },
+    {
+      "source_id": "INPUT-152",
+      "basename": "run_challenge.py",
+      "sha256": "20812f25b2658213fd14fc807ef949db87b02d8b4313074eb5e55619d7ce15e8"
+    },
+    {
+      "source_id": "INPUT-153",
+      "basename": "summarize_challenge.py",
+      "sha256": "705b4a6bc18f002cabf92ecb939646f961d02a8b33cc509be7ee9cfe062ac934"
+    }
+  ]
+}

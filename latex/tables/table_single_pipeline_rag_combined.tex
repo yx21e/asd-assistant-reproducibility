@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\caption{Matched retrieval comparison on the larger development banks. The adapter, decoding, format, gates and fallback policy are fixed within each task. Shared-pool arms receive oracle task labels. AR uses the question restatement when present, otherwise response text; $\mathrm{AR}_{\mathrm{content}}$ excludes it. CSR/CVR use the automated checks in Methods. Paired intervals and scoring sensitivity appear in the supplement.}
+\label{tab:single-pipeline-rag-combined}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.08}
+\fittable[\textwidth]{%
+\begin{tabular}{@{}l l r c c c c c@{}}
+\toprule
+\textbf{Task} & \textbf{Retrieval configuration} & \textbf{$n$} & \textbf{Faithfulness} & \textbf{AR} & \textbf{CSR} & \textbf{CVR} & $\mathbf{AR}_{\mathrm{content}}$ \\
+\midrule
+Task~2 & Task-conditioned & 100 & 0.8646 & 0.9628 & 0.9900 & 1.0000 & 0.8764 \\
+Task~2 & Shared pool, retained selection & 100 & 0.8610 & 0.9628 & 0.9900 & 1.0000 & 0.8764 \\
+Task~2 & Shared pool, plain Top-5 & 100 & 0.8516 & 0.9628 & 0.3000 & 0.6000 & 0.8870 \\
+\addlinespace
+Task~3 & Task-conditioned & 98 & 0.9423 & 0.9785 & 1.0000 & 0.9889 & 0.8102 \\
+Task~3 & Shared pool, retained selection & 98 & 0.9410 & 0.9785 & 1.0000 & 0.9696 & 0.8151 \\
+Task~3 & Shared pool, plain Top-5 & 98 & 0.9395 & 0.9774 & 0.9782 & 0.9782 & 0.8227 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

@@ -1,0 +1,321 @@
+{
+  "scope": "Public code and saved-score replay, with explicitly projected text-bearing data files",
+  "files": [
+    {
+      "file": "code_inspection/autism_gpt_mvp.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "95547021d7989deb9f8c7ddf2476e635ee7340d65d8bba4b7445b8b58794b083",
+      "public_sha256": "95547021d7989deb9f8c7ddf2476e635ee7340d65d8bba4b7445b8b58794b083"
+    },
+    {
+      "file": "code_inspection/evaluate_autism_gpt.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "a854e2a74a2516d7bbe6b599c9e36764fd05fd58af8f768ab4ceb733fb2dc800",
+      "public_sha256": "a854e2a74a2516d7bbe6b599c9e36764fd05fd58af8f768ab4ceb733fb2dc800"
+    },
+    {
+      "file": "code_inspection/evaluate_paper_style.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "f3f1c0c683ba9b22489cb360c510a4d6c4a82009df3fb0dcdfcac5f7ae8c248c",
+      "public_sha256": "f3f1c0c683ba9b22489cb360c510a4d6c4a82009df3fb0dcdfcac5f7ae8c248c"
+    },
+    {
+      "file": "code_inspection/evaluate_task3_realistic.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "a1a6b65a0e748b3d00e1902487aa4273ce50971e3c5f5332217c98b7ffa27242",
+      "public_sha256": "a1a6b65a0e748b3d00e1902487aa4273ce50971e3c5f5332217c98b7ffa27242"
+    },
+    {
+      "file": "code_inspection/final_challenge/audit_overlap.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "664d3c834fd413361fbdab8df1c00acdce4555ac65cf57a233cbba8bacf8b0e1",
+      "public_sha256": "664d3c834fd413361fbdab8df1c00acdce4555ac65cf57a233cbba8bacf8b0e1"
+    },
+    {
+      "file": "code_inspection/final_challenge/launch_local.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "1adeeb40494b5bb54d76d84f81cabbf6b5c53dbd2d2e6b8c2d8aefc18fdc6b0f",
+      "public_sha256": "1adeeb40494b5bb54d76d84f81cabbf6b5c53dbd2d2e6b8c2d8aefc18fdc6b0f"
+    },
+    {
+      "file": "code_inspection/final_challenge/live_bridge.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "e983dba7cc7d6f2e4b386902801d41c93bec2ddf1029dddc93f69f0260f39f50",
+      "public_sha256": "e983dba7cc7d6f2e4b386902801d41c93bec2ddf1029dddc93f69f0260f39f50"
+    },
+    {
+      "file": "code_inspection/final_challenge/run_challenge.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "20812f25b2658213fd14fc807ef949db87b02d8b4313074eb5e55619d7ce15e8",
+      "public_sha256": "20812f25b2658213fd14fc807ef949db87b02d8b4313074eb5e55619d7ce15e8"
+    },
+    {
+      "file": "code_inspection/final_challenge/summarize_challenge.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "705b4a6bc18f002cabf92ecb939646f961d02a8b33cc509be7ee9cfe062ac934",
+      "public_sha256": "705b4a6bc18f002cabf92ecb939646f961d02a8b33cc509be7ee9cfe062ac934"
+    },
+    {
+      "file": "code_inspection/gene_registry.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "d1a2dc734bcf49195cfacded90e92a43d0b40143cfd5117647bd634c69b32cbc",
+      "public_sha256": "d1a2dc734bcf49195cfacded90e92a43d0b40143cfd5117647bd634c69b32cbc"
+    },
+    {
+      "file": "code_inspection/postprocess_matched.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "e86de6b1a8be413d0db83f358a1bb539345d55228143a6dab5968c22e2d21a07",
+      "public_sha256": "e86de6b1a8be413d0db83f358a1bb539345d55228143a6dab5968c22e2d21a07"
+    },
+    {
+      "file": "code_inspection/scripts/train_autism_task_expert.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "11e047840814995d316382b2ad1e1ec398c7e54f52522dc4b1e64a3cc8c5d6b2",
+      "public_sha256": "11e047840814995d316382b2ad1e1ec398c7e54f52522dc4b1e64a3cc8c5d6b2"
+    },
+    {
+      "file": "code_inspection/task3_topic_rules.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "fa5cf21429c99ab8e457daf208a10bc39f963b9a09c7a50e2b6ef638bb27b112",
+      "public_sha256": "fa5cf21429c99ab8e457daf208a10bc39f963b9a09c7a50e2b6ef638bb27b112"
+    },
+    {
+      "file": "latex/tables/table_external_baselines_numeric.tex",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "5727c9f6ae7e610b1206db1541cf61fbea6908705bcbcf66121f5ee20bbee69c",
+      "public_sha256": "5727c9f6ae7e610b1206db1541cf61fbea6908705bcbcf66121f5ee20bbee69c"
+    },
+    {
+      "file": "latex/tables/table_matched_weight_sensitivity.tex",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "4f80008d6c8b4c507619abef19225a8a548ffe3feca1168ce62c6029d5c3d322",
+      "public_sha256": "4f80008d6c8b4c507619abef19225a8a548ffe3feca1168ce62c6029d5c3d322"
+    },
+    {
+      "file": "latex/tables/table_new_question_diagnostic.tex",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "c150cbf9c64a3fd53b85907ef069450e710283d89ca367519e8769e9fbc71b7a",
+      "public_sha256": "c150cbf9c64a3fd53b85907ef069450e710283d89ca367519e8769e9fbc71b7a"
+    },
+    {
+      "file": "latex/tables/table_single_pipeline_rag_ci.tex",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "ed5c73b890410ed5c919f446113fb0e0224e5d27c5208c794e323e230ce451e9",
+      "public_sha256": "ed5c73b890410ed5c919f446113fb0e0224e5d27c5208c794e323e230ce451e9"
+    },
+    {
+      "file": "latex/tables/table_single_pipeline_rag_combined.tex",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "4994f0a2841c9940943a124287b15025e209e734660247cd0b37857410cda638",
+      "public_sha256": "4994f0a2841c9940943a124287b15025e209e734660247cd0b37857410cda638"
+    },
+    {
+      "file": "scripts/replay_matched_bootstrap.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "6634505a5f46a6d18d3b8371298e16a59354cba1f6dbca1db37462edc07d6341",
+      "public_sha256": "6634505a5f46a6d18d3b8371298e16a59354cba1f6dbca1db37462edc07d6341"
+    },
+    {
+      "file": "scripts/replay_new_question_diagnostic.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "e8331e91b2b16a1349d971a01cf38e49c1145080c64890eca15063aea299bf41",
+      "public_sha256": "e8331e91b2b16a1349d971a01cf38e49c1145080c64890eca15063aea299bf41"
+    },
+    {
+      "file": "scripts/test_matched_bootstrap_replay.py",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "3321ea73d42d684fff78cc818665d774da79011ca875706c51c3400381018706",
+      "public_sha256": "3321ea73d42d684fff78cc818665d774da79011ca875706c51c3400381018706"
+    },
+    {
+      "file": "requirements-replay.txt",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "922bda33668b532b1f38c3212a5f3cf7f0618296eaa35ef1388793e0c3cd5845",
+      "public_sha256": "922bda33668b532b1f38c3212a5f3cf7f0618296eaa35ef1388793e0c3cd5845"
+    },
+    {
+      "file": "documentation/bootstrap_protocol.json",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "c14ef5925989ee052e2194a6e9b6d071d1ee41ecb60b83afcbc0bb191b5cf125",
+      "public_sha256": "c14ef5925989ee052e2194a6e9b6d071d1ee41ecb60b83afcbc0bb191b5cf125"
+    },
+    {
+      "file": "documentation/new_question_freeze.json",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "d09488b1dca983cd1e5791ab781fbd97f42f7285a948ed396623910f6dcd9966",
+      "public_sha256": "d09488b1dca983cd1e5791ab781fbd97f42f7285a948ed396623910f6dcd9966"
+    },
+    {
+      "file": "documentation/exact_system_prompts.json",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "c95d49e334e844fb58bb7e6334d4f3cdc5ae4803e017d1dc4584a8c9ee95af6b",
+      "public_sha256": "c95d49e334e844fb58bb7e6334d4f3cdc5ae4803e017d1dc4584a8c9ee95af6b"
+    },
+    {
+      "file": "documentation/training_and_generation.csv",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "715e94bb14fe6fec0247083a03038e68b022b401e93a5d628d0fb20aaac6521c",
+      "public_sha256": "715e94bb14fe6fec0247083a03038e68b022b401e93a5d628d0fb20aaac6521c"
+    },
+    {
+      "file": "documentation/corpus_index_inventory.csv",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "ee732a0fbbc319304237cc8a838df20b1c65dd4f871f77be9231351ea0bf8c9a",
+      "public_sha256": "ee732a0fbbc319304237cc8a838df20b1c65dd4f871f77be9231351ea0bf8c9a"
+    },
+    {
+      "file": "documentation/environment_versions.json",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "881d1ba0631f3557347b3f55038a710e2ded59b9ed8ea33c8deff87830ea0bca",
+      "public_sha256": "881d1ba0631f3557347b3f55038a710e2ded59b9ed8ea33c8deff87830ea0bca"
+    },
+    {
+      "file": "documentation/runtime_flags.csv",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "886526e80858b68fc489631bcf997aabe9946559a579e9cd4a983d35a263f852",
+      "public_sha256": "886526e80858b68fc489631bcf997aabe9946559a579e9cd4a983d35a263f852"
+    },
+    {
+      "file": "documentation/FRESH_RUN.md",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "94fd570ef8b327221e1a00d380d69127853ca8d974523f99a5067e7115114fbf",
+      "public_sha256": "94fd570ef8b327221e1a00d380d69127853ca8d974523f99a5067e7115114fbf"
+    },
+    {
+      "file": "documentation/BENCHMARK_STATUS.md",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "f63aef2126d83a088ee583d5d4368b8e1fbb2b3eff393857314cc7162b26b465",
+      "public_sha256": "f63aef2126d83a088ee583d5d4368b8e1fbb2b3eff393857314cc7162b26b465"
+    },
+    {
+      "file": "documentation/asset_inventory.json",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "f73631540faf3f3a9a8b014549dbe8c6eb4b0ad44dc25cdf421746d005789035",
+      "public_sha256": "f73631540faf3f3a9a8b014549dbe8c6eb4b0ad44dc25cdf421746d005789035"
+    },
+    {
+      "file": "documentation/task1_external_summary.md",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "2d7cb769bd470b078cde88fa2568703ffec5f80424b21e121527002faff0e0f1",
+      "public_sha256": "2d7cb769bd470b078cde88fa2568703ffec5f80424b21e121527002faff0e0f1"
+    },
+    {
+      "file": "evidence/new_question/result.json",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "ca05321b3fefa5e10c43ecccbdcd577e02b65f85b3ef79976327b0e965559127",
+      "public_sha256": "ca05321b3fefa5e10c43ecccbdcd577e02b65f85b3ef79976327b0e965559127"
+    },
+    {
+      "file": "evidence/external/coverage.csv",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "a75696716278f7440b3787535423a581df8bd39ad4118a038f2864911a97e3c1",
+      "public_sha256": "a75696716278f7440b3787535423a581df8bd39ad4118a038f2864911a97e3c1"
+    },
+    {
+      "file": "evidence/external/per_query_scores.csv",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "a072a4aa110f635286533199612905673b6159a813c3f16ac2d5aa63a3287266",
+      "public_sha256": "a072a4aa110f635286533199612905673b6159a813c3f16ac2d5aa63a3287266"
+    },
+    {
+      "file": "evidence/external/summary_by_inference_regime.csv",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "2c8568a53d4e1bb49e3bd389c85083702a7d2bddb01da18b2aeeaf8c2f3413e5",
+      "public_sha256": "2c8568a53d4e1bb49e3bd389c85083702a7d2bddb01da18b2aeeaf8c2f3413e5"
+    },
+    {
+      "file": "evidence/matched/paired_comparisons.csv",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "9506e16ef86e32af080fcce867337ed89186d3ebb3f59192963c3d3f81dd2ce4",
+      "public_sha256": "9506e16ef86e32af080fcce867337ed89186d3ebb3f59192963c3d3f81dd2ce4"
+    },
+    {
+      "file": "evidence/matched/results.csv",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "07dd3a571e791f316d7510dfcc6179808e609ae770425c2d3dbdcf024459f7b2",
+      "public_sha256": "07dd3a571e791f316d7510dfcc6179808e609ae770425c2d3dbdcf024459f7b2"
+    },
+    {
+      "file": "evidence/matched/weight_sensitivity.csv",
+      "transformation": "byte-identical retained file",
+      "source_sha256": "a5921e1ae00c02aa3812581250e2dd2e9cbfa86cf0243568e200d06f5fd79e9a",
+      "public_sha256": "a5921e1ae00c02aa3812581250e2dd2e9cbfa86cf0243568e200d06f5fd79e9a"
+    },
+    {
+      "file": "evidence/matched/outputs.jsonl",
+      "transformation": "documented field projection; all rows and retained values unchanged",
+      "source_sha256": "bf5bf1512ca869a97a051b13ba30bd1e0be1d12747fb46c4957dd14a4138233f",
+      "public_sha256": "fe54880a972f42bbc0c46af43aaed7157023db5e62db6cb87e9c25bc0b575c0d",
+      "rows": 594
+    },
+    {
+      "file": "evidence/new_question/bank.json",
+      "transformation": "documented field projection; all rows and retained values unchanged",
+      "source_sha256": "05716853a96416a6257f090393841ff09c3e5b64f7a0e0696fbb74eab581506d",
+      "public_sha256": "afed42d1b43a5f7c5bf12264d492cf53163dec158ce89ef3e05055e791b16259",
+      "rows": 32
+    },
+    {
+      "file": "evidence/new_question/outputs.jsonl",
+      "transformation": "documented field projection; all rows and retained values unchanged",
+      "source_sha256": "e7b1a369a255a38cd19429a349dda1085f5e831954827899325463180002f35f",
+      "public_sha256": "e5b3177876029f51a73929cf613b329cfc7cdd2e2ee4bdbb1f849309d013d5d8",
+      "rows": 128
+    }
+  ],
+  "projection_fields": {
+    "matched": [
+      "task",
+      "example_id",
+      "query",
+      "topic",
+      "configuration",
+      "status",
+      "fallback_used",
+      "faithfulness",
+      "ar",
+      "ar_without_question_lead",
+      "equal_unit_faithfulness",
+      "G",
+      "S",
+      "csr",
+      "cvr",
+      "raw_generation"
+    ],
+    "matched_token_fields": [
+      "untruncated_input_tokens",
+      "actual_input_tokens"
+    ],
+    "question_bank": [
+      "query_id",
+      "task",
+      "source_group",
+      "query",
+      "source_pmids",
+      "title",
+      "human_gold"
+    ],
+    "diagnostic": [
+      "example_id",
+      "configuration",
+      "condition",
+      "intended_task",
+      "selected_task",
+      "status",
+      "final_router",
+      "scores",
+      "diagnostics"
+    ],
+    "diagnostic_flags": [
+      "source_in_hits",
+      "source_in_selected_contexts",
+      "source_marker_in_actual_input",
+      "input_truncated"
+    ]
+  },
+  "excluded": "Article excerpts, contexts, generated answer text, full prompts/traces, author response, review correspondence, model weights and indexes",
+  "metrics_changed": false,
+  "rows_removed": false,
+  "raw_text_scores_recomputed": false,
+  "source_licenses": "No third-party or code license is assigned or inferred by this projection"
+}

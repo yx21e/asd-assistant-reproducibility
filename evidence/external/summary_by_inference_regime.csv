@@ -1,0 +1,17 @@
+﻿system,task,origin,model,response_model,n,expected_queries,complete_single_regime,truncated_n_known,truncation_unknown_n,exact_match,token_f1,critical_token_recall,reference_support_proxy,ar_frozen_question_lead,ar_without_question_lead,equal_unit_support_proxy
+openai,task1,archived_v2,gpt-5.5,not_recorded,26,60,False,0,26,0.0,0.09318079247354076,0.07845232682693982,,,,
+openai,task1,supplemental_missing_answers,gpt-5.5,gpt-5.5-2026-04-23,34,60,False,0,0,0.0,0.10175088109677899,0.08193522745289272,,,,
+anthropic,task1,archived_v2,claude-sonnet-4-5,not_recorded,52,60,False,0,52,0.0,0.07979072501858232,0.09180070305114955,,,,
+anthropic,task1,supplemental_missing_answers,claude-sonnet-4-5,claude-sonnet-4-5-20250929,8,60,False,0,0,0.0,0.09211471430609662,0.10525348297213621,,,,
+google,task1,supplemental_missing_answers,gemini-2.5-pro,gemini-2.5-pro,60,60,True,0,0,0.0,0.07957758347421767,0.08682739073218948,,,,
+deepseek,task1,archived_v2,deepseek-chat,not_recorded,60,60,True,0,60,0.0,0.10373597208955669,0.08510101597175898,,,,
+openai,task2,supplemental_missing_answers,gpt-5.5,gpt-5.5-2026-04-23,60,60,True,0,0,,,,0.5508356170477516,0.8612171451250712,0.8612171451250712,0.5508356170477516
+openai,task3,supplemental_missing_answers,gpt-5.5,gpt-5.5-2026-04-23,70,70,True,0,0,,,,0.5529347900736235,0.7958215543201992,0.7958215543201992,0.5477655358317316
+anthropic,task2,archived_v2,claude-sonnet-4-5,not_recorded,60,60,True,0,60,,,,0.6026559010136654,0.8581748644510905,0.8581748644510905,0.6026559010136654
+anthropic,task3,archived_v2,claude-sonnet-4-5,not_recorded,70,70,True,0,70,,,,0.5357593492263028,0.79482433285032,0.79482433285032,0.535390119550807
+google,task2,supplemental_missing_answers,gemini-2.5-pro,gemini-2.5-pro,60,60,True,0,0,,,,0.6103656917097726,0.8550343831380208,0.8550343831380208,0.6103656917097726
+google,task3,supplemental_missing_answers,gemini-2.5-pro,gemini-2.5-pro,70,70,True,0,0,,,,0.5460933237723512,0.792467600107193,0.792467600107193,0.47687925184684393
+deepseek,task2,archived_v2,deepseek-chat,not_recorded,60,60,True,0,60,,,,0.6004231687003649,0.8770649234453837,0.8770649234453837,0.6004231687003649
+deepseek,task3,archived_v2,deepseek-chat,not_recorded,70,70,True,0,70,,,,0.548605683685449,0.7909389819417681,0.7909389819417681,0.5528010570897722
+local_historical_final,task2,historical_primary_outputs,Qwen/Qwen2.5-3B-Instruct+task_adapter,local_snapshot_recorded_separately,60,60,True,0,60,,,,0.8655130464787053,0.9625032583872477,0.8747236579656601,0.8655130464787053
+local_historical_final,task3,historical_primary_outputs,Qwen/Qwen2.5-3B-Instruct+task_adapter,local_snapshot_recorded_separately,70,70,True,0,70,,,,0.9421676932087343,0.9811266558510917,0.8129014006682804,0.8639995628619375

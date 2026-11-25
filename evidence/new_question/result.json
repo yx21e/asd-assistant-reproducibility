@@ -1,0 +1,973 @@
+{
+  "task_counts": {
+    "task2": 16,
+    "task3": 16
+  },
+  "all_attempts": 128,
+  "complete_grid": true,
+  "no_paid_calls": true,
+  "inputs_unchanged": true,
+  "role": "small_new_question_retained_source_diagnostic_not_powered_or_expert_validated",
+  "score_task": "intended_task_including_wrong_routes",
+  "bootstrap": {
+    "resamples": 2000,
+    "seed": 20261120,
+    "cluster": "question/designated_source",
+    "interval": "paired_percentile_95_descriptive"
+  },
+  "cells": [
+    {
+      "task": "task2",
+      "arm": "task_conditioned",
+      "condition": "source_available",
+      "attempts": 16,
+      "statuses": {
+        "ok": 16
+      },
+      "route_correct": 7,
+      "generated": 16,
+      "nonempty_final_answer": 16,
+      "source_in_hits": 7,
+      "source_in_selected_contexts": 5,
+      "source_marker_in_actual_input": 5,
+      "input_truncated": 0,
+      "metrics": {
+        "faithfulness": {
+          "n_valid": 16,
+          "mean": 0.6833272474370582,
+          "sd": 0.16310003181041302
+        },
+        "ar": {
+          "n_valid": 16,
+          "mean": 0.760689839720726,
+          "sd": 0.1383838470271623
+        },
+        "ar_without_question_lead": {
+          "n_valid": 16,
+          "mean": 0.6996150873601437,
+          "sd": 0.08720089000512327
+        }
+      }
+    },
+    {
+      "task": "task2",
+      "arm": "shared_pool_plain_topk",
+      "condition": "source_available",
+      "attempts": 16,
+      "statuses": {
+        "ok": 16
+      },
+      "route_correct": 7,
+      "generated": 16,
+      "nonempty_final_answer": 16,
+      "source_in_hits": 16,
+      "source_in_selected_contexts": 16,
+      "source_marker_in_actual_input": 16,
+      "input_truncated": 12,
+      "metrics": {
+        "faithfulness": {
+          "n_valid": 16,
+          "mean": 0.6337534180036639,
+          "sd": 0.2643780271383622
+        },
+        "ar": {
+          "n_valid": 16,
+          "mean": 0.7666854523122311,
+          "sd": 0.14037826149493526
+        },
+        "ar_without_question_lead": {
+          "n_valid": 16,
+          "mean": 0.7062147334218025,
+          "sd": 0.111608522253815
+        }
+      }
+    },
+    {
+      "task": "task2",
+      "arm": "task_conditioned",
+      "condition": "source_withheld",
+      "attempts": 16,
+      "statuses": {
+        "ok": 16
+      },
+      "route_correct": 7,
+      "generated": 16,
+      "nonempty_final_answer": 16,
+      "source_in_hits": 0,
+      "source_in_selected_contexts": 0,
+      "source_marker_in_actual_input": 0,
+      "input_truncated": 1,
+      "metrics": {
+        "faithfulness": {
+          "n_valid": 16,
+          "mean": 0.7066646783769734,
+          "sd": 0.15537942059051704
+        },
+        "ar": {
+          "n_valid": 16,
+          "mean": 0.7761740796267986,
+          "sd": 0.13803175448470437
+        },
+        "ar_without_question_lead": {
+          "n_valid": 16,
+          "mean": 0.7009560763835907,
+          "sd": 0.07825844188345989
+        }
+      }
+    },
+    {
+      "task": "task2",
+      "arm": "shared_pool_plain_topk",
+      "condition": "source_withheld",
+      "attempts": 16,
+      "statuses": {
+        "ok": 16
+      },
+      "route_correct": 7,
+      "generated": 16,
+      "nonempty_final_answer": 16,
+      "source_in_hits": 0,
+      "source_in_selected_contexts": 0,
+      "source_marker_in_actual_input": 0,
+      "input_truncated": 11,
+      "metrics": {
+        "faithfulness": {
+          "n_valid": 16,
+          "mean": 0.6402721295030318,
+          "sd": 0.2727305934300768
+        },
+        "ar": {
+          "n_valid": 16,
+          "mean": 0.7745490409433842,
+          "sd": 0.14871579760298015
+        },
+        "ar_without_question_lead": {
+          "n_valid": 16,
+          "mean": 0.7047349810600281,
+          "sd": 0.08585589399184922
+        }
+      }
+    },
+    {
+      "task": "task3",
+      "arm": "task_conditioned",
+      "condition": "source_available",
+      "attempts": 16,
+      "statuses": {
+        "ok": 16
+      },
+      "route_correct": 13,
+      "generated": 16,
+      "nonempty_final_answer": 16,
+      "source_in_hits": 12,
+      "source_in_selected_contexts": 6,
+      "source_marker_in_actual_input": 6,
+      "input_truncated": 3,
+      "metrics": {
+        "faithfulness": {
+          "n_valid": 16,
+          "mean": 0.9117094538280976,
+          "sd": 0.12620603335736263
+        },
+        "ar": {
+          "n_valid": 16,
+          "mean": 0.9344681315124035,
+          "sd": 0.090636446031564
+        },
+        "ar_without_question_lead": {
+          "n_valid": 16,
+          "mean": 0.7604460045695305,
+          "sd": 0.06495685186656118
+        }
+      }
+    },
+    {
+      "task": "task3",
+      "arm": "shared_pool_plain_topk",
+      "condition": "source_available",
+      "attempts": 16,
+      "statuses": {
+        "ok": 16
+      },
+      "route_correct": 13,
+      "generated": 16,
+      "nonempty_final_answer": 16,
+      "source_in_hits": 15,
+      "source_in_selected_contexts": 15,
+      "source_marker_in_actual_input": 15,
+      "input_truncated": 15,
+      "metrics": {
+        "faithfulness": {
+          "n_valid": 16,
+          "mean": 0.9592898595228304,
+          "sd": 0.007714825404492606
+        },
+        "ar": {
+          "n_valid": 16,
+          "mean": 0.9490405358374119,
+          "sd": 0.04439578333850766
+        },
+        "ar_without_question_lead": {
+          "n_valid": 16,
+          "mean": 0.8216285221278667,
+          "sd": 0.05365103876662173
+        }
+      }
+    },
+    {
+      "task": "task3",
+      "arm": "task_conditioned",
+      "condition": "source_withheld",
+      "attempts": 16,
+      "statuses": {
+        "ok": 16
+      },
+      "route_correct": 13,
+      "generated": 16,
+      "nonempty_final_answer": 16,
+      "source_in_hits": 0,
+      "source_in_selected_contexts": 0,
+      "source_marker_in_actual_input": 0,
+      "input_truncated": 3,
+      "metrics": {
+        "faithfulness": {
+          "n_valid": 16,
+          "mean": 0.9015004147641497,
+          "sd": 0.1304363228819718
+        },
+        "ar": {
+          "n_valid": 16,
+          "mean": 0.9344681315124035,
+          "sd": 0.090636446031564
+        },
+        "ar_without_question_lead": {
+          "n_valid": 16,
+          "mean": 0.7367133386433125,
+          "sd": 0.04694491405726037
+        }
+      }
+    },
+    {
+      "task": "task3",
+      "arm": "shared_pool_plain_topk",
+      "condition": "source_withheld",
+      "attempts": 16,
+      "statuses": {
+        "ok": 16
+      },
+      "route_correct": 13,
+      "generated": 16,
+      "nonempty_final_answer": 16,
+      "source_in_hits": 0,
+      "source_in_selected_contexts": 0,
+      "source_marker_in_actual_input": 0,
+      "input_truncated": 16,
+      "metrics": {
+        "faithfulness": {
+          "n_valid": 16,
+          "mean": 0.9330843327262399,
+          "sd": 0.08995362843727579
+        },
+        "ar": {
+          "n_valid": 16,
+          "mean": 0.929998729377985,
+          "sd": 0.06454845133245375
+        },
+        "ar_without_question_lead": {
+          "n_valid": 16,
+          "mean": 0.7727769203484058,
+          "sd": 0.032782721082811835
+        }
+      }
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "task": "task2",
+      "contrast": "task_conditioned_minus_shared_pool",
+      "condition": "source_available",
+      "metrics": {
+        "faithfulness": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC2-01",
+            "FC2-02",
+            "FC2-03",
+            "FC2-04",
+            "FC2-05",
+            "FC2-06",
+            "FC2-07",
+            "FC2-08",
+            "FC2-09",
+            "FC2-10",
+            "FC2-11",
+            "FC2-12",
+            "FC2-13",
+            "FC2-14",
+            "FC2-15",
+            "FC2-16"
+          ],
+          "mean_difference": 0.04957382943339419,
+          "ci95": [
+            -0.05649537925588633,
+            0.15136643886312107
+          ]
+        },
+        "ar": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC2-01",
+            "FC2-02",
+            "FC2-03",
+            "FC2-04",
+            "FC2-05",
+            "FC2-06",
+            "FC2-07",
+            "FC2-08",
+            "FC2-09",
+            "FC2-10",
+            "FC2-11",
+            "FC2-12",
+            "FC2-13",
+            "FC2-14",
+            "FC2-15",
+            "FC2-16"
+          ],
+          "mean_difference": -0.005995612591505051,
+          "ci95": [
+            -0.04985441733151674,
+            0.03351224269717929
+          ]
+        },
+        "ar_without_question_lead": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC2-01",
+            "FC2-02",
+            "FC2-03",
+            "FC2-04",
+            "FC2-05",
+            "FC2-06",
+            "FC2-07",
+            "FC2-08",
+            "FC2-09",
+            "FC2-10",
+            "FC2-11",
+            "FC2-12",
+            "FC2-13",
+            "FC2-14",
+            "FC2-15",
+            "FC2-16"
+          ],
+          "mean_difference": -0.006599646061658859,
+          "ci95": [
+            -0.04496894208714366,
+            0.027646837756037705
+          ]
+        }
+      }
+    },
+    {
+      "task": "task2",
+      "contrast": "task_conditioned_minus_shared_pool",
+      "condition": "source_withheld",
+      "metrics": {
+        "faithfulness": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC2-01",
+            "FC2-02",
+            "FC2-03",
+            "FC2-04",
+            "FC2-05",
+            "FC2-06",
+            "FC2-07",
+            "FC2-08",
+            "FC2-09",
+            "FC2-10",
+            "FC2-11",
+            "FC2-12",
+            "FC2-13",
+            "FC2-14",
+            "FC2-15",
+            "FC2-16"
+          ],
+          "mean_difference": 0.06639254887394172,
+          "ci95": [
+            -0.038019548656139796,
+            0.1583454373592441
+          ]
+        },
+        "ar": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC2-01",
+            "FC2-02",
+            "FC2-03",
+            "FC2-04",
+            "FC2-05",
+            "FC2-06",
+            "FC2-07",
+            "FC2-08",
+            "FC2-09",
+            "FC2-10",
+            "FC2-11",
+            "FC2-12",
+            "FC2-13",
+            "FC2-14",
+            "FC2-15",
+            "FC2-16"
+          ],
+          "mean_difference": 0.0016250386834144592,
+          "ci95": [
+            -0.027486515883356332,
+            0.02560804067179559
+          ]
+        },
+        "ar_without_question_lead": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC2-01",
+            "FC2-02",
+            "FC2-03",
+            "FC2-04",
+            "FC2-05",
+            "FC2-06",
+            "FC2-07",
+            "FC2-08",
+            "FC2-09",
+            "FC2-10",
+            "FC2-11",
+            "FC2-12",
+            "FC2-13",
+            "FC2-14",
+            "FC2-15",
+            "FC2-16"
+          ],
+          "mean_difference": -0.003778904676437378,
+          "ci95": [
+            -0.028888523951172827,
+            0.020353459566831586
+          ]
+        }
+      }
+    },
+    {
+      "task": "task2",
+      "contrast": "available_minus_withheld",
+      "arm": "task_conditioned",
+      "metrics": {
+        "faithfulness": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC2-01",
+            "FC2-02",
+            "FC2-03",
+            "FC2-04",
+            "FC2-05",
+            "FC2-06",
+            "FC2-07",
+            "FC2-08",
+            "FC2-09",
+            "FC2-10",
+            "FC2-11",
+            "FC2-12",
+            "FC2-13",
+            "FC2-14",
+            "FC2-15",
+            "FC2-16"
+          ],
+          "mean_difference": -0.0233374309399152,
+          "ci95": [
+            -0.06732855994330458,
+            0.002558111905364653
+          ]
+        },
+        "ar": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC2-01",
+            "FC2-02",
+            "FC2-03",
+            "FC2-04",
+            "FC2-05",
+            "FC2-06",
+            "FC2-07",
+            "FC2-08",
+            "FC2-09",
+            "FC2-10",
+            "FC2-11",
+            "FC2-12",
+            "FC2-13",
+            "FC2-14",
+            "FC2-15",
+            "FC2-16"
+          ],
+          "mean_difference": -0.015484239906072617,
+          "ci95": [
+            -0.047185465693473816,
+            0.0007327459752559662
+          ]
+        },
+        "ar_without_question_lead": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC2-01",
+            "FC2-02",
+            "FC2-03",
+            "FC2-04",
+            "FC2-05",
+            "FC2-06",
+            "FC2-07",
+            "FC2-08",
+            "FC2-09",
+            "FC2-10",
+            "FC2-11",
+            "FC2-12",
+            "FC2-13",
+            "FC2-14",
+            "FC2-15",
+            "FC2-16"
+          ],
+          "mean_difference": -0.0013409890234470367,
+          "ci95": [
+            -0.023814953863620758,
+            0.01979655772447586
+          ]
+        }
+      }
+    },
+    {
+      "task": "task2",
+      "contrast": "available_minus_withheld",
+      "arm": "shared_pool_plain_topk",
+      "metrics": {
+        "faithfulness": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC2-01",
+            "FC2-02",
+            "FC2-03",
+            "FC2-04",
+            "FC2-05",
+            "FC2-06",
+            "FC2-07",
+            "FC2-08",
+            "FC2-09",
+            "FC2-10",
+            "FC2-11",
+            "FC2-12",
+            "FC2-13",
+            "FC2-14",
+            "FC2-15",
+            "FC2-16"
+          ],
+          "mean_difference": -0.006518711499367676,
+          "ci95": [
+            -0.02751470915055655,
+            0.007090450957140457
+          ]
+        },
+        "ar": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC2-01",
+            "FC2-02",
+            "FC2-03",
+            "FC2-04",
+            "FC2-05",
+            "FC2-06",
+            "FC2-07",
+            "FC2-08",
+            "FC2-09",
+            "FC2-10",
+            "FC2-11",
+            "FC2-12",
+            "FC2-13",
+            "FC2-14",
+            "FC2-15",
+            "FC2-16"
+          ],
+          "mean_difference": -0.007863588631153107,
+          "ci95": [
+            -0.027680732309818268,
+            0.004089966416358948
+          ]
+        },
+        "ar_without_question_lead": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC2-01",
+            "FC2-02",
+            "FC2-03",
+            "FC2-04",
+            "FC2-05",
+            "FC2-06",
+            "FC2-07",
+            "FC2-08",
+            "FC2-09",
+            "FC2-10",
+            "FC2-11",
+            "FC2-12",
+            "FC2-13",
+            "FC2-14",
+            "FC2-15",
+            "FC2-16"
+          ],
+          "mean_difference": 0.0014797523617744446,
+          "ci95": [
+            -0.03158782375976443,
+            0.02556203305721283
+          ]
+        }
+      }
+    },
+    {
+      "task": "task3",
+      "contrast": "task_conditioned_minus_shared_pool",
+      "condition": "source_available",
+      "metrics": {
+        "faithfulness": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC3-01",
+            "FC3-02",
+            "FC3-03",
+            "FC3-04",
+            "FC3-05",
+            "FC3-06",
+            "FC3-07",
+            "FC3-08",
+            "FC3-09",
+            "FC3-10",
+            "FC3-11",
+            "FC3-12",
+            "FC3-13",
+            "FC3-14",
+            "FC3-15",
+            "FC3-16"
+          ],
+          "mean_difference": -0.04758040569473279,
+          "ci95": [
+            -0.11627824129438134,
+            -0.005441015839229134
+          ]
+        },
+        "ar": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC3-01",
+            "FC3-02",
+            "FC3-03",
+            "FC3-04",
+            "FC3-05",
+            "FC3-06",
+            "FC3-07",
+            "FC3-08",
+            "FC3-09",
+            "FC3-10",
+            "FC3-11",
+            "FC3-12",
+            "FC3-13",
+            "FC3-14",
+            "FC3-15",
+            "FC3-16"
+          ],
+          "mean_difference": -0.014572404325008392,
+          "ci95": [
+            -0.04323079437017441,
+            0.0
+          ]
+        },
+        "ar_without_question_lead": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC3-01",
+            "FC3-02",
+            "FC3-03",
+            "FC3-04",
+            "FC3-05",
+            "FC3-06",
+            "FC3-07",
+            "FC3-08",
+            "FC3-09",
+            "FC3-10",
+            "FC3-11",
+            "FC3-12",
+            "FC3-13",
+            "FC3-14",
+            "FC3-15",
+            "FC3-16"
+          ],
+          "mean_difference": -0.06118251755833626,
+          "ci95": [
+            -0.08634460484609008,
+            -0.035680825449526325
+          ]
+        }
+      }
+    },
+    {
+      "task": "task3",
+      "contrast": "task_conditioned_minus_shared_pool",
+      "condition": "source_withheld",
+      "metrics": {
+        "faithfulness": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC3-01",
+            "FC3-02",
+            "FC3-03",
+            "FC3-04",
+            "FC3-05",
+            "FC3-06",
+            "FC3-07",
+            "FC3-08",
+            "FC3-09",
+            "FC3-10",
+            "FC3-11",
+            "FC3-12",
+            "FC3-13",
+            "FC3-14",
+            "FC3-15",
+            "FC3-16"
+          ],
+          "mean_difference": -0.031583917962090216,
+          "ci95": [
+            -0.1199780956850362,
+            0.04053856976886997
+          ]
+        },
+        "ar": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC3-01",
+            "FC3-02",
+            "FC3-03",
+            "FC3-04",
+            "FC3-05",
+            "FC3-06",
+            "FC3-07",
+            "FC3-08",
+            "FC3-09",
+            "FC3-10",
+            "FC3-11",
+            "FC3-12",
+            "FC3-13",
+            "FC3-14",
+            "FC3-15",
+            "FC3-16"
+          ],
+          "mean_difference": 0.0044694021344184875,
+          "ci95": [
+            -0.03486105054616928,
+            0.03989951312541962
+          ]
+        },
+        "ar_without_question_lead": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC3-01",
+            "FC3-02",
+            "FC3-03",
+            "FC3-04",
+            "FC3-05",
+            "FC3-06",
+            "FC3-07",
+            "FC3-08",
+            "FC3-09",
+            "FC3-10",
+            "FC3-11",
+            "FC3-12",
+            "FC3-13",
+            "FC3-14",
+            "FC3-15",
+            "FC3-16"
+          ],
+          "mean_difference": -0.036063581705093384,
+          "ci95": [
+            -0.05627521649003029,
+            -0.017831014003604654
+          ]
+        }
+      }
+    },
+    {
+      "task": "task3",
+      "contrast": "available_minus_withheld",
+      "arm": "task_conditioned",
+      "metrics": {
+        "faithfulness": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC3-01",
+            "FC3-02",
+            "FC3-03",
+            "FC3-04",
+            "FC3-05",
+            "FC3-06",
+            "FC3-07",
+            "FC3-08",
+            "FC3-09",
+            "FC3-10",
+            "FC3-11",
+            "FC3-12",
+            "FC3-13",
+            "FC3-14",
+            "FC3-15",
+            "FC3-16"
+          ],
+          "mean_difference": 0.010209039063948017,
+          "ci95": [
+            -0.00631903978110149,
+            0.04053041163266007
+          ]
+        },
+        "ar": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC3-01",
+            "FC3-02",
+            "FC3-03",
+            "FC3-04",
+            "FC3-05",
+            "FC3-06",
+            "FC3-07",
+            "FC3-08",
+            "FC3-09",
+            "FC3-10",
+            "FC3-11",
+            "FC3-12",
+            "FC3-13",
+            "FC3-14",
+            "FC3-15",
+            "FC3-16"
+          ],
+          "mean_difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "ar_without_question_lead": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC3-01",
+            "FC3-02",
+            "FC3-03",
+            "FC3-04",
+            "FC3-05",
+            "FC3-06",
+            "FC3-07",
+            "FC3-08",
+            "FC3-09",
+            "FC3-10",
+            "FC3-11",
+            "FC3-12",
+            "FC3-13",
+            "FC3-14",
+            "FC3-15",
+            "FC3-16"
+          ],
+          "mean_difference": 0.023732665926218033,
+          "ci95": [
+            0.007763333152979612,
+            0.042248952109366654
+          ]
+        }
+      }
+    },
+    {
+      "task": "task3",
+      "contrast": "available_minus_withheld",
+      "arm": "shared_pool_plain_topk",
+      "metrics": {
+        "faithfulness": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC3-01",
+            "FC3-02",
+            "FC3-03",
+            "FC3-04",
+            "FC3-05",
+            "FC3-06",
+            "FC3-07",
+            "FC3-08",
+            "FC3-09",
+            "FC3-10",
+            "FC3-11",
+            "FC3-12",
+            "FC3-13",
+            "FC3-14",
+            "FC3-15",
+            "FC3-16"
+          ],
+          "mean_difference": 0.026205526796590592,
+          "ci95": [
+            0.0003263183164705065,
+            0.07122495716603844
+          ]
+        },
+        "ar": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC3-01",
+            "FC3-02",
+            "FC3-03",
+            "FC3-04",
+            "FC3-05",
+            "FC3-06",
+            "FC3-07",
+            "FC3-08",
+            "FC3-09",
+            "FC3-10",
+            "FC3-11",
+            "FC3-12",
+            "FC3-13",
+            "FC3-14",
+            "FC3-15",
+            "FC3-16"
+          ],
+          "mean_difference": 0.01904180645942688,
+          "ci95": [
+            0.0,
+            0.04645335674285889
+          ]
+        },
+        "ar_without_question_lead": {
+          "paired_n": 16,
+          "query_ids": [
+            "FC3-01",
+            "FC3-02",
+            "FC3-03",
+            "FC3-04",
+            "FC3-05",
+            "FC3-06",
+            "FC3-07",
+            "FC3-08",
+            "FC3-09",
+            "FC3-10",
+            "FC3-11",
+            "FC3-12",
+            "FC3-13",
+            "FC3-14",
+            "FC3-15",
+            "FC3-16"
+          ],
+          "mean_difference": 0.04885160177946091,
+          "ci95": [
+            0.030535444524139164,
+            0.06658717654645442
+          ]
+        }
+      }
+    }
+  ],
+  "open_gaps": [
+    "blinded_expert_validation",
+    "verified_direct_conflict_pairs",
+    "foundation_training_independence",
+    "reviewer_access",
+    "author_declarations"
+  ]
+}
