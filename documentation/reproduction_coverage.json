@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-25",
-  "manuscript_round": "round_0009",
+  "date": "2026-11-26",
+  "manuscript_round": "round_0010",
   "full_historical_reproduction": false,
-  "public_numeric_table_count": 20,
+  "public_numeric_table_count": 22,
   "compiled_table_count": 28,
   "compiled_figure_count": 5,
   "locally_recomputed_answer_metrics": {
@@ -18,11 +18,11 @@
       "number": 1,
       "label": "fig:overall-results",
       "source": "sections/03_results.tex",
-      "numeric_replay": "partial",
+      "numeric_replay": "reconstructed_numeric_panels",
       "raw_text_rescoring": "not_verified_for_entire_item",
       "fresh_inference": "not_run",
-      "public_replay": false,
-      "note": "Source scores traced, but exact combined-scorecard rendering code unlocated; Task 1 original answer logs missing."
+      "public_replay": true,
+      "note": "New renderer uses retained score rows and recorded Task 1 summary. Not the recovered original layout; not pixel-identical."
     },
     {
       "document": "main",
@@ -82,7 +82,7 @@
       "raw_text_rescoring": "not_verified_for_entire_item",
       "fresh_inference": "not_run",
       "public_replay": false,
-      "note": "Conceptual diagram, not a numerical result; original asset retained, renderer not verified."
+      "note": "Conceptual vector asset retained with checksum in the local review package; no numerical experiment to recompute. Editable original drawing source not established."
     },
     {
       "document": "supplement",
@@ -90,11 +90,11 @@
       "number": 1,
       "label": "tab:metric-audit",
       "source": "tables/table_metric_audit.tex",
-      "numeric_replay": "partial",
+      "numeric_replay": "synthesis_count_replay_task1_summary_only",
       "raw_text_rescoring": "not_verified_for_entire_item",
       "fresh_inference": "not_run",
-      "public_replay": false,
-      "note": "Task 1 counts are summary-only; citation totals replay, but some historical CSR descriptions refer to a different script."
+      "public_replay": true,
+      "note": "Task 2/3 frozen-scorer units replay. Original Task 1 generated-output log is still unavailable."
     },
     {
       "document": "supplement",
@@ -298,7 +298,7 @@
       "raw_text_rescoring": "not_verified_for_entire_item",
       "fresh_inference": "not_run",
       "public_replay": true,
-      "note": "Faithfulness/AR are bootstrap mean/SD; CSR/CVR cells reproduce point estimates. Caption does not distinguish these."
+      "note": "Caption now distinguishes bootstrap F/AR summaries from original query-averaged CSR/CVR."
     },
     {
       "document": "supplement",
@@ -330,11 +330,11 @@
       "number": 19,
       "label": "tab:task2-multifactor-robustness",
       "source": "tables/table_task2_multifactor_robustness.tex",
-      "numeric_replay": "discrepancy",
+      "numeric_replay": "saved_score_replay",
       "raw_text_rescoring": "not_verified_for_entire_item",
       "fresh_inference": "not_run",
-      "public_replay": false,
-      "note": "Reference strata contain 66/34 records. Saved citation counts are 2/4 entries, table labels say 1/2 refs. Second stratum sample SDs replay as 0.0164/0.0052, not 0.0161/0.0051."
+      "public_replay": true,
+      "note": "All seven groups replay; distinct-PMID groups and two corrected sample SDs verified."
     },
     {
       "document": "supplement",
@@ -412,10 +412,7 @@
   "blockers": [
     "Original Task 1 generated-answer logs are unavailable; summary/reference files cannot recreate conditional EM/F1.",
     "The 48 curated answers and the 24 historical development configurations lack retained generation contexts; full historical Faithfulness rescoring is not established.",
-    "Supplement Table 19 has unresolved citation-count labeling and two reference-stratum standard deviations.",
-    "Supplement Table 16 mixes bootstrap summaries and citation point estimates without distinguishing them in its caption.",
-    "Supplement Table 1 historical citation-support descriptions do not uniformly describe the replayed frozen scorer.",
-    "The original combined-scorecard renderer is unlocated; conceptual-diagram renderer is not verified.",
-    "Full fresh inference/training is not reproduced; public distribution lacks model weights, indexes, answer/source text and complete historical training provenance."
+    "Full fresh inference/training is not reproduced; public distribution lacks model weights, indexes, answer/source text and complete historical training provenance.",
+    "The original combined-layout and editable conceptual-diagram sources are not established; a new numeric reconstruction and unchanged original diagram asset are supplied separately."
   ]
 }

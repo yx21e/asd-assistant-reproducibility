@@ -26,12 +26,14 @@ def main():
     commands = [
         ['scripts/replay_reported_tables.py'],
         ['scripts/replay_historical_statistics.py'],
+        ['scripts/replay_revision_tables.py'],
         ['scripts/replay_diagnostic_counts.py'],
         ['scripts/replay_matched_bootstrap.py'],
         ['scripts/replay_new_question_diagnostic.py'],
         ['scripts/test_matched_bootstrap_replay.py','--package','.',
          '--original-analysis','code_inspection/postprocess_matched.py'],
-        ['scripts/test_reported_table_replay.py']]
+        ['scripts/test_reported_table_replay.py'],
+        ['scripts/test_revision_table_replay.py']]
     for args in commands:
         subprocess.run([sys.executable,'-B']+args,cwd=ROOT,check=True,
                        env=dict(os.environ,PYTHONDONTWRITEBYTECODE='1'))

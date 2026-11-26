@@ -1,0 +1,1732 @@
+{
+  "task2_curated": [
+    {
+      "example_id": "task2_RPS6KA3_0",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_GABBR2_1",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_TCF20_2",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_DHX9_1",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_RIMS2_0",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_NAA10_1",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_ZMIZ1_2",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_IRF2BPL_2",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CNTNAP2_0",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SETD1A_0",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_MBD5_1",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_BRAF_1",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_ZNF462_2",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CHD3_1",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_ATP1A1_0",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SATB2_2",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SMARCC2_1",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_EBF3_1",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_KANSL1_1",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_MECP2_0",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    }
+  ],
+  "task2_large": [
+    {
+      "example_id": "task2_ADSL_large_000",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_ARID1B_large_001",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_ARX_large_002",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_ASXL3_large_003",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CHD2_large_004",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CHD7_large_005",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CHD8_large_006",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CTCF_large_007",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_DDX3X_large_008",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_DNMT3A_large_009",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_DYRK1A_large_010",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_EHMT1_large_011",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_EP300_large_012",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_FMR1_large_013",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_IQSEC2_large_014",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_KCNB1_large_015",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_KMT2A_large_016",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_KMT2C_large_017",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_MTOR_large_018",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_NBEA_large_019",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_NR2F1_large_020",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_PCDH19_large_021",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_PPP2R5D_large_022",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_PTEN_large_023",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SCN1A_large_024",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SLC9A6_large_025",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SON_large_026",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 0,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_STXBP1_large_027",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SYNGAP1_large_028",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_TSC1_large_029",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_ACTB_large_030",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_ATP1A3_large_031",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_BRSK2_large_032",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CELF2_large_033",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CHD1_large_034",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CNKSR2_large_035",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CNOT1_large_036",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CUX2_large_037",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_DMPK_large_038",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_FBXO11_large_039",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_FGF13_large_040",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_GNAI1_large_041",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_HDAC4_large_042",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_HERC1_large_043",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_HIVEP2_large_044",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_HNRNPK_large_045",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_HNRNPU_large_046",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_KCNH1_large_047",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_KDM3B_large_048",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_MEIS2_large_049",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_MSX2_large_050",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_NFIB_large_051",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_NSD1_large_052",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_NSD2_large_053",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_NTNG1_large_054",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_PACS1_large_055",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_PCCB_large_056",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_PHF21A_large_057",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_POLR2A_large_058",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_POMGNT1_large_059",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_PRPF8_large_060",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_PSMD12_large_061",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_PTPN11_large_062",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_RERE_large_063",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SETD1B_large_064",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SETD5_large_065",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SIN3A_large_066",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SIN3B_large_067",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SMARCA2_large_068",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SMC3_large_069",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_SOX5_large_070",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_TANC2_large_071",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_TAOK1_large_072",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_TCEAL1_large_073",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_TLK2_large_074",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_TRIP12_large_075",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_UNC13A_large_076",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_USP7_large_077",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_USP9X_large_078",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_VPS13B_large_079",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_WAC_large_080",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_YWHAG_large_081",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_YY1_large_082",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_ZBTB20_large_083",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_ZFX_large_084",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_ADNP_large_085",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_AGO2_large_086",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_ALDH5A1_large_087",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_ARID2_large_088",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_BCL11A_large_089",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CAMK2A_large_090",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CDH2_large_091",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CDK19_large_092",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CHD4_large_093",
+      "distinct_pmid_count": 2,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_CTR9_large_094",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_KIF5C_large_095",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_MED12L_large_096",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_PABPC1_large_097",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_PRR12_large_098",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    },
+    {
+      "example_id": "task2_RFX7_large_099",
+      "distinct_pmid_count": 1,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 1,
+      "csr_total_count": 1
+    }
+  ],
+  "task3_curated": [
+    {
+      "example_id": "task3_realistic_0",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_1",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_2",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_3",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_4",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_5",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_6",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_7",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_8",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_9",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_10",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_11",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_12",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_13",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_14",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_15",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_16",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_17",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_18",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_19",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_20",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_21",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_22",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_23",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_24",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_25",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_26",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_realistic_27",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    }
+  ],
+  "task3_large": [
+    {
+      "example_id": "task3_large_clinical_features_00",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_clinical_features_01",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_clinical_features_02",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_clinical_features_03",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_clinical_features_04",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_clinical_features_05",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_clinical_features_06",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_clinical_features_07",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_clinical_features_08",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_clinical_features_09",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_clinical_features_10",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_clinical_features_11",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_clinical_features_12",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_clinical_features_13",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_00",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_01",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_02",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_03",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_04",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_05",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_06",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_07",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_08",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_09",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_10",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_11",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_12",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_diagnosis_screening_13",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_00",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_01",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_02",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_03",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_04",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_05",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_06",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_07",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_08",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_09",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_10",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_11",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_12",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_biomarkers_13",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_00",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_01",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_02",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_03",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_04",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_05",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_06",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_07",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_08",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_09",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_10",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_11",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_12",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_epidemiology_population_13",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_00",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_01",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_02",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_03",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_04",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_05",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_06",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_07",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_08",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_09",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_10",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_11",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_12",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_methods_study_design_13",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_00",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_01",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_02",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_03",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_04",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_05",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_06",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_07",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_08",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_09",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_10",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_11",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_12",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_risk_pathogenesis_13",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_00",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_01",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_02",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_03",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_04",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_05",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_06",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_07",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_08",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_09",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_10",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_11",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_12",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    },
+    {
+      "example_id": "task3_large_general_autism_13",
+      "distinct_pmid_count": 3,
+      "citation_mode": "paper_proxy",
+      "csr_supported_count": 3,
+      "csr_total_count": 3
+    }
+  ]
+}

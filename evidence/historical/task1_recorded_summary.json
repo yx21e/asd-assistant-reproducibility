@@ -1,0 +1,44 @@
+{
+  "scope": "Historical summary only; missing original generated-output log.",
+  "values": {
+    "samples": 1200,
+    "abstain_rate": 0.034166666666666665,
+    "avg_grounded_token_ratio": 0.8125931313887299,
+    "per_mode": {
+      "coordinates": {
+        "samples": 200,
+        "route_accuracy": 1.0,
+        "abstain_rate": 0.0,
+        "fallback_rate": 1.0,
+        "exact_match": 1.0,
+        "avg_token_f1": 1.0,
+        "avg_grounded_token_ratio": 0.7059900554358977,
+        "avg_critical_token_recall": 1.0,
+        "example_diagnostics": []
+      },
+      "function": {
+        "samples": 400,
+        "route_accuracy": 1.0,
+        "abstain_rate": 0.0,
+        "fallback_rate": 1.0,
+        "exact_match": 1.0,
+        "avg_token_f1": 1.0,
+        "avg_grounded_token_ratio": 0.9631577001247097,
+        "avg_critical_token_recall": 1.0,
+        "example_diagnostics": []
+      },
+      "qtl": {
+        "samples": 600,
+        "route_accuracy": 0.9316666666666666,
+        "abstain_rate": 0.06833333333333333,
+        "fallback_rate": 1.0,
+        "exact_match": 1.0,
+        "avg_token_f1": 1.0,
+        "avg_grounded_token_ratio": 0.7429952560688273,
+        "avg_critical_token_recall": 1.0,
+        "example_diagnostics": []
+      }
+    },
+    "route_accuracy": 0.9658333333333333
+  }
+}

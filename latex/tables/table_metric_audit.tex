@@ -1,0 +1,26 @@
+\begin{table}[h!]
+\centering
+\scriptsize
+\caption{Historical automated support and citation checks. CSR counts passing queries for Task~2 and passing citation-bearing answer units for Task~3. CVR counts detected PMID/title entries, not distinct papers. These checks do not constitute expert validation of scientific claim support.}
+\label{tab:metric-audit}
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\textwidth}{P{3.0cm} P{1.8cm} P{3.0cm} Y}
+\toprule
+\textbf{Metric} & \textbf{Check} & \textbf{Source} & \textbf{Meaning} \\
+\midrule
+Task 1 route accuracy & 1159/1200 & Task 1 summary & Overall structured-task coverage; the non-routed cases are reported as abstentions. \\
+Task 1 accepted exact match & 1159/1159 & Task 1 scorer & Conditional field match over routed lookup answers; 400/1200 prompts overlap SFT templates. \\
+Task 1 accepted token F1 / critical recall & 1159/1159 & Task 1 scorer & Accepted structured answers preserved reference tokens; the denominator excludes abstentions. \\
+Task 2 curated routing & 20/20 & Task 2 saved run & Calibration diagnostic; all 20 prompts and example IDs overlap the relevant SFT set. \\
+Task 2 curated CSR & 20/20 & Task 2 saved run & Each query had a verified gene-matched citation meeting the recorded claim-rank-specific tier and keyword criteria. \\
+Task 2 curated CVR & 53/53 & Task 2 saved run & All detected citation entries matched the local bibliography by PMID or normalized title. \\
+Task 2 larger-sample CSR & 99/100 & Task 2 large run & One query failed the same gene-matched, claim-rank-specific support proxy. \\
+Task 2 larger-sample CVR & 268/268 & Task 2 large run & All detected citation entries matched the local bibliography. \\
+Task 3 curated CSR & 84/84 & Task 3 saved run & Citation-bearing answer units had a verified reference and lexical grounding of at least 0.18 against its text. \\
+Task 3 curated CVR & 166/168 & Task 3 saved run & Two detected citation entries in one query did not match the local bibliography. \\
+Task 3 larger-sample CSR & 294/294 & Task 3 large run & Citation-bearing answer units passed the same reference and lexical-grounding checks. \\
+Task 3 larger-sample CVR & 580/586 & Task 3 large run & Six detected citation entries across three queries did not match the local bibliography. \\
+\bottomrule
+\end{tabularx}
+\end{table}

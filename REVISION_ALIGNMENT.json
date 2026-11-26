@@ -1,0 +1,51 @@
+{
+  "manuscript_round": "round_0010",
+  "parent_release": "8cac3cdc1079c807c469fca5cddd2fff86eaa038",
+  "sources": [
+    {
+      "source_id": "table_metric_audit.tex",
+      "source_sha256": "73844c1123a5a8eefde3bd2b1c1d58590736a32fd0ce46ba15b72519d066c82b",
+      "distributed_file": "latex/tables/table_metric_audit.tex",
+      "projection": "byte_identical_current_table"
+    },
+    {
+      "source_id": "table_bootstrap_stability.tex",
+      "source_sha256": "03f3d019f46ba2d54df4f1816cdd0a2ff5607ad7de5a325468897a6ea6de53c7",
+      "distributed_file": "latex/tables/table_bootstrap_stability.tex",
+      "projection": "byte_identical_current_table"
+    },
+    {
+      "source_id": "table_task2_multifactor_robustness.tex",
+      "source_sha256": "8729b717ec794f16e48ad954db51581869a4f15e3aa031242cdb172169408390",
+      "distributed_file": "latex/tables/table_task2_multifactor_robustness.tex",
+      "projection": "byte_identical_current_table"
+    },
+    {
+      "source_id": "task2_curated",
+      "source_sha256": "a308e1e9ca8ba1672221a25a3a46d3faed9db4cd06e9d81bc7bf7c9d6af2c548",
+      "projection": "Query IDs and frozen CSR units; distinct PMIDs parsed from saved answers; no answer or source text."
+    },
+    {
+      "source_id": "task2_large",
+      "source_sha256": "9f577813a7db381d5093a4492637a19bf55ce980e4f5c7e91ee8ce2c19b76990",
+      "projection": "Query IDs and frozen CSR units; distinct PMIDs parsed from saved answers; no answer or source text."
+    },
+    {
+      "source_id": "task3_curated",
+      "source_sha256": "d274a2f95ce35c3b61329543600cb5cb474ea633bb503a8acbb3d37b389fd38c",
+      "projection": "Query IDs and frozen CSR units; distinct PMIDs parsed from saved answers; no answer or source text."
+    },
+    {
+      "source_id": "task3_large",
+      "source_sha256": "a7db6748b2636758d91e8936f6ed2bde3a76c1eee320ab550075d7dba79a01d7",
+      "projection": "Query IDs and frozen CSR units; distinct PMIDs parsed from saved answers; no answer or source text."
+    },
+    {
+      "source_id": "task1_recorded_summary",
+      "source_sha256": "af804149ee07ba8f24b91a56f1d3362889536c9ac4f4ceecea3db35bf40b5434",
+      "projection": "Recorded aggregate fields only; not reconstructed answer-level scores."
+    }
+  ],
+  "score_changes": 0,
+  "scope": "Table corrections and explicit replay units; historical outputs unchanged."
+}

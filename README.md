@@ -12,10 +12,10 @@ Use Python 3.11 or 3.12. No API keys, model downloads or GPU are required.
     python -m pip install -r requirements-replay.txt
     python scripts/reproduce.py
 
-The command checks the distribution manifest, 20 table sources, 148 matched-study
+The command checks the distribution manifest, 22 table sources, 148 matched-study
 bootstrap intervals, 24 new-question paired intervals, external-model aggregates,
 historical statistics, routing decisions and exact-text invariance. It also runs
-18 replay/parity/corruption tests. These operations replay existing scores and
+24 replay/parity/corruption tests. These operations replay existing scores and
 decisions, not scientific judgments. They do not cover every historical result.
 
 See documentation/REPRODUCTION_COVERAGE.md for every compiled table/figure and
@@ -29,6 +29,14 @@ Three recovered figures can be rendered with matplotlib and numpy installed:
 
 Use an empty output directory. Fonts/layout/PDF metadata may vary by host.
 
+The combined scorecard and 198-point distribution figure has a separate numeric
+reconstruction. It is not the recovered original composition script:
+
+    python scripts/render_combined_results.py --out combined_replay
+
+Its source values and every plotted point are exported to figure_data.json.
+Task 1 uses the recorded historical summary, not reconstructed answer logs.
+
 ## Contents
 
 | Directory | Contents |
@@ -39,7 +47,7 @@ Use an empty output directory. Fonts/layout/PDF metadata may vary by host.
 | evidence/external/ | External-provider coverage, per-question scores and aggregate summaries |
 | evidence/historical/ | 246 historical bank records, 560 development score rows, 140 routing records and 96 text-fingerprint records |
 | documentation/ | Retained prompts, configuration, training summaries and asset inventories |
-| latex/tables/ | Twenty numeric table sources, including measured CSR and CVR |
+| latex/tables/ | Twenty-two table sources, including measured CSR and CVR; original Task 1 summary rows remain summary-only |
 | scripts/ | Offline replay and tests |
 
 ## Public data scope
@@ -51,6 +59,9 @@ text and full request traces are omitted from the public distribution. Thus an
 outputs.jsonl file here is a numeric replay input, not a complete answer log.
 PROVENANCE.json records source digests, distributed digests and retained fields.
 The historical additions are documented separately in HISTORICAL_PROVENANCE.json.
+REVISION_ALIGNMENT.json documents the current table corrections and additional
+count-only projections. No per-query score changed. The replay checks distinguish
+unique PMIDs from parser entries and query-level CSR from citation-bearing units.
 The complete source artifacts are preserved separately; this repository does not
 establish their external availability or redistribution permission.
 

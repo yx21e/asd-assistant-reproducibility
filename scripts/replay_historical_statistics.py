@@ -106,9 +106,8 @@ def verify(root):
     return {'passed': True, 'checks': len(checks), 'historical_bank_rows': sum(map(len, data.values())),
             'development_rows': sum(len(r['scores']) for r in development),
             'scope': 'Saved-score statistics for eleven historical table files, not raw-text rescoring.',
-            'warnings': ['Bootstrap table caption needs to distinguish CSR/CVR point estimates.',
-                         'Multifactor reference-count rows are excluded: labels/SDs do not match the recovered aggregation.',
-                         'Historical curated and development contexts are not retained in these records.']}
+            'warnings': ['Historical curated and development contexts are not retained in these records.'],
+            'corrected_table_checks': 'replay_revision_tables.py verifies the corrected multifactor cells and citation units.'}
 
 
 if __name__ == '__main__':
